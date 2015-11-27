@@ -1,0 +1,19 @@
+cat << +
+<article>
+<h2>このサイトについて</h2>
+<ul>
+<li><a href="http://knockcrab.blogspot.jp/">blogger</a>から移りました</li>
+<li>だいたいDebian GNU/LinuxとApacheとシェルで動いています</li>
+</ul>
+<br>
+<h2>私について</h2>
+<ul>
+<li>knokmki612</li>
+<li>一応高校生</li>
+<li><a href="https://twitter.com/knokmki612">Twitter</a></li>
+<li><a href="https://www.facebook.com/kimiaki.kuno">Facebook</a></li>
+<li><a href="https://plus.google.com/108613011772115871768">Google+</a></li>
+<li><a href="https://github.com/knokmki612">GitHub</a></li>
+</ul>
+</article>
++
