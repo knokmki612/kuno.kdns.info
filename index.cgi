@@ -19,6 +19,10 @@ for query in $queries; do
 	request_param=$(echo $query | cut -d '=' -f 2)
 
 	case $request_key in
+		feeds)
+			article=$(. ./cache/choose)
+			title="購読 $TITLE_TAIL"
+		;;
 		post)
 			post=$(echo $request_param | sed 's;^;'$POSTS';g')
 			article=$(. ./$post/html)
