@@ -41,6 +41,13 @@ for query in $queries; do
 			article=$(. ./cache/choose)
 			title="購読 $TITLE_TAIL"
 		;;
+		preview)
+			POSTS='preview/'
+			post=$(echo $request_param | sed 's;^;'$POSTS';g')
+			article=$(. ./$post/html)
+			title="$(cat $post/title)$TITLE_TAIL"
+			break
+		;;
 		post)
 			post=$(echo $request_param | sed 's;^;'$POSTS';g')
 			article=$(
