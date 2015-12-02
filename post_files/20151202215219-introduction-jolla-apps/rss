@@ -49,7 +49,7 @@ cat << +
 <a href="https://farm1.staticflickr.com/722/23468226805_300c6ccef3_o.png"><img class="portrait" src="$URL${POSTS}20151202215219-introduction-jolla-apps/23468226805_300c6ccef3_o-s.jpg" alt="Feed'me"></a>
 </p>
 <h3>Lighthouse</h3>
-<p>CPU/RAM使用率とか分かります。タスクに置いとけば随時数値を更新して見せてくれます。</p>
+<p>CPUとRAMの使用率とか分かります。タスクに置いとけば随時数値を更新して見せてくれます。</p>
 <p class="image">
 <a href="https://farm1.staticflickr.com/594/23359707482_13c241fd86_o.png"><img class="portrait" src="$URL${POSTS}20151202215219-introduction-jolla-apps/23359707482_13c241fd86_o-s.jpg" alt="Lighthouse1"></a>
 <a href="https://farm1.staticflickr.com/587/23172430530_2ac0856c9c_o.png"><img class="portrait" src="$URL${POSTS}20151202215219-introduction-jolla-apps/23172430530_2ac0856c9c_o-s.jpg" alt="Lighthouse2"></a>
