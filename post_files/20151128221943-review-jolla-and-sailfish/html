@@ -53,7 +53,7 @@ cat << +
 <iframe src="https://vine.co/v/iWzBLvWjATA/embed/simple" width="600" height="600" frameborder="0"></iframe><script src="https://platform.vine.co/static/scripts/embed.js"></script>
 <p>また、マルチタスク機能は他のモバイルOSにもあるわけですが、Sailfish OSのそれはデスクトップでのマルチウインドウの感覚にもっとも近いものと言えるでしょう。起動しているアプリはホーム画面に一覧で並べられて、アプリは閉じない限り常駐し続けます。例えばブラウザなんか動画を再生させたままホームに戻ると、そのまま再生されている映像や音声が流れます。</p>
 <p>一方で音楽プレイヤーやインターネットラジオプレイヤーなど、常駐して欲しいアプリもタスクに並べられますが、閉じたら再生も止まるわけです。つまり、Sailfish OSでは常駐していることとホーム画面にタスクとして並べられていることは同じであり、何のアプリが起動しているかがひと目で分かるのです。</p>
-<p>マイナーなモバイルプラットフォームでは必ず聞かれることがあります。「それで、アプリの数はどれくらいあるの？」って。まぁ、そりゃあApp StoreとかPlay Storeとかに比べたら少ないでしょうね。でもどういうわけか、クオリティの高いアプリは結構あったりします。前身のMeeGoやMaemoにあったアプリも見かけますし、経験のあるアプリ開発者が多いのでしょうか？私がインストールしたアプリについては、別記事で紹介しますね。</p>
+<p>マイナーなモバイルプラットフォームでは必ず聞かれることがあります。「それで、アプリの数はどれくらいあるの？」って。まぁ、そりゃあApp StoreとかPlay Storeとかに比べたら少ないでしょうね。でもどういうわけか、クオリティの高いアプリは結構あったりします。前身のMeeGoやMaemoにあったアプリも見かけますし、経験のあるアプリ開発者が多いのでしょうか？私がインストールしたアプリについては、<a href="$URL${POSTS}20151202215219-introduction-jolla-apps">別記事</a>で紹介しますね。</p>
 <p class="image">
 <a href="https://farm6.staticflickr.com/5666/23140140180_b5937ac58d_o.png"><img class="portrait" src="$URL${POSTS}20151128221943-review-jolla-and-sailfish/23140140180_b5937ac58d_o-s.jpg" alt="Aptoideのアプリ一覧"></a>
 <a href="https://farm1.staticflickr.com/676/23327208892_68be27303c_o.png"><img class="portrait" src="$URL${POSTS}20151128221943-review-jolla-and-sailfish/23327208892_68be27303c_o-s.jpg" alt="Opera Miniが動作している様子"></a>
