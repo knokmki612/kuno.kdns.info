@@ -24,6 +24,7 @@ Mac、Linux、msys2での動作を確認しました。
 <li>OpenSSH</li>
 <li>rsync</li>
 <li>nkf</li>
+<li>sudo</li>
 <li>ImageMagick</li>
 <li>Bourne互換なシェル</li>
 </ul>

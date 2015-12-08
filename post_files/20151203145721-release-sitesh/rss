@@ -26,6 +26,7 @@ cat << +
 <li>OpenSSH</li>
 <li>rsync</li>
 <li>nkf</li>
+<li>sudo</li>
 <li>ImageMagick</li>
 <li>Bourne互換なシェル</li>
 </ul>
