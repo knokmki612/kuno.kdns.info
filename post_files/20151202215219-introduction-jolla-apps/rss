@@ -23,7 +23,7 @@ cat << +
 <a href="https://farm1.staticflickr.com/635/22839872644_b8997af101_o.png"><img class="portrait" src="$URL${POSTS}20151202215219-introduction-jolla-apps/22839872644_b8997af101_o-s.jpg" alt="Tweetian"></a>
 </p>
 <h3>Space Inspector</h3>
-<a href="http://grandperspectiv.sourceforge.net/">GrandPerspective</a>とかでよくある感じで視覚的にファイルサイズが分かるアプリです。ファイルの数が多いディレクトリなんかは表示に時間がかかるところが工夫のしがいありそうです。
+<p><a href="http://grandperspectiv.sourceforge.net/">GrandPerspective</a>とかでよくある感じで視覚的にファイルサイズが分かるアプリです。ファイルの数が多いディレクトリなんかは表示に時間がかかるところが工夫のしがいありそうです。</p>
 <p class="image">
 <a href="https://farm6.staticflickr.com/5668/23100251649_b1c6d9a146_o.png"><img class="portrait" src="$URL${POSTS}20151202215219-introduction-jolla-apps/23100251649_b1c6d9a146_o-s.jpg" alt="Space Inspector"></a>
 </p>
