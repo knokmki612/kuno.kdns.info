@@ -14,7 +14,7 @@ cat << +
 </div>
 </aside>
 <h2><a href="${URL}post/20151202215219-introduction-jolla-apps">Jolla Phoneにインストールしたアプリ</a></h2>
-<a href="$URL${POSTS}20151128221943-review-jolla-and-sailfish">この記事</a>でアプリを紹介すると書いたので紹介します。最初にアプリの一覧です。
+<p><a href="$URL${POSTS}20151128221943-review-jolla-and-sailfish">この記事</a>でアプリを紹介すると書いたので紹介します。最初にアプリの一覧です。</p>
 <p class="image">
 <a href="https://farm6.staticflickr.com/5786/23468230725_91f7f050ea_o.png"><img class="portrait" src="$URL${POSTS}20151202215219-introduction-jolla-apps/23468230725_91f7f050ea_o-s.jpg" alt="アプリの一覧1"></a>
 <a href="https://farm6.staticflickr.com/5746/23100253179_44f31dbdea_o.png"><img class="portrait" src="$URL${POSTS}20151202215219-introduction-jolla-apps/23100253179_44f31dbdea_o-s.jpg" alt="アプリの一覧2"></a>
@@ -33,7 +33,7 @@ cat << +
 <a href="https://farm1.staticflickr.com/635/22839872644_b8997af101_o.png"><img class="portrait" src="$URL${POSTS}20151202215219-introduction-jolla-apps/22839872644_b8997af101_o-s.jpg" alt="Tweetian"></a>
 </p>
 <h3>Space Inspector</h3>
-<a href="http://grandperspectiv.sourceforge.net/">GrandPerspective</a>とかでよくある感じで視覚的にファイルサイズが分かるアプリです。ファイルの数が多いディレクトリなんかは表示に時間がかかるところが工夫のしがいありそうです。
+<p><a href="http://grandperspectiv.sourceforge.net/">GrandPerspective</a>とかでよくある感じで視覚的にファイルサイズが分かるアプリです。ファイルの数が多いディレクトリなんかは表示に時間がかかるところが工夫のしがいありそうです。</p>
 <p class="image">
 <a href="https://farm6.staticflickr.com/5668/23100251649_b1c6d9a146_o.png"><img class="portrait" src="$URL${POSTS}20151202215219-introduction-jolla-apps/23100251649_b1c6d9a146_o-s.jpg" alt="Space Inspector"></a>
 </p>
@@ -65,7 +65,7 @@ cat << +
 <a href="https://farm1.staticflickr.com/587/23172430530_2ac0856c9c_o.png"><img class="portrait" src="$URL${POSTS}20151202215219-introduction-jolla-apps/23172430530_2ac0856c9c_o-s.jpg" alt="Lighthouse2"></a>
 </p>
 <h3>Mæp</h3>
-<a href="http://maemo.org/packages/view/maep/">Maemo</a>にも出てるマップアプリです。現在位置もわかるし、OpenStreetMap使ってる人向けにトラッカーもあるし、Google Mapとか航空写真とか色々バリエーションあります。
+<p><a href="http://maemo.org/packages/view/maep/">Maemo</a>にも出てるマップアプリです。現在位置もわかるし、OpenStreetMap使ってる人向けにトラッカーもあるし、Google Mapとか航空写真とか色々バリエーションあります。</p>
 <p class="image">
 <a href="https://farm1.staticflickr.com/585/23468225665_4fc0c81667_o.png"><img class="portrait" src="$URL${POSTS}20151202215219-introduction-jolla-apps/23468225665_4fc0c81667_o-s.jpg" alt="Maep1"></a>
 <a href="https://farm1.staticflickr.com/633/23385706881_3ffecdd428_o.png"><img class="portrait" src="$URL${POSTS}20151202215219-introduction-jolla-apps/23385706881_3ffecdd428_o-s.jpg" alt="Maep2"></a>

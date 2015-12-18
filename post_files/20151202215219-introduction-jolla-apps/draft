@@ -2,7 +2,7 @@ Title: Jolla Phoneにインストールしたアプリ
 Label: Jolla,Sailfish OS,レビュー
 Permalink: introduction-jolla-apps
 Write from next line:
-<a href="$URL${POSTS}20151128221943-review-jolla-and-sailfish">この記事</a>でアプリを紹介すると書いたので紹介します。最初にアプリの一覧です。
+<p><a href="$URL${POSTS}20151128221943-review-jolla-and-sailfish">この記事</a>でアプリを紹介すると書いたので紹介します。最初にアプリの一覧です。</p>
 https://farm6.staticflickr.com/5786/23468230725_91f7f050ea_o.png:アプリの一覧1
 https://farm6.staticflickr.com/5746/23100253179_44f31dbdea_o.png:アプリの一覧2
 https://farm6.staticflickr.com/5640/23468229815_3f7cb17223_o.png:アプリの一覧3
@@ -15,7 +15,7 @@ https://farm6.staticflickr.com/5698/23442063066_f225e0bb84_o.png:Recorder2
 Symbian^3やMeeGoでお馴染みのTwitterクライアントです。現状これ一択かな？
 https://farm1.staticflickr.com/635/22839872644_b8997af101_o.png:Tweetian
 <h3>Space Inspector</h3>
-<a href="http://grandperspectiv.sourceforge.net/">GrandPerspective</a>とかでよくある感じで視覚的にファイルサイズが分かるアプリです。ファイルの数が多いディレクトリなんかは表示に時間がかかるところが工夫のしがいありそうです。
+<p><a href="http://grandperspectiv.sourceforge.net/">GrandPerspective</a>とかでよくある感じで視覚的にファイルサイズが分かるアプリです。ファイルの数が多いディレクトリなんかは表示に時間がかかるところが工夫のしがいありそうです。</p>
 https://farm6.staticflickr.com/5668/23100251649_b1c6d9a146_o.png:Space Inspector
 <h3>ScreenTapShot</h3>
 起動すると、カメラアイコンが画面に常駐するスクリーンショットアプリです。どの画面からでもスクリーンショットがとれてとても良いです。撮りながら気づきましたけど、delayがないと常駐アイコンも一緒に写っちゃいますね。
@@ -35,7 +35,7 @@ CPUとRAMの使用率とか分かります。タスクに置いとけば随時�
 https://farm1.staticflickr.com/594/23359707482_13c241fd86_o.png:Lighthouse1
 https://farm1.staticflickr.com/587/23172430530_2ac0856c9c_o.png:Lighthouse2
 <h3>Mæp</h3>
-<a href="http://maemo.org/packages/view/maep/">Maemo</a>にも出てるマップアプリです。現在位置もわかるし、OpenStreetMap使ってる人向けにトラッカーもあるし、Google Mapとか航空写真とか色々バリエーションあります。
+<p><a href="http://maemo.org/packages/view/maep/">Maemo</a>にも出てるマップアプリです。現在位置もわかるし、OpenStreetMap使ってる人向けにトラッカーもあるし、Google Mapとか航空写真とか色々バリエーションあります。</p>
 https://farm1.staticflickr.com/585/23468225665_4fc0c81667_o.png:Maep1
 https://farm1.staticflickr.com/633/23385706881_3ffecdd428_o.png:Maep2
 <h3>QuickRadio</h3>
