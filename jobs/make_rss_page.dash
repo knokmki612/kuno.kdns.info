@@ -13,7 +13,7 @@ cat << HEADER > cache/choose
 cat << +
 <article>
 <h2>購読のオプション</h2>
-<p>購読したいラベルを選択してください。それに合わせたRSSフィードを生成します。選択しなかった場合、全ての記事を購読します。</p>
+<p>除外したいラベルを選択して、あなたに合わせたRSSフィードを生成することができます。選択せずに、全ての記事を購読することもできます。</p>
 <form action="rss/" method="GET">
 <ul>
 HEADER
@@ -22,7 +22,7 @@ BACKUP_IFS=$IFS
 IFS='
 '
 for label in $labels; do
-	echo "<li>$label <input type="checkbox" name="label" value="$label"></li>" >> cache/choose
+	echo "<li>$label <input type=\"checkbox\" name=\"label\" value=\"$label\"></li>" >> cache/choose
 done
 IFS=$BACKUP_IFS
 
