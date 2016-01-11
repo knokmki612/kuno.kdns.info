@@ -63,7 +63,6 @@ $pager
 </section>
 $labels
 $archives
-$features
 </div>
 </aside>
 </div>
