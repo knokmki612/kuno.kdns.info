@@ -55,7 +55,7 @@ cat << +
 <p>site.shはsiteコマンドとpostコマンドがあります。siteコマンドはサイトのリモート操作に必要な設定をするためのコマンドで、複数のサイトの管理ができます。postコマンドは記事の作成やリモートとの記事の送受信・削除とかするコマンドです。</p>
 <p>例として、サイトを開設する流れを書きます。</p>
 <br>
-<p>まず、githubから持ってきて、install.shを実行します。</p>
+<p>まず、githubから持ってきて、setup.shを実行します。デフォルトでは/usr/local下にインストールされますが、prefixを指定すれば任意のパスにインストールできます。2回目以降のinstallはパスが維持されるので、指定しなくて大丈夫です。</p>
 <pre><code>$ git clone https://github.com/knokmki612/sitesh.git
 Cloning into 'sitesh'...
 remote: Counting objects: 533, done.
@@ -65,7 +65,7 @@ Receiving objects: 100% (533/533), 98.18 KiB | 0 bytes/s, done.
 Resolving deltas: 100% (220/220), done.
 Checking connectivity... done.
 \$ cd sitesh
-$ ./install.sh</code></pre>
+$ prefix=/usr ./setup.sh install</code></pre>
 <p>コマンドの用意ができたら、記事をやりとりするためのSSHホストとか設定します。すでにsite makeで作成されたサイトを設定する場合、site addだけで完了です。</p>
 <pre><code>$ site add
 url: http://hoge
@@ -175,12 +175,14 @@ http://fugafuga.net/seeyou.jpg: 2枚目の写真
 <p>すると、こんな感じのフォルダとファイルが生成されます。</p>
 <pre><code>$ tree 20151207230833-first-post/
 20151207230833-first-post/
-├── a-s.jpg
-├── a.jpg
 ├── draft
+├── hello-s.jpg
+├── hello.jpg
 ├── html
 ├── label
 ├── rss
+├── seeyou-s.jpg
+├── seeyou.jpg
 └── title
 
 0 directories, 7 files
@@ -233,43 +235,47 @@ Enter passphrase for /home/fuga/.ssh/id_rsa:
 Identity added: /home/fuga/.ssh/id_rsa (/home/fuga/.ssh/id_rsa)
 sending incremental file list
 20151207230833-first-post/
-20151207230833-first-post/a-s.jpg
-20151207230833-first-post/a.jpg
 20151207230833-first-post/draft
 20151207230833-first-post/html
+20151207230833-first-post/hello-s.jpg
+20151207230833-first-post/hello.jpg
 20151207230833-first-post/label
 20151207230833-first-post/rss
+20151207230833-first-post/seeyou-s.jpg
+20151207230833-first-post/seeyou.jpg
 20151207230833-first-post/title
 
 sent 2,499,574 bytes  received 153 bytes  999,890.80 bytes/sec
 total size is 2,559,383  speedup is 1.02
 [master f30fbb7] deployed: 20151207230833-first-post
  7 files changed, 58 insertions(+)
- create mode 100644 post_files/20151207230833-first-post/a-s.jpg
- create mode 100644 post_files/20151207230833-first-post/a.jpg
  create mode 100644 post_files/20151207230833-first-post/draft
+ create mode 100644 post_files/20151207230833-first-post/hello-s.jpg
+ create mode 100644 post_files/20151207230833-first-post/hello.jpg
  create mode 100644 post_files/20151207230833-first-post/html
  create mode 100644 post_files/20151207230833-first-post/label
  create mode 100644 post_files/20151207230833-first-post/rss
+ create mode 100644 post_files/20151207230833-first-post/seeyou-s.jpg
+ create mode 100644 post_files/20151207230833-first-post/seeyou.jpg
  create mode 100644 post_files/20151207230833-first-post/title
 Agent pid 4492 killed
 \$
 </code></pre>
-<p>無事にリモートに送られ、"deployed: 20151207230833-first-post"というメッセージでコミットされています。例にあわせると、http://hoge/post/20151207230833-first-postというURLで記事が公開されています。</p>
-<p>送った記事は、post receiveを実行すればどこからでもローカルで持ってこれます。それでフォルダ内のdraftファイルを編集し、post sendすれば編集が反映されます。</p>
-<p>ついでに言うと、post sendで記事を送ったとき、リモートのjobsフォルダに置かれたスクリプトが自動実行されるようになっています。これで記事を追加した際のサイトの情報を変化させるのに対応しています。</p>
-<br>
-<p>あとは補足みたいなやつですけど、post newするときに第二引数にパーマリンクを指定すると、固定記事用のフォーマットで記事が作れます。</p>
-<p>gitでスナップショットをとっているので編集履歴が残りますし、post removeで記事を削除しても復元することができます。</p>
-<p>siteコマンドは複数のサイトを管理し、記事を投稿することができるようになっています。別のサイトに記事を送りたいときは、post makeの前にpost switchを実行してサイトを切り換えます。</p>
-<p>疲れたのでここら辺にしておきたいんですが、これくらいで十分でしょうか...？</p>
+無事にリモートに送られ、"deployed: 20151207230833-first-post"というメッセージでコミットされています。例にあわせると、http://hoge/post/20151207230833-first-postというURLで記事が公開されています。
+送った記事は、post receiveを実行すればどこからでもローカルで持ってこれます。それでフォルダ内のdraftファイルを編集し、post sendすれば編集が反映されます。
+ついでに言うと、post sendで記事を送ったとき、リモートのjobsフォルダに置かれたスクリプトが自動実行されるようになっています。これで記事を追加した際のサイトの情報を変化させるのに対応しています。
+
+あとは補足みたいなやつですけど、post newするときに第二引数にパーマリンクを指定すると、固定記事用のフォーマットで記事が作れます。
+gitでスナップショットをとっているので編集履歴が残りますし、post removeで記事を削除しても復元することができます。
+siteコマンドは複数のサイトを管理し、記事を投稿することができるようになっています。別のサイトに記事を送りたいときは、post makeの前にpost switchを実行してサイトを切り換えます。
+疲れたのでここら辺にしておきたいんですが、これくらいで十分でしょうか...？
 <h3>今後について</h3>
-<p>今後はこういうことをやろうかと思っています。多分しばらくやらないけど。</p>
+今後はこういうことをやろうかと思っています。多分しばらくやらないけど。
 <ul>
 <li>記事のテンプレートを変えた際、記事に一斉にテンプレートを適用するような実装</li>
 <li>zenityかなんかでGUIを作って、もっとやさしくする</li>
 </ul>
-<p>冒頭にも書いたように、さっきのような使い方でこのサイトは運用しています。私以外にも「使ってみよう」という変な人がいたら幸いです。<del>ソースコード改善してほしいし、色々まだ整備が必要な部分があるし、とにかく誰かKAIZENに参加して欲しいです。本文がオレオレフォーマットで変換してますけど、ぶっちゃけおとなしくマークアップのほうがいいと思うならそうしていただいていいですし。</del></p>
-<p>というかそういう人が本当にいたとしてもどう対応していいのか分からない程度には本当に色々分かってません。まあよろしくお願いします。</p>
+冒頭にも書いたように、さっきのような使い方でこのサイトは運用しています。私以外にも「使ってみよう」という変な人がいたら幸いです。<del>ソースコード改善してほしいし、色々まだ整備が必要な部分があるし、とにかく誰かKAIZENに参加して欲しいです。本文がオレオレフォーマットで変換してますけど、ぶっちゃけおとなしくマークアップのほうがいいと思うならそうしていただいていいですし。</del>
+というかそういう人が本当にいたとしてもどう対応していいのか分からない程度には本当に色々分かってません。まあよろしくお願いします。
 </article>
 +

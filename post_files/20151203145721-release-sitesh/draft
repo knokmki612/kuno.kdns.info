@@ -43,7 +43,7 @@ Mac、Linux、msys2での動作を確認しました。
 site.shはsiteコマンドとpostコマンドがあります。siteコマンドはサイトのリモート操作に必要な設定をするためのコマンドで、複数のサイトの管理ができます。postコマンドは記事の作成やリモートとの記事の送受信・削除とかするコマンドです。
 例として、サイトを開設する流れを書きます。
 
-まず、githubから持ってきて、install.shを実行します。
+まず、githubから持ってきて、setup.shを実行します。デフォルトでは/usr/local下にインストールされますが、prefixを指定すれば任意のパスにインストールできます。2回目以降のinstallはパスが維持されるので、指定しなくて大丈夫です。
 <pre><code>$ git clone https://github.com/knokmki612/sitesh.git
 Cloning into 'sitesh'...
 remote: Counting objects: 533, done.
@@ -53,7 +53,7 @@ Receiving objects: 100% (533/533), 98.18 KiB | 0 bytes/s, done.
 Resolving deltas: 100% (220/220), done.
 Checking connectivity... done.
 $ cd sitesh
-$ ./install.sh</code></pre>
+$ prefix=/usr ./setup.sh install</code></pre>
 コマンドの用意ができたら、記事をやりとりするためのSSHホストとか設定します。すでにsite makeで作成されたサイトを設定する場合、site addだけで完了です。
 <pre><code>$ site add
 url: http://hoge
@@ -163,12 +163,14 @@ http://fugafuga.net/seeyou.jpg\: 2枚目の写真
 すると、こんな感じのフォルダとファイルが生成されます。
 <pre><code>$ tree 20151207230833-first-post/
 20151207230833-first-post/
-├── a-s.jpg
-├── a.jpg
 ├── draft
+├── hello-s.jpg
+├── hello.jpg
 ├── html
 ├── label
 ├── rss
+├── seeyou-s.jpg
+├── seeyou.jpg
 └── title
 
 0 directories, 7 files
@@ -221,24 +223,28 @@ Enter passphrase for /home/fuga/.ssh/id_rsa:
 Identity added: /home/fuga/.ssh/id_rsa (/home/fuga/.ssh/id_rsa)
 sending incremental file list
 20151207230833-first-post/
-20151207230833-first-post/a-s.jpg
-20151207230833-first-post/a.jpg
 20151207230833-first-post/draft
 20151207230833-first-post/html
+20151207230833-first-post/hello-s.jpg
+20151207230833-first-post/hello.jpg
 20151207230833-first-post/label
 20151207230833-first-post/rss
+20151207230833-first-post/seeyou-s.jpg
+20151207230833-first-post/seeyou.jpg
 20151207230833-first-post/title
 
 sent 2,499,574 bytes  received 153 bytes  999,890.80 bytes/sec
 total size is 2,559,383  speedup is 1.02
 [master f30fbb7] deployed: 20151207230833-first-post
  7 files changed, 58 insertions(+)
- create mode 100644 post_files/20151207230833-first-post/a-s.jpg
- create mode 100644 post_files/20151207230833-first-post/a.jpg
  create mode 100644 post_files/20151207230833-first-post/draft
+ create mode 100644 post_files/20151207230833-first-post/hello-s.jpg
+ create mode 100644 post_files/20151207230833-first-post/hello.jpg
  create mode 100644 post_files/20151207230833-first-post/html
  create mode 100644 post_files/20151207230833-first-post/label
  create mode 100644 post_files/20151207230833-first-post/rss
+ create mode 100644 post_files/20151207230833-first-post/seeyou-s.jpg
+ create mode 100644 post_files/20151207230833-first-post/seeyou.jpg
  create mode 100644 post_files/20151207230833-first-post/title
 Agent pid 4492 killed
 $
