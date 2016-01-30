@@ -49,7 +49,7 @@ cat << +
 <li>nkf</li>
 <li>sudo</li>
 <li>git</li>
-<li>Debian Almquist Shell</li>
+<li>POSIX互換のシェル</li>
 </ul>
 <h3>使い方</h3>
 <p>site.shはsiteコマンドとpostコマンドがあります。siteコマンドはサイトのリモート操作に必要な設定をするためのコマンドで、複数のサイトの管理ができます。postコマンドは記事の作成やリモートとの記事の送受信・削除とかするコマンドです。</p>
@@ -106,10 +106,10 @@ template-article.html.sh
 template-site.html.sh
 cache/
 jobs/
-jobs/make_archives.dash
-jobs/make_labels.dash
-jobs/make_rss_page.dash
-jobs/make_search_cache.dash
+jobs/make_archives.sh
+jobs/make_labels.sh
+jobs/make_rss_page.sh
+jobs/make_search_cache.sh
 post_files/
 preview/
 rss/
@@ -125,10 +125,10 @@ Initialized empty Git repository in /var/www/site/.git/
  create mode 100644 apache-2.4.conf.example
  create mode 100644 favicon.ico
  create mode 100755 index.cgi
- create mode 100755 jobs/make_archives.dash
- create mode 100755 jobs/make_labels.dash
- create mode 100755 jobs/make_rss_page.dash
- create mode 100755 jobs/make_search_cache.dash
+ create mode 100755 jobs/make_archives.sh
+ create mode 100755 jobs/make_labels.sh
+ create mode 100755 jobs/make_rss_page.sh
+ create mode 100755 jobs/make_search_cache.sh
  create mode 100644 kuno.ttf
  create mode 100644 normalize.css
  create mode 100755 rss/index.cgi
@@ -261,21 +261,21 @@ total size is 2,559,383  speedup is 1.02
 Agent pid 4492 killed
 \$
 </code></pre>
-無事にリモートに送られ、"deployed: 20151207230833-first-post"というメッセージでコミットされています。例にあわせると、http://hoge/post/20151207230833-first-postというURLで記事が公開されています。
-送った記事は、post receiveを実行すればどこからでもローカルで持ってこれます。それでフォルダ内のdraftファイルを編集し、post sendすれば編集が反映されます。
-ついでに言うと、post sendで記事を送ったとき、リモートのjobsフォルダに置かれたスクリプトが自動実行されるようになっています。これで記事を追加した際のサイトの情報を変化させるのに対応しています。
-
-あとは補足みたいなやつですけど、post newするときに第二引数にパーマリンクを指定すると、固定記事用のフォーマットで記事が作れます。
-gitでスナップショットをとっているので編集履歴が残りますし、post removeで記事を削除しても復元することができます。
-siteコマンドは複数のサイトを管理し、記事を投稿することができるようになっています。別のサイトに記事を送りたいときは、post makeの前にpost switchを実行してサイトを切り換えます。
-疲れたのでここら辺にしておきたいんですが、これくらいで十分でしょうか...？
+<p>無事にリモートに送られ、"deployed: 20151207230833-first-post"というメッセージでコミットされています。例にあわせると、http://hoge/post/20151207230833-first-postというURLで記事が公開されています。</p>
+<p>送った記事は、post receiveを実行すればどこからでもローカルで持ってこれます。それでフォルダ内のdraftファイルを編集し、post sendすれば編集が反映されます。</p>
+<p>ついでに言うと、post sendで記事を送ったとき、リモートのjobsフォルダに置かれたスクリプトが自動実行されるようになっています。これで記事を追加した際のサイトの情報を変化させるのに対応しています。</p>
+<br>
+<p>あとは補足みたいなやつですけど、post newするときに第二引数にパーマリンクを指定すると、固定記事用のフォーマットで記事が作れます。</p>
+<p>gitでスナップショットをとっているので編集履歴が残りますし、post removeで記事を削除しても復元することができます。</p>
+<p>siteコマンドは複数のサイトを管理し、記事を投稿することができるようになっています。別のサイトに記事を送りたいときは、post makeの前にpost switchを実行してサイトを切り換えます。</p>
+<p>疲れたのでここら辺にしておきたいんですが、これくらいで十分でしょうか...？</p>
 <h3>今後について</h3>
-今後はこういうことをやろうかと思っています。多分しばらくやらないけど。
+<p>今後はこういうことをやろうかと思っています。多分しばらくやらないけど。</p>
 <ul>
 <li>記事のテンプレートを変えた際、記事に一斉にテンプレートを適用するような実装</li>
 <li>zenityかなんかでGUIを作って、もっとやさしくする</li>
 </ul>
-冒頭にも書いたように、さっきのような使い方でこのサイトは運用しています。私以外にも「使ってみよう」という変な人がいたら幸いです。<del>ソースコード改善してほしいし、色々まだ整備が必要な部分があるし、とにかく誰かKAIZENに参加して欲しいです。本文がオレオレフォーマットで変換してますけど、ぶっちゃけおとなしくマークアップのほうがいいと思うならそうしていただいていいですし。</del>
-というかそういう人が本当にいたとしてもどう対応していいのか分からない程度には本当に色々分かってません。まあよろしくお願いします。
+<p>冒頭にも書いたように、さっきのような使い方でこのサイトは運用しています。私以外にも「使ってみよう」という変な人がいたら幸いです。<del>ソースコード改善してほしいし、色々まだ整備が必要な部分があるし、とにかく誰かKAIZENに参加して欲しいです。本文がオレオレフォーマットで変換してますけど、ぶっちゃけおとなしくマークアップのほうがいいと思うならそうしていただいていいですし。</del></p>
+<p>というかそういう人が本当にいたとしてもどう対応していいのか分からない程度には本当に色々分かってません。まあよろしくお願いします。</p>
 </article>
 +

@@ -37,7 +37,7 @@ Mac、Linux、msys2での動作を確認しました。
 <li>nkf</li>
 <li>sudo</li>
 <li>git</li>
-<li>Debian Almquist Shell</li>
+<li>POSIX互換のシェル</li>
 </ul>
 <h3>使い方</h3>
 site.shはsiteコマンドとpostコマンドがあります。siteコマンドはサイトのリモート操作に必要な設定をするためのコマンドで、複数のサイトの管理ができます。postコマンドは記事の作成やリモートとの記事の送受信・削除とかするコマンドです。
@@ -94,10 +94,10 @@ template-article.html.sh
 template-site.html.sh
 cache/
 jobs/
-jobs/make_archives.dash
-jobs/make_labels.dash
-jobs/make_rss_page.dash
-jobs/make_search_cache.dash
+jobs/make_archives.sh
+jobs/make_labels.sh
+jobs/make_rss_page.sh
+jobs/make_search_cache.sh
 post_files/
 preview/
 rss/
@@ -113,10 +113,10 @@ Initialized empty Git repository in /var/www/site/.git/
  create mode 100644 apache-2.4.conf.example
  create mode 100644 favicon.ico
  create mode 100755 index.cgi
- create mode 100755 jobs/make_archives.dash
- create mode 100755 jobs/make_labels.dash
- create mode 100755 jobs/make_rss_page.dash
- create mode 100755 jobs/make_search_cache.dash
+ create mode 100755 jobs/make_archives.sh
+ create mode 100755 jobs/make_labels.sh
+ create mode 100755 jobs/make_rss_page.sh
+ create mode 100755 jobs/make_search_cache.sh
  create mode 100644 kuno.ttf
  create mode 100644 normalize.css
  create mode 100755 rss/index.cgi
