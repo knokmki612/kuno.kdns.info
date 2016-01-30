@@ -41,11 +41,8 @@ cat << +
 <li>git</li>
 <li>POSIX互換のシェル</li>
 </ul>
-<h3>使い方</h3>
-<p>site.shはsiteコマンドとpostコマンドがあります。siteコマンドはサイトのリモート操作に必要な設定をするためのコマンドで、複数のサイトの管理ができます。postコマンドは記事の作成やリモートとの記事の送受信・削除とかするコマンドです。</p>
-<p>例として、サイトを開設する流れを書きます。</p>
-<br>
-<p>まず、githubから持ってきて、setup.shを実行します。デフォルトでは/usr/local下にインストールされますが、prefixを指定すれば任意のパスにインストールできます。2回目以降のinstallはパスが維持されるので、指定しなくて大丈夫です。</p>
+<h3>導入のしかた</h3>
+<p>githubから持ってきて、setup.shを実行します。デフォルトでは/usr/local下にインストールされますが、prefixを指定すれば任意のパスにインストールできます。2回目以降のinstallはパスが維持されるので、指定しなくて大丈夫です。</p>
 <pre><code>$ git clone https://github.com/knokmki612/sitesh.git
 Cloning into 'sitesh'...
 remote: Counting objects: 533, done.
@@ -56,7 +53,11 @@ Resolving deltas: 100% (220/220), done.
 Checking connectivity... done.
 \$ cd sitesh
 $ prefix=/usr ./setup.sh install</code></pre>
-<p>コマンドの用意ができたら、記事をやりとりするためのSSHホストとか設定します。すでにsite makeで作成されたサイトを設定する場合、site addだけで完了です。</p>
+<h3>使い方</h3>
+<p>site.shはsiteコマンドとpostコマンドがあります。siteコマンドはサイトのリモート操作に必要な設定をするためのコマンドで、複数のサイトの管理ができます。postコマンドは記事の作成やリモートとの記事の送受信・削除とかするコマンドです。</p>
+<p>例として、サイトを開設する流れを書きます。</p>
+<br>
+<p>まず最初に、記事をやりとりするためのSSHホストとか設定します。すでにsite makeで作成されたサイトを設定する場合、site addだけで完了です。</p>
 <pre><code>$ site add
 url: http://hoge
 ssh host: fuga@hoge
