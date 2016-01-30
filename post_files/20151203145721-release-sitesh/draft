@@ -26,7 +26,6 @@ Mac、Linux、msys2での動作を確認しました。
 <li>nkf</li>
 <li>sudo</li>
 <li>ImageMagick</li>
-<li>Bourne互換なシェル</li>
 </ul>
 <h4>リモート側の動作環境</h4>
 後述するテンプレートをどう書くかでどうとでもなってしまいますが、自分が作ったテンプレートはDebian GNU/Linuxで動かすことを前提に作りました。
@@ -37,7 +36,6 @@ Mac、Linux、msys2での動作を確認しました。
 <li>nkf</li>
 <li>sudo</li>
 <li>git</li>
-<li>POSIX互換のシェル</li>
 </ul>
 <h3>導入のしかた</h3>
 githubから持ってきて、setup.shを実行します。デフォルトでは/usr/local下にインストールされますが、prefixを指定すれば任意のパスにインストールできます。2回目以降のinstallはパスが維持されるので、指定しなくて大丈夫です。
