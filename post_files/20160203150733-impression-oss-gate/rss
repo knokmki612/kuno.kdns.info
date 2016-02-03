@@ -1,6 +1,6 @@
 cat << +
     <item>
-      <title>OSS Gateに参加してきました</title>
+      <title>OSS Gateのワークショップに参加してきました</title>
       <link>${URL}post/20160203150733-impression-oss-gate</link>
       <guid>${URL}post/20160203150733-impression-oss-gate</guid>
       <pubDate>Wed, 03 Feb 2016 15:07:33 +0900</pubDate>
