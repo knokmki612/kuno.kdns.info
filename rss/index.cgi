@@ -1,4 +1,4 @@
-#!/bin/dash
+#!/bin/sh
 
 . ../site.conf
 
@@ -14,7 +14,7 @@ if [ -z "$queries" ]; then
 		find ../$POSTS -name rss |
 		grep -E '[0-9]{14}'      |
 		sort -r                  |
-		xargs -I @ dash -c ". @")
+		xargs -I @ sh -c ". @")
 	. ./template.rss.sh
 	exit 0
 fi
@@ -38,7 +38,7 @@ item=$(
 	xargs grep -L "$filter"    |
 	sed 's/\/label$/\/rss/'    |
 	sort -r                    |
-	xargs -I @ dash -c ". @")
+	xargs -I @ sh -c ". @")
 
 . ./template.rss.sh
 
