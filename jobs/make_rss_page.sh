@@ -22,7 +22,7 @@ BACKUP_IFS=$IFS
 IFS='
 '
 for label in $labels; do
-	echo "<li>$label <input type=\"checkbox\" name=\"label\" value=\"$label\"></li>" >> cache/choose
+	echo "<li><label for=\"$label\">$label</label> <input type=\"checkbox\" name=\"label\" id=\"$label\" value=\"$label\"></li>" >> cache/choose
 done
 IFS=$BACKUP_IFS
 
