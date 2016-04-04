@@ -346,6 +346,7 @@ header h1 a {
 
 #main #pager {
   margin-top: 25px;
+  position: relative;
 }
 
 #main #pager a {
@@ -354,11 +355,17 @@ header h1 a {
 }
 
 #main #pager a.pager-newer {
-  float: left;
+  position: absolute;
+  left: 0;
 }
 
 #main #pager a.pager-older {
-  float: right;
+  position: absolute;
+  right: 0;
+}
+
+#main #pager a.list-view {
+  text-align: center;
 }
 
 #main p.edit-history {

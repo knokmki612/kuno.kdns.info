@@ -11,6 +11,7 @@ echo ''
 
 queries=$(
 	echo $QUERY_STRING                            |
+	sed 's/\(.*\)&\(listview\)\(.*\)/\2\&\1\3/'   |
 	sed 's/\(.*\)&\(page=[^&]*\)\(.*\)/\2\&\1\3/' |
 	tr '&' '\n')
 
@@ -59,6 +60,9 @@ for query in $queries; do
 			title="$(cat $post/title)$TITLE_TAIL"
 			break
 		;;
+		listview)
+			listview='&amp;listview'
+		;;
 		page)
 			if [ -n "$page" ]; then
 				continue
@@ -104,7 +108,7 @@ for query in $queries; do
 						;;
 				esac
 
-				echo "<a class=\"$class\" href=\"$URL?$request_key=$request_param&amp;page=$page_next\">$text</a>"
+				echo "<a class=\"$class\" href=\"$URL?$request_key=$request_param&amp;page=$page_next$listview\">$text</a>"
 			}
 
 			case $request_key in
@@ -181,7 +185,15 @@ for query in $queries; do
 					;;
 			esac
 
-			numofdisplay=3
+			if [ -n "$listview" ]; then
+				numofdisplay=20
+				xargsdo="list={} ; . ./template-list.html.sh"
+				listview_select="<p><a class=\"list-view\" href=\"$URL?$request_key=$request_param\">記事表示</a></p>"
+			else
+				numofdisplay=3
+				xargsdo=". ./{}"
+				listview_select="<a class=\"list-view\" href=\"$URL?$request_key=$request_param&amp;listview\">リスト表示</a>"
+			fi
 			listcount=$(echo "$list" | wc -l | cut -d ' ' -f 1)
 			displaycount=$(( $page * $numofdisplay ))
 			# ここの判定はリストの始まりと終わりの挙動を変えるためのもの
@@ -191,17 +203,25 @@ for query in $queries; do
 					echo "$list"                                      |
 					head -n $(( $listcount % $numofdisplay > 0 \
 						? $listcount % $numofdisplay : $numofdisplay )) |
-					xargs -I @ sh -c ". ./@")
-			elif [ $page -eq 1 ]; then
+					xargs -I {} sh -c "$xargsdo")
+				pager=$(
+					cat <<- PAGER
+					<aside id="pager" class="clearfix">
+						$listview_select
+					</aside>
+					PAGER
+				)
+		elif [ $page -eq 1 ]; then
 				#echo "表示する記事が${numofdisplay}つより多いけど1ページ目の場合はこちら"
 				article=$(
 					echo "$list"          |
 					head -n $displaycount |
-					xargs -I @ sh -c ". ./@")
+					xargs -I {} sh -c "$xargsdo")
 				pager=$(
 					cat <<- PAGER
 					<aside id="pager" class="clearfix">
 						$pager_next
+						$listview_select
 					</aside>
 					PAGER
 				)
@@ -211,11 +231,12 @@ for query in $queries; do
 					echo "$list"                                      |
 					tail -n $(( $listcount % $numofdisplay > 0 \
 						? $listcount % $numofdisplay : $numofdisplay )) |
-					xargs -I @ sh -c ". ./@")
+					xargs -I {} sh -c "$xargsdo")
 				pager=$(
 					cat <<- PAGER
 					<aside id="pager" class="clearfix">
 						$pager_prev
+						$listview_select
 					</aside>
 					PAGER
 				)
@@ -225,12 +246,13 @@ for query in $queries; do
 					echo "$list"          |
 					head -n $displaycount |
 					tail -n $numofdisplay |
-					xargs -I @ sh -c ". ./@")
+					xargs -I {} sh -c "$xargsdo")
 				pager=$(
 					cat <<- PAGER
 					<aside id="pager" class="clearfix">
 						$pager_next
 						$pager_prev
+						$listview_select
 					</aside>
 					PAGER
 				)
