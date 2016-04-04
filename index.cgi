@@ -32,7 +32,7 @@ for query in $queries; do
 							-e 's/&amp;\(lt;\|gt;\|quot;\)/\&\1/g'
 					)
 					</pre>
-					<a href="${URL}post/$request_param">記事に戻る</a>
+					<p class="edit-history"><a href="${URL}post/$request_param">記事に戻る</a></p>
 				+
 			)
 			title="\"$(cat $post/title)\"の編集履歴$TITLE_TAIL"
@@ -53,7 +53,7 @@ for query in $queries; do
 			article=$(
 				cat <<- +
 					$(. ./$post/html)
-					<a href="${URL}?history=$request_param">編集履歴</a>
+					<p class="edit-history"><a href="${URL}?history=$request_param">編集履歴</a></p>
 				+
 			)
 			title="$(cat $post/title)$TITLE_TAIL"

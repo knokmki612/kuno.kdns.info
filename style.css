@@ -361,6 +361,10 @@ header h1 a {
   float: right;
 }
 
+#main p.edit-history {
+  text-align: center;
+}
+
 #side-menu section + section {
   margin-top: 20px;
 }
