@@ -13,6 +13,11 @@ pre {
   word-wrap: normal;
 }
 
+th,td {
+  padding: 5px;
+  border: 1px solid;
+}
+
 @font-face {
   font-family: kuno;
   src: url(kuno.ttf);
