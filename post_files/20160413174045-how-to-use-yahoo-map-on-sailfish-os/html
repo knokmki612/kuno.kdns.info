@@ -14,16 +14,16 @@ cat << +
 </div>
 </aside>
 <h2><a href="${URL}post/20160413174045-how-to-use-yahoo-map-on-sailfish-os">Sailfish OSでY!地図が使えました</a></h2>
-<p>Jolla Phone/TabletにはAlien DalvikというAndroidランタイムをインストールすることが出来ますが、動かないAndroidアプリも多いです。</p>
-<p>中でもGoogle Play Serviceの機能を使っているアプリなんかはまず無理なんじゃないでしょうか？Yahoo!地図という地図アプリも、例外なくGoogle Play Serviceの機能を使って位置情報の精度を上げているので、起動するとこのように怒られます。</p>
+<p>Jolla Phone/TabletにはAlien DalvikというAndroidランタイムをインストールすることが出来ますが、使えないAndroidアプリも多いです。</p>
+<p>中でもGoogle Play Servicesの機能を使っているアプリなんかは、動くものも少なくないのにムラハチされてる感が凄いんですよね。 Yahoo!地図という地図アプリも、例外なくGoogle Play Servicesの機能を使って位置情報の精度を上げているので、起動するとこのように怒られます。</p>
 <p class="image">
 <a href="$URL${POSTS}20160413174045-how-to-use-yahoo-map-on-sailfish-os/Screenshot-16-04-13-17-30-34.png"><img class="portrait" src="$URL${POSTS}20160413174045-how-to-use-yahoo-map-on-sailfish-os/Screenshot-16-04-13-17-30-34-s.jpg" alt="Yahoo!地図アプリに怒られた画面"></a>
 </p>
-<p>Jolla Phoneをメイン端末にしようと思うと使える地図アプリの重要性も高くなるわけですが、ネイティブの地図アプリもいくつかあるものの、日本国内での住所や地名検索には弱く、常用するには厳しいところがあります。かと言ってAndroidの地図アプリも上記のありさまで、良い選択肢がない...かのように思われていました！！！！</p>
+<p>Jolla Phoneをメイン端末にしようと思うと使える地図アプリの重要性も高くなるわけですが、ネイティブの地図アプリもいくつかあるものの、日本国内での住所や地名検索には弱く、常用するには厳しいところがあります。かと言ってAndroidの地図アプリも上記のありさまで、グーグル・サンにドゲザしないと良い選択肢がない...かのように思っていました！！！！</p>
 <p class="image">
 <a href="$URL${POSTS}20160413174045-how-to-use-yahoo-map-on-sailfish-os/スクリーンショット_2016-04-13_18-45-02.png"><img class="landscape" src="$URL${POSTS}20160413174045-how-to-use-yahoo-map-on-sailfish-os/スクリーンショット_2016-04-13_18-45-02-s.jpg" alt="microG Project"></a>
 </p>
-<p>実はGoogle Play Service互換の機能を提供することを目指す<a href="https://microg.org">microG Project</a>というものがありまして、これを使えばGoogle Play Serviceをゴニョゴニョして導入することなく、Yahoo!地図アプリの機能がフルで使えるようになるんですよ！ というわけで手順を書きますね。</p>
+<p>実はGoogle Play Services互換の機能を提供することを目指す<a href="https://microg.org">microG Project</a>というものがありまして、これを使えばGoogle Play Servicesをゴニョゴニョして導入することなく、Yahoo!地図アプリの機能がフルで使えるようになるんですよ！ というわけで手順を書きますね。</p>
 <br>
 <h3>1、F-Droidをインストールする</h3>
 <p class="image">
@@ -52,6 +52,6 @@ cat << +
 <a href="$URL${POSTS}20160413174045-how-to-use-yahoo-map-on-sailfish-os/Screenshot-16-04-13-17-34-40.png"><img class="portrait" src="$URL${POSTS}20160413174045-how-to-use-yahoo-map-on-sailfish-os/Screenshot-16-04-13-17-34-40-s.jpg" alt="Yahoo!地図アプリに怒られなくなった"></a>
 </p>
 <p>ルート検索や住所検索もできるし、雨雲レーダーも見れるみたいだし、かなり良さげなのではないでしょうか。</p>
-<p>microGをインストールすることで、魂を売り渡さずに動くアプリを増やすことができるのは、非常に素晴らしいことですね！...まぁ、Yahoo!地図アプリのapkはゴニョゴニョしたわけですが...</p>
+<p>microGをインストールすることで使えるアプリを増やすことができるのは、非常に素晴らしいことですね！</p>
 </article>
 +
