@@ -72,7 +72,9 @@ $archives
 <div class="inner-margin">
 <footer class="column-right">
 <div class="content-vertical-center">
+<div class="content-max-width">
   <p>&copy; 2015 $COPYRIGHT_OWNER</p>
+</div>
 </div>
 </footer>
 </div>
