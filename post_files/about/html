@@ -1,5 +1,10 @@
-cat << +
-<article>
+post="about"
+formatted_date=""
+datetime=""
+title="概要"
+title_encoded=""
+labels_string=""
+sentence=$(cat << +
 <h2>このサイトについて</h2>
 <ul>
 <li><a href="http://knockcrab.blogspot.jp/">blogger</a>から移りました</li>
@@ -16,5 +21,5 @@ cat << +
 <li><a href="https://plus.google.com/108613011772115871768">Google+</a></li>
 <li><a href="https://github.com/knokmki612">GitHub</a></li>
 </ul>
-</article>
 +
+)

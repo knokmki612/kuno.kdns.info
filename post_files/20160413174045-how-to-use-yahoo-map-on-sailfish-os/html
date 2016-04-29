@@ -1,19 +1,10 @@
-cat << +
-<article>
-<aside class="clearfix">
-<div class="social-icon">
-  <a href="http://twitter.com/share?url=${URL}post/20160413174045-how-to-use-yahoo-map-on-sailfish-os&text=Sailfish%20OS%E3%81%A7Y%21%E5%9C%B0%E5%9B%B3%E3%81%8C%E4%BD%BF%E3%81%88%E3%81%BE%E3%81%97%E3%81%9F$TITLE_TAIL_ENCODED"><span class="icon-">twitter</span></a>
-  <a href="http://www.facebook.com/sharer.php?u=${URL}post/20160413174045-how-to-use-yahoo-map-on-sailfish-os"><span class="icon-">facebook</span></a>
-  <a href="https://plusone.google.com/_/+1/confirm?hl=ja&url=${URL}post/20160413174045-how-to-use-yahoo-map-on-sailfish-os"><span class="icon-">google+</span></a>
-</div>
-<div class="date">
-  <time datetime="2016-04-13T17:40+09:00">2016/04/13</time>
-</div>
-<div class="labels">
-  <a href="$URL?label=Jolla">Jolla</a>,<a href="$URL?label=Sailfish%20OS">Sailfish OS</a>,<a href="$URL?label=Tips">Tips</a>
-</div>
-</aside>
-<h2><a href="${URL}post/20160413174045-how-to-use-yahoo-map-on-sailfish-os">Sailfish OSでY!地図が使えました</a></h2>
+post="20160413174045-how-to-use-yahoo-map-on-sailfish-os"
+formatted_date="2016/04/13"
+datetime="2016-04-13T17:40+09:00"
+title="Sailfish OSでY!地図が使えました"
+title_encoded="Sailfish%20OS%E3%81%A7Y%21%E5%9C%B0%E5%9B%B3%E3%81%8C%E4%BD%BF%E3%81%88%E3%81%BE%E3%81%97%E3%81%9F"
+labels_string="<a href="$URL?label=Jolla">Jolla</a>,<a href="$URL?label=Sailfish%20OS">Sailfish OS</a>,<a href="$URL?label=Tips">Tips</a>"
+sentence=$(cat << +
 <p>Jolla Phone/TabletにはAlien DalvikというAndroidランタイムをインストールすることが出来ますが、使えないAndroidアプリも多いです。</p>
 <p>中でもGoogle Play Servicesの機能を使っているアプリなんかは、動くものも少なくないのにムラハチされてる感が凄いんですよね。 Yahoo!地図という地図アプリも、例外なくGoogle Play Servicesの機能を使って位置情報の精度を上げているので、起動するとこのように怒られます。</p>
 <p class="image">
@@ -53,5 +44,5 @@ cat << +
 </p>
 <p>ルート検索や住所検索もできるし、雨雲レーダーも見れるみたいだし、かなり良さげなのではないでしょうか。</p>
 <p>microGをインストールすることで使えるアプリを増やすことができるのは、非常に素晴らしいことですね！</p>
-</article>
 +
+)

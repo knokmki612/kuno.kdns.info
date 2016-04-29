@@ -1,19 +1,10 @@
-cat << +
-<article>
-<aside class="clearfix">
-<div class="social-icon">
-  <a href="http://twitter.com/share?url=${URL}post/20151128221943-review-jolla-and-sailfish&text=Jolla%20Phone%E3%82%92%E8%B2%B7%E3%81%84%E3%81%BE%E3%81%97%E3%81%9F%28Sailfish%20OS%E3%81%AE%E8%A9%B1%E3%82%82%E3%81%97%E3%81%BE%E3%81%99%29$TITLE_TAIL_ENCODED"><span class="icon-">twitter</span></a>
-  <a href="http://www.facebook.com/sharer.php?u=${URL}post/20151128221943-review-jolla-and-sailfish"><span class="icon-">facebook</span></a>
-  <a href="https://plusone.google.com/_/+1/confirm?hl=ja&url=${URL}post/20151128221943-review-jolla-and-sailfish"><span class="icon-">google+</span></a>
-</div>
-<div class="date">
-  <time datetime="2015-11-28T22:19+09:00">2015/11/28</time>
-</div>
-<div class="labels">
-  <a href="$URL?label=Jolla">Jolla</a>,<a href="$URL?label=Sailfish%20OS">Sailfish OS</a>,<a href="$URL?label=%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC">レビュー</a>,<a href="$URL?label=%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88">ガジェット</a>
-</div>
-</aside>
-<h2><a href="${URL}post/20151128221943-review-jolla-and-sailfish">Jolla Phoneを買いました(Sailfish OSの話もします)</a></h2>
+post="20151128221943-review-jolla-and-sailfish"
+formatted_date="2015/11/28"
+datetime="2015-11-28T22:19+09:00"
+title="Jolla Phoneを買いました(Sailfish OSの話もします)"
+title_encoded="Jolla%20Phone%E3%82%92%E8%B2%B7%E3%81%84%E3%81%BE%E3%81%97%E3%81%9F%28Sailfish%20OS%E3%81%AE%E8%A9%B1%E3%82%82%E3%81%97%E3%81%BE%E3%81%99%29"
+labels_string="<a href="$URL?label=Jolla">Jolla</a>,<a href="$URL?label=Sailfish%20OS">Sailfish OS</a>,<a href="$URL?label=%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC">レビュー</a>,<a href="$URL?label=%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88">ガジェット</a>"
+sentence=$(cat << +
 <p>2週間ちょっと前に買いました。</p>
 <p class="image">
 <a href="https://farm6.staticflickr.com/5720/23371981636_0106d43f7b_o.jpg"><img class="portrait" src="$URL${POSTS}20151128221943-review-jolla-and-sailfish/23371981636_0106d43f7b_o-s.jpg" alt="Jollaの外箱"></a>
@@ -70,5 +61,5 @@ cat << +
 <h3>最後に</h3>
 <p>Jollaは今、<a href="http://ascii.jp/elem/000/001/083/1083978/">苦境に立たされています</a>。彼らが一時的なリストラやオフィスの引っ越しをしなければいけない状況にあるのは、見ていて心苦しい限りです。そんな彼らが生み出したJolla PhoneやSailfish OS 2.0は、とても魅力的な出来で、彼らがこんなところで終わっていいはずがないでしょ！と思いました。私もJolla Tabletにお金を出した人間のひとりで、Tabletがいつ届くかどうか気になりますが、今は資金調達が無事にうまくいくように祈るばかりです。</p>
 <p>Jolla、素晴らしい製品をありがとう！</p>
-</article>
 +
+)

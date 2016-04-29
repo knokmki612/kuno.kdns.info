@@ -45,7 +45,7 @@ for query in $queries; do
 		preview)
 			POSTS='preview/'
 			post=$(echo $request_param | sed 's;^;'$POSTS';g')
-			article=$(. ./$post/html)
+			article=$(. ./$post/html; . ./template-article.html.sh)
 			title="$(cat $post/title)$TITLE_TAIL"
 			break
 		;;
@@ -53,7 +53,7 @@ for query in $queries; do
 			post=$(echo $request_param | sed 's;^;'$POSTS';g')
 			article=$(
 				cat <<- +
-					$(. ./$post/html)
+					$(. ./$post/html; . ./template-article.html.sh)
 					<p class="edit-history"><a href="${URL}?history=$request_param">編集履歴</a></p>
 				+
 			)
@@ -195,7 +195,7 @@ for query in $queries; do
 				listview_select="<p><a class=\"list-view\" href=\"$URL?$request_key=$request_param\">記事表示</a></p>"
 			else
 				numofdisplay=3
-				xargsdo=". ./{}"
+				xargsdo=". ./{}; . ./template-article.html.sh"
 				listview_select="<a class=\"list-view\" href=\"$URL?$request_key=$request_param&amp;listview\">リスト表示</a>"
 			fi
 			listcount=$(echo "$list" | wc -l | cut -d ' ' -f 1)

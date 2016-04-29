@@ -1,19 +1,10 @@
-cat << +
-<article>
-<aside class="clearfix">
-<div class="social-icon">
-  <a href="http://twitter.com/share?url=${URL}post/20151222142312-letsencrypt-is-god&text=Let%27s%20Encrypt%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E3%82%B5%E3%82%A4%E3%83%88%E3%82%92https%E3%81%AA%E6%84%9F%E3%81%98%E3%81%AB%E3%81%97%E3%81%9F$TITLE_TAIL_ENCODED"><span class="icon-">twitter</span></a>
-  <a href="http://www.facebook.com/sharer.php?u=${URL}post/20151222142312-letsencrypt-is-god"><span class="icon-">facebook</span></a>
-  <a href="https://plusone.google.com/_/+1/confirm?hl=ja&url=${URL}post/20151222142312-letsencrypt-is-god"><span class="icon-">google+</span></a>
-</div>
-<div class="date">
-  <time datetime="2015-12-22T14:23+09:00">2015/12/22</time>
-</div>
-<div class="labels">
-  <a href="$URL?label=Tips">Tips</a>
-</div>
-</aside>
-<h2><a href="${URL}post/20151222142312-letsencrypt-is-god">Let's Encryptを使ってサイトをhttpsな感じにした</a></h2>
+post="20151222142312-letsencrypt-is-god"
+formatted_date="2015/12/22"
+datetime="2015-12-22T14:23+09:00"
+title="Let's Encryptを使ってサイトをhttpsな感じにした"
+title_encoded="Let%27s%20Encrypt%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E3%82%B5%E3%82%A4%E3%83%88%E3%82%92https%E3%81%AA%E6%84%9F%E3%81%98%E3%81%AB%E3%81%97%E3%81%9F"
+labels_string="<a href="$URL?label=Tips">Tips</a>"
+sentence=$(cat << +
 <p>サーバー証明書の取得がこんな簡単にできるとは思わなかった...</p>
 <p>参考にしたページ</p>
 <ul>
@@ -21,5 +12,5 @@ cat << +
 <li><a href="https://http2.try-and-test.net/letsencrypt.html">Apache 2.4系でHTTP2対応サーバを構築してみるテスト。［Let's Encrypt編］</a></li>
 </ul>
 <p>お勧められていない<code>letsencrypt-auto --apache</code>を使ってみましたが、勝手にApacheでの証明書の指定もやってくれましたし良かったです。</p>
-</article>
 +
+)

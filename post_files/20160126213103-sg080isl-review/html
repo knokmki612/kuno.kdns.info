@@ -1,19 +1,10 @@
-cat << +
-<article>
-<aside class="clearfix">
-<div class="social-icon">
-  <a href="http://twitter.com/share?url=${URL}post/20160126213103-sg080isl-review&text=%E3%83%93%E3%83%83%E3%82%AF%E3%82%BF%E3%83%96%28SG080iSL%29%E3%82%92%E8%B2%B7%E3%81%A3%E3%81%A6%E3%81%97%E3%81%BE%E3%81%A3%E3%81%9F$TITLE_TAIL_ENCODED"><span class="icon-">twitter</span></a>
-  <a href="http://www.facebook.com/sharer.php?u=${URL}post/20160126213103-sg080isl-review"><span class="icon-">facebook</span></a>
-  <a href="https://plusone.google.com/_/+1/confirm?hl=ja&url=${URL}post/20160126213103-sg080isl-review"><span class="icon-">google+</span></a>
-</div>
-<div class="date">
-  <time datetime="2016-01-26T21:31+09:00">2016/01/26</time>
-</div>
-<div class="labels">
-  <a href="$URL?label=%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC">レビュー</a>,<a href="$URL?label=%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88">ガジェット</a>,<a href="$URL?label=Windows">Windows</a>
-</div>
-</aside>
-<h2><a href="${URL}post/20160126213103-sg080isl-review">ビックタブ(SG080iSL)を買ってしまった</a></h2>
+post="20160126213103-sg080isl-review"
+formatted_date="2016/01/26"
+datetime="2016-01-26T21:31+09:00"
+title="ビックタブ(SG080iSL)を買ってしまった"
+title_encoded="%E3%83%93%E3%83%83%E3%82%AF%E3%82%BF%E3%83%96%28SG080iSL%29%E3%82%92%E8%B2%B7%E3%81%A3%E3%81%A6%E3%81%97%E3%81%BE%E3%81%A3%E3%81%9F"
+labels_string="<a href="$URL?label=%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC">レビュー</a>,<a href="$URL?label=%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88">ガジェット</a>,<a href="$URL?label=Windows">Windows</a>"
+sentence=$(cat << +
 <p>買ってしまったんですよね...</p>
 <p class="image">
 <a href="$URL${POSTS}20160126213103-sg080isl-review/20160122_001.jpg"><img class="landscape" src="$URL${POSTS}20160126213103-sg080isl-review/20160122_001-s.jpg" alt="ビックタブの外箱"></a>
@@ -48,5 +39,5 @@ cat << +
 <p class="image">
 <a href="$URL${POSTS}20160126213103-sg080isl-review/20160126_003.jpg"><img class="landscape" src="$URL${POSTS}20160126213103-sg080isl-review/20160126_003-s.jpg" alt="ギャル子ちゃんを見ながらブログ記事を書いてみた"></a>
 </p>
-</article>
 +
+)

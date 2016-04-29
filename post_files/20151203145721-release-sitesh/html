@@ -1,19 +1,10 @@
-cat << +
-<article>
-<aside class="clearfix">
-<div class="social-icon">
-  <a href="http://twitter.com/share?url=${URL}post/20151203145721-release-sitesh&text=%E5%88%86%E6%95%A3%E5%9E%8B%EF%BC%9F%E3%83%96%E3%83%AD%E3%82%AE%E3%83%B3%E3%82%B0%E3%83%84%E3%83%BC%E3%83%AB%E3%80%81sitesh%E3%82%92%E4%BD%9C%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F$TITLE_TAIL_ENCODED"><span class="icon-">twitter</span></a>
-  <a href="http://www.facebook.com/sharer.php?u=${URL}post/20151203145721-release-sitesh"><span class="icon-">facebook</span></a>
-  <a href="https://plusone.google.com/_/+1/confirm?hl=ja&url=${URL}post/20151203145721-release-sitesh"><span class="icon-">google+</span></a>
-</div>
-<div class="date">
-  <time datetime="2015-12-03T14:57+09:00">2015/12/03</time>
-</div>
-<div class="labels">
-  <a href="$URL?label=Tips">Tips</a>
-</div>
-</aside>
-<h2><a href="${URL}post/20151203145721-release-sitesh">分散型？ブロギングツール、siteshを作りました</a></h2>
+post="20151203145721-release-sitesh"
+formatted_date="2015/12/03"
+datetime="2015-12-03T14:57+09:00"
+title="分散型？ブロギングツール、siteshを作りました"
+title_encoded="%E5%88%86%E6%95%A3%E5%9E%8B%EF%BC%9F%E3%83%96%E3%83%AD%E3%82%AE%E3%83%B3%E3%82%B0%E3%83%84%E3%83%BC%E3%83%AB%E3%80%81sitesh%E3%82%92%E4%BD%9C%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F"
+labels_string="<a href="$URL?label=Tips">Tips</a>"
+sentence=$(cat << +
 <p>こんなものを作ろうと思ったのはなんでかというと、<a href="http://www.amazon.co.jp/dp/4048660683">「フルスクラッチから1日でCMSを作る シェルスクリプト高速開発手法入門」という本を読んでしまった</a>からなんですが。</p>
 <p>本では機能ごとにファイル分けたり、<a href="https://uec.usp-lab.com/TUKUBAI/CGI/TUKUBAI.CGI?POMPA=ABOUT">Tukubai</a>というコマンド群を使って華麗なテキスト処理をやっていて、対する私のスクリプトはゴチャゴチャにコード突っ込んで泥臭くsedのオンパレードかましているので、「本当にこの本を読んだのかな？」という感じになっています。</p>
 <p>とりあえずこのサイトは題名の通り命名したsiteshで執筆、運用しています。<a href="https://github.com/knokmki612/sitesh">GitHub</a>にソースを公開しているので、興味あったら見てください。</p>
@@ -276,5 +267,5 @@ Agent pid 4492 killed
 </ul>
 <p>冒頭にも書いたように、さっきのような使い方でこのサイトは運用しています。私以外にも「使ってみよう」という変な人がいたら幸いです。<del>ソースコード改善してほしいし、色々まだ整備が必要な部分があるし、とにかく誰かKAIZENに参加して欲しいです。本文がオレオレフォーマットで変換してますけど、ぶっちゃけおとなしくマークアップのほうがいいと思うならそうしていただいていいですし。</del></p>
 <p>というかそういう人が本当にいたとしてもどう対応していいのか分からない程度には本当に色々分かってません。まあよろしくお願いします。</p>
-</article>
 +
+)

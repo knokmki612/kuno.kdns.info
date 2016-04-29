@@ -1,19 +1,10 @@
-cat << +
-<article>
-<aside class="clearfix">
-<div class="social-icon">
-  <a href="http://twitter.com/share?url=${URL}post/20160410185227-try-play-store-on-jolla-tablet&text=Jolla%20Tablet%E3%81%A7Google%20Play%E3%82%B9%E3%83%88%E3%82%A2%E3%82%92%E8%A9%A6%E3%81%97%E3%81%A6%E3%81%BF%E3%81%BE%E3%81%97%E3%81%9F$TITLE_TAIL_ENCODED"><span class="icon-">twitter</span></a>
-  <a href="http://www.facebook.com/sharer.php?u=${URL}post/20160410185227-try-play-store-on-jolla-tablet"><span class="icon-">facebook</span></a>
-  <a href="https://plusone.google.com/_/+1/confirm?hl=ja&url=${URL}post/20160410185227-try-play-store-on-jolla-tablet"><span class="icon-">google+</span></a>
-</div>
-<div class="date">
-  <time datetime="2016-04-10T18:52+09:00">2016/04/10</time>
-</div>
-<div class="labels">
-  <a href="$URL?label=Jolla">Jolla</a>,<a href="$URL?label=Sailfish%20OS">Sailfish OS</a>,<a href="$URL?label=%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC">レビュー</a>
-</div>
-</aside>
-<h2><a href="${URL}post/20160410185227-try-play-store-on-jolla-tablet">Jolla TabletでGoogle Playストアを試してみました</a></h2>
+post="20160410185227-try-play-store-on-jolla-tablet"
+formatted_date="2016/04/10"
+datetime="2016-04-10T18:52+09:00"
+title="Jolla TabletでGoogle Playストアを試してみました"
+title_encoded="Jolla%20Tablet%E3%81%A7Google%20Play%E3%82%B9%E3%83%88%E3%82%A2%E3%82%92%E8%A9%A6%E3%81%97%E3%81%A6%E3%81%BF%E3%81%BE%E3%81%97%E3%81%9F"
+labels_string="<a href="$URL?label=Jolla">Jolla</a>,<a href="$URL?label=Sailfish%20OS">Sailfish OS</a>,<a href="$URL?label=%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC">レビュー</a>"
+sentence=$(cat << +
 <p>Jolla TabletはJolla PhoneとCPUアーキテクチャが違うために、Phoneで入れられたアプリが一部なかったりするので、余計にアプリが少ないのがすこし残念です。たまらず<a href="http://jiminynseries.seesaa.net/article/436336238.html">じみにーさんがPlayストアの導入をしていたのを見かけてしまったので</a>、自分もやってみました。以下の通りアプリをインストールして試してみました。</p>
 <table>
 <tbody>
@@ -74,5 +65,5 @@ cat << +
 <a href="$URL${POSTS}20160410185227-try-play-store-on-jolla-tablet/WP_20160407_23_23_03_Pro.jpg"><img class="landscape" src="$URL${POSTS}20160410185227-try-play-store-on-jolla-tablet/WP_20160407_23_23_03_Pro-s.jpg" alt="スクストの戦闘の様子"></a>
 </p>
 <p>KindleとかはAmazonアプリストアから入るし、結構カバーできるので結局Playストアは消しました。試す前はあんなに魅力的に見えたのに、不思議ですね...あとやっぱり、Google Play Servicesはバッテリー喰いな気がします。でももちろん、Playストアの資産がまるまるインストールできるようになるのは素晴らしいことですよ？</p>
-</article>
 +
+)

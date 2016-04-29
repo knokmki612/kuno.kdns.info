@@ -1,5 +1,10 @@
-cat << +
-<article>
+post="product"
+formatted_date=""
+datetime=""
+title="作ったもの"
+title_encoded=""
+labels_string=""
+sentence=$(cat << +
 <h2>Androidアプリケーション</h2>
 <dl>
 <dt><a href="https://play.google.com/store/apps/details?id=jp.techinstitute.tiad1401313.ringspot">Ringspot (リンスポット)</a></dt>
@@ -10,5 +15,5 @@ cat << +
 <dt><a href="https://github.com/knokmki612/sitesh">sitesh</a></dt>
 <dd>このサイトの執筆・運用のために自作したブロギングツールです。使い方の記事は<a href="${URL}post/20151203145721-release-sitesh">こちら</a></dd>
 </dl>
-</article>
 +
+)

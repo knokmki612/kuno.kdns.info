@@ -1,24 +1,15 @@
-cat << +
-<article>
-<aside class="clearfix">
-<div class="social-icon">
-  <a href="http://twitter.com/share?url=${URL}post/20151221212546-feed-option-behavior-is-changed&text=%E3%83%95%E3%82%A3%E3%83%BC%E3%83%89%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E6%8C%99%E5%8B%95%E5%A4%89%E6%9B%B4%E3%82%92%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F$TITLE_TAIL_ENCODED"><span class="icon-">twitter</span></a>
-  <a href="http://www.facebook.com/sharer.php?u=${URL}post/20151221212546-feed-option-behavior-is-changed"><span class="icon-">facebook</span></a>
-  <a href="https://plusone.google.com/_/+1/confirm?hl=ja&url=${URL}post/20151221212546-feed-option-behavior-is-changed"><span class="icon-">google+</span></a>
-</div>
-<div class="date">
-  <time datetime="2015-12-21T21:25+09:00">2015/12/21</time>
-</div>
-<div class="labels">
-  <a href="$URL?label=%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B">お知らせ</a>
-</div>
-</aside>
-<h2><a href="${URL}post/20151221212546-feed-option-behavior-is-changed">フィードオプションの挙動変更をしました</a></h2>
+post="20151221212546-feed-option-behavior-is-changed"
+formatted_date="2015/12/21"
+datetime="2015-12-21T21:25+09:00"
+title="フィードオプションの挙動変更をしました"
+title_encoded="%E3%83%95%E3%82%A3%E3%83%BC%E3%83%89%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E6%8C%99%E5%8B%95%E5%A4%89%E6%9B%B4%E3%82%92%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F"
+labels_string="<a href="$URL?label=%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B">お知らせ</a>"
+sentence=$(cat << +
 <p>このサイトをフィードで購読してくださっている方に報告です。</p>
 <p>購読する記事を選べるように、「選択したラベルの記事のみを購読」するオプションを用意していましたが、「選択したラベル以外の記事を購読」するように変更しました。</p>
 <p>要約すると、オプションの扱いがホワイトリストからブラックリストになったってことです。</p>
 <p>この仕様変更をした理由なのですが、「選択したラベルの記事のみを購読」する場合、新しいラベルのついた記事なんかも拾わないわけで、使いづらいんじゃないかなあ？と。あと今後ラベルが増えた時に、カチカチチェックするのもめんどそうだな？と。</p>
 <br>
 <p>ところで、購読している方っているんだろうか...</p>
-</article>
 +
+)

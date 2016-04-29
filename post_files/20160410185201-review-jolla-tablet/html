@@ -1,19 +1,10 @@
-cat << +
-<article>
-<aside class="clearfix">
-<div class="social-icon">
-  <a href="http://twitter.com/share?url=${URL}post/20160410185201-review-jolla-tablet&text=Jolla%20Tablet%E7%9A%84%E3%81%AA%E3%82%82%E3%81%AE%E3%82%92%E5%85%A5%E6%89%8B%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F$TITLE_TAIL_ENCODED"><span class="icon-">twitter</span></a>
-  <a href="http://www.facebook.com/sharer.php?u=${URL}post/20160410185201-review-jolla-tablet"><span class="icon-">facebook</span></a>
-  <a href="https://plusone.google.com/_/+1/confirm?hl=ja&url=${URL}post/20160410185201-review-jolla-tablet"><span class="icon-">google+</span></a>
-</div>
-<div class="date">
-  <time datetime="2016-04-10T18:52+09:00">2016/04/10</time>
-</div>
-<div class="labels">
-  <a href="$URL?label=Jolla">Jolla</a>,<a href="$URL?label=Sailfish%20OS">Sailfish OS</a>,<a href="$URL?label=%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC">レビュー</a>,<a href="$URL?label=%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88">ガジェット</a>
-</div>
-</aside>
-<h2><a href="${URL}post/20160410185201-review-jolla-tablet">Jolla Tablet的なものを入手しました</a></h2>
+post="20160410185201-review-jolla-tablet"
+formatted_date="2016/04/10"
+datetime="2016-04-10T18:52+09:00"
+title="Jolla Tablet的なものを入手しました"
+title_encoded="Jolla%20Tablet%E7%9A%84%E3%81%AA%E3%82%82%E3%81%AE%E3%82%92%E5%85%A5%E6%89%8B%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F"
+labels_string="<a href="$URL?label=Jolla">Jolla</a>,<a href="$URL?label=Sailfish%20OS">Sailfish OS</a>,<a href="$URL?label=%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC">レビュー</a>,<a href="$URL?label=%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88">ガジェット</a>"
+sentence=$(cat << +
 <p>まさか手に入るとは思わなかった。</p>
 <p class="image">
 <a href="$URL${POSTS}20160410185201-review-jolla-tablet/WP_20160405_19_59_14_Pro.jpg"><img class="landscape" src="$URL${POSTS}20160410185201-review-jolla-tablet/WP_20160405_19_59_14_Pro-s.jpg" alt="テーブルに並べられたJolla Tablet"></a>
@@ -122,5 +113,5 @@ cat << +
 <iframe src="https://vine.co/v/iTMIeM9MWjb/embed/simple" width="600" height="600" frameborder="0"></iframe><script src="https://platform.vine.co/static/scripts/embed.js"></script>
 <iframe src="https://vine.co/v/iTOmzdJ3aVM/embed/simple" width="600" height="600" frameborder="0"></iframe><script src="https://platform.vine.co/static/scripts/embed.js"></script>
 <p>いろいろ書きましたが、Jollaの作る製品のセンスの良さが光っているだけに、もっと台数が出回って欲しかったです。正規の700台はあまりにも人が選ばれすぎました。<a href="https://together.jolla.com/question/131835/buysell-official-jolla-tablet/">together.jolla.comで売り買いしようという動きも</a>あるようです。私はこのJolla Tablet的な何かと巡り会えたので、後生大事に使っていこうと思います。</p>
-</article>
 +
+)
