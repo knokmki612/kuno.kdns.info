@@ -171,12 +171,16 @@ for query in $queries; do
 					request_param=$(
 						echo $request_param |
 						sed 's/ /\\|/g')
+					hit_pages=$(
+						grep -nie $request_param cache/search.sentence |
+						cut -d ':' -f 1                                |
+						sed 's/^.*$/-e &p /'                           |
+						tr -d '\n')
 					list=$(
-						grep -ie $request_param cache/search  |
-						cut -d ':' -f 1                       |
-						uniq -c                               |
-						sort -nr                              |
-						sed -e 's/^ *//' -e 's/$/\/html/'     |
+						sed -n $hit_pages cache/search.postname |
+						uniq -c                                 |
+						sort -nr                                |
+						sed -e 's/^ *//' -e 's/$/\/html/'       |
 						cut -d ' ' -f 2)
 					if [ -z $list ]; then
 						article="<p>""\"$request_param\"が含まれる記事はありませんでした。</p>"
