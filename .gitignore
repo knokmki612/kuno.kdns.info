@@ -1,2 +1,5 @@
-cache
-preview
+/cache
+/preview
+/BingSiteAuth.xml
+/google*.html
+/robots.txt
