@@ -309,10 +309,15 @@ header h1 a {
   overflow: hidden;
 }
 
-#main article + article {
+#main article + aside {
   margin-top: 25px;
   padding-top: 25px;
   border-top: 1px dashed;
+}
+
+#main article + #pager {
+  padding-top: 0;
+  border: none;
 }
 
 #main article h2 {

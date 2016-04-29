@@ -3,7 +3,6 @@ if \
 	[ -n "$datetime" ]       &&
 	[ -n "$title_encoded" ]; then
 	cat <<- +
-		<article>
 		<aside class="clearfix">
 		<div class="social-icon">
 			<a href="http://twitter.com/share?url=${URL}post/$post&text=$title_encoded$TITLE_TAIL_ENCODED"><span class="icon-">twitter</span></a>
@@ -17,6 +16,7 @@ if \
 			$labels_string
 		</div>
 		</aside>
+		<article>
 		<h2><a href="${URL}post/$post">$title</a></h2>
 		$sentence
 		</article>
