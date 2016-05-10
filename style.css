@@ -444,7 +444,7 @@ header h1 a {
 
 #side-menu select.archives {
   width: 70%;
-  height: 24px;
+  height: 34px;
   margin: 0;
   background: none;
   border: 1px solid;
@@ -452,7 +452,7 @@ header h1 a {
 
 #side-menu input.archives {
   width: 25%;
-  height: 24px;
+  height: 34px;
   margin: 0;
   background: none;
   border: 1px solid;
