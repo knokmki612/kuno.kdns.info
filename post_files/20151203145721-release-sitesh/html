@@ -3,7 +3,7 @@ formatted_date="2015/12/03"
 datetime="2015-12-03T14:57+09:00"
 title="分散型？ブロギングツール、siteshを作りました"
 title_encoded="%E5%88%86%E6%95%A3%E5%9E%8B%EF%BC%9F%E3%83%96%E3%83%AD%E3%82%AE%E3%83%B3%E3%82%B0%E3%83%84%E3%83%BC%E3%83%AB%E3%80%81sitesh%E3%82%92%E4%BD%9C%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F"
-labels_string="<a href="$URL?label=Tips">Tips</a>"
+labels_string="<a href=\"$URL?label=Tips\">Tips</a>"
 sentence=$(cat << +
 <p>こんなものを作ろうと思ったのはなんでかというと、<a href="http://www.amazon.co.jp/dp/4048660683">「フルスクラッチから1日でCMSを作る シェルスクリプト高速開発手法入門」という本を読んでしまった</a>からなんですが。</p>
 <p>本では機能ごとにファイル分けたり、<a href="https://uec.usp-lab.com/TUKUBAI/CGI/TUKUBAI.CGI?POMPA=ABOUT">Tukubai</a>というコマンド群を使って華麗なテキスト処理をやっていて、対する私のスクリプトはゴチャゴチャにコード突っ込んで泥臭くsedのオンパレードかましているので、「本当にこの本を読んだのかな？」という感じになっています。</p>

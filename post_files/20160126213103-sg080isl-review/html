@@ -3,7 +3,7 @@ formatted_date="2016/01/26"
 datetime="2016-01-26T21:31+09:00"
 title="ビックタブ(SG080iSL)を買ってしまった"
 title_encoded="%E3%83%93%E3%83%83%E3%82%AF%E3%82%BF%E3%83%96%28SG080iSL%29%E3%82%92%E8%B2%B7%E3%81%A3%E3%81%A6%E3%81%97%E3%81%BE%E3%81%A3%E3%81%9F"
-labels_string="<a href="$URL?label=%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC">レビュー</a>,<a href="$URL?label=%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88">ガジェット</a>,<a href="$URL?label=Windows">Windows</a>"
+labels_string="<a href=\"$URL?label=%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC\">レビュー</a>,<a href=\"$URL?label=%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88\">ガジェット</a>,<a href=\"$URL?label=Windows\">Windows</a>"
 sentence=$(cat << +
 <p>買ってしまったんですよね...</p>
 <p class="image">

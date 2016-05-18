@@ -3,7 +3,7 @@ formatted_date="2015/11/28"
 datetime="2015-11-28T22:19+09:00"
 title="Jolla Phoneを買いました(Sailfish OSの話もします)"
 title_encoded="Jolla%20Phone%E3%82%92%E8%B2%B7%E3%81%84%E3%81%BE%E3%81%97%E3%81%9F%28Sailfish%20OS%E3%81%AE%E8%A9%B1%E3%82%82%E3%81%97%E3%81%BE%E3%81%99%29"
-labels_string="<a href="$URL?label=Jolla">Jolla</a>,<a href="$URL?label=Sailfish%20OS">Sailfish OS</a>,<a href="$URL?label=%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC">レビュー</a>,<a href="$URL?label=%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88">ガジェット</a>"
+labels_string="<a href=\"$URL?label=Jolla\">Jolla</a>,<a href=\"$URL?label=Sailfish%20OS\">Sailfish OS</a>,<a href=\"$URL?label=%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC\">レビュー</a>,<a href=\"$URL?label=%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88\">ガジェット</a>"
 sentence=$(cat << +
 <p>2週間ちょっと前に買いました。</p>
 <p class="image">

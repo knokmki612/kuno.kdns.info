@@ -3,7 +3,7 @@ formatted_date="2016/04/13"
 datetime="2016-04-13T17:40+09:00"
 title="Sailfish OSでY!地図が使えました"
 title_encoded="Sailfish%20OS%E3%81%A7Y%21%E5%9C%B0%E5%9B%B3%E3%81%8C%E4%BD%BF%E3%81%88%E3%81%BE%E3%81%97%E3%81%9F"
-labels_string="<a href="$URL?label=Jolla">Jolla</a>,<a href="$URL?label=Sailfish%20OS">Sailfish OS</a>,<a href="$URL?label=Tips">Tips</a>"
+labels_string="<a href=\"$URL?label=Jolla\">Jolla</a>,<a href=\"$URL?label=Sailfish%20OS\">Sailfish OS</a>,<a href=\"$URL?label=Tips\">Tips</a>"
 sentence=$(cat << +
 <p>Jolla Phone/TabletにはAlien DalvikというAndroidランタイムをインストールすることが出来ますが、使えないAndroidアプリも多いです。</p>
 <p>中でもGoogle Play Servicesの機能を使っているアプリなんかは、動くものも少なくないのにムラハチされてる感が凄いんですよね。 Yahoo!地図という地図アプリも、例外なくGoogle Play Servicesの機能を使って位置情報の精度を上げているので、起動するとこのように怒られます。</p>

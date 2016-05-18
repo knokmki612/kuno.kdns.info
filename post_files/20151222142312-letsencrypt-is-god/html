@@ -3,7 +3,7 @@ formatted_date="2015/12/22"
 datetime="2015-12-22T14:23+09:00"
 title="Let's Encryptを使ってサイトをhttpsな感じにした"
 title_encoded="Let%27s%20Encrypt%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E3%82%B5%E3%82%A4%E3%83%88%E3%82%92https%E3%81%AA%E6%84%9F%E3%81%98%E3%81%AB%E3%81%97%E3%81%9F"
-labels_string="<a href="$URL?label=Tips">Tips</a>"
+labels_string="<a href=\"$URL?label=Tips\">Tips</a>"
 sentence=$(cat << +
 <p>サーバー証明書の取得がこんな簡単にできるとは思わなかった...</p>
 <p>参考にしたページ</p>
