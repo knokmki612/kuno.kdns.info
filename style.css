@@ -378,13 +378,9 @@ header h1 a {
 }
 
 #main #pager {
+  font-size: 16px;
   margin-top: 25px;
   position: relative;
-}
-
-#main #pager a {
-  display: block;
-  font-size: 16px;
 }
 
 #main #pager a.pager-newer {
@@ -397,7 +393,7 @@ header h1 a {
   right: 0;
 }
 
-#main #pager a.list-view {
+#main #pager div.list-view {
   text-align: center;
 }
 

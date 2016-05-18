@@ -192,11 +192,11 @@ for query in $queries; do
 			if [ -n "$listview" ]; then
 				numofdisplay=20
 				xargsdo="list={} ; . ./template-list.html.sh"
-				listview_select="<p><a class=\"list-view\" href=\"$URL?$request_key=$request_param\">記事表示</a></p>"
+				listview_select="<div class=\"list-view\"><a href=\"$URL?$request_key=$request_param\">記事表示</a></div>"
 			else
 				numofdisplay=3
 				xargsdo=". ./{}; . ./template-article.html.sh"
-				listview_select="<a class=\"list-view\" href=\"$URL?$request_key=$request_param&amp;listview\">リスト表示</a>"
+				listview_select="<div class=\"list-view\"><a href=\"$URL?$request_key=$request_param&amp;listview\">リスト表示</a></div>"
 			fi
 			listcount=$(echo "$list" | wc -l | cut -d ' ' -f 1)
 			displaycount=$(( $page * $numofdisplay ))
