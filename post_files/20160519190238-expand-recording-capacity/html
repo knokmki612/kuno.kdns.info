@@ -1,0 +1,27 @@
+post="20160519190238-expand-recording-capacity"
+formatted_date="2016/05/19"
+datetime="2016-05-19T19:02+09:00"
+title="HDDレコーダに外付けHDDを繋げました"
+title_encoded="HDD%E3%83%AC%E3%82%B3%E3%83%BC%E3%83%80%E3%81%AB%E5%A4%96%E4%BB%98%E3%81%91HDD%E3%82%92%E7%B9%8B%E3%81%92%E3%81%BE%E3%81%97%E3%81%9F"
+labels_string="<a href=\"$URL?label=%E6%97%A5%E8%A8%98\">日記</a>,<a href=\"$URL?label=%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88\">ガジェット</a>"
+sentence=$(cat << +
+<a href="${URL}post/20160510143616-my-latest-news">近況に書いたように、放送大学に入学しました。</a>放送大学は送られてくるテキストとTVやラジオの放送授業を通して学習するスタイルらしく、今学期受講している科目の放送授業はいずれも録音・録画して好きなタイミングで学習できるようにしています。科目によってはオンラインで放送授業が配信されているものもあるようですが、手元にコンテンツを持っているという安心感は何物にも代えがたいですね。
+<p>さて、それで問題になってきたのがHDDレコーダの容量不足です。もともと各期アニメを20作品追いかけたり、ドラマや映画、テレ東やNHKの教養番組とかも録っていてカツカツだったのですが、この上さらに放送授業も録るとなると、さすがに500GBの中でやりくりするのに限界が出てきました。</p>
+<p>受講する上では割と深刻な問題だと思ったので父に相談したところ、外付けHDDを貸してくれました。曰く「別のHDDレコーダで使っていたけど、急に認識しなくなったやつ。使えるかもしれないから試してみて」とのことで、私の方で調べたらHDD内のパーティションテーブルが壊れているっぽいし、中身を読もうとしてもI/Oエラーが返ってくるので、物理的にHDDが壊れていると断定しました。</p>
+<p>父と相談した結果、壊れたHDDを挿し替えて外付けHDDのケースを再利用することに。再利用する分くらいは安上がりになります。ということで、父の出資で<a href="http://www.amazon.co.jp/gp/product/B00DXOJJQQ/">こちらの2TBHDD、WD20EURX</a>を購入しました。購入時点で1万円くらい。なんか録画用途に適したHDDというのがあるそうで、"AVストリーミングコマンドセット"に対応したものを選ぶ必要がありそうです。</p>
+<p class="image">
+<a href="$URL${POSTS}20160519190238-expand-recording-capacity/WP_20160508_13_24_41_Pro.jpg"><img class="landscape" src="$URL${POSTS}20160519190238-expand-recording-capacity/WP_20160508_13_24_41_Pro-s.jpg" alt="ケースとHDDの箱"></a>
+<a href="$URL${POSTS}20160519190238-expand-recording-capacity/WP_20160508_13_26_15_Pro.jpg"><img class="landscape" src="$URL${POSTS}20160519190238-expand-recording-capacity/WP_20160508_13_26_15_Pro-s.jpg" alt="ケースと箱から出したHDD"></a>
+</p>
+<p>ものが届いてから、即効で外付けHDDのケースを開いて換装しました。<a href="http://www.4682.info/hd-lbu2">こちらのページ</a>を参考にしつつやったのですが、外装部分がツメでロックするタイプだったので、おっかなびっくりで作業しました。</p>
+<p class="image">
+<a href="$URL${POSTS}20160519190238-expand-recording-capacity/20160519_035.jpg"><img class="landscape" src="$URL${POSTS}20160519190238-expand-recording-capacity/20160519_035-s.jpg" alt="移動時に複数選択しようとすると怒られるの図"></a>
+</p>
+<p>HDDレコーダで使える容量が5倍になり、かなり余裕をもって録画できるようになりました。ただ、<a href="http://panasonic.jp/diga/p-db/DMR-BWT520.html">DMR-BWT520という少し古めの機種</a>なので、直接外付けHDDに録画する場合は圧縮録画ができないだとか、本体側から外付け側への番組の移動で一括選択ができず面倒くさいとかありますが、本体側で録っておいて、シリーズで録り終わったものからこまめに移動していけばそこそこ快適です。</p>
+<p class="image">
+<a href="$URL${POSTS}20160519190238-expand-recording-capacity/20160519_033.jpg"><img class="landscape" src="$URL${POSTS}20160519190238-expand-recording-capacity/20160519_033-s.jpg" alt="レコーダと外付けHDD"></a>
+<a href="$URL${POSTS}20160519190238-expand-recording-capacity/20160519_034.jpg"><img class="landscape" src="$URL${POSTS}20160519190238-expand-recording-capacity/20160519_034-s.jpg" alt="余裕たっぷりの録画番組一覧"></a>
+</p>
+<p>これで安心してアニメも放送授業も視聴できそうです。</p>
++
+)
