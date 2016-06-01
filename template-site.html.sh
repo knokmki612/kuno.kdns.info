@@ -58,7 +58,7 @@ $pager
 <aside id="side-menu" class="link-style">
 <div class="content-margin">
 <section>
-  <h2>Feeds</h2>
+  <h2>Feed</h2>
   <a class="rss-icon" href="${URL}?feeds"><span class="icon-">rss</span></a>
 </section>
 $labels
