@@ -91,7 +91,7 @@ for query in $queries; do
 						;;
 					prev)
 						class='pager-newer'
-						text='« Previous'
+						text='« Prev'
 						;;
 					*)
 						echo 'please set 1st argument older or newer' 2>&1
