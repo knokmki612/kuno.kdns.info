@@ -30,7 +30,9 @@ for query in $queries; do
 						sed \
 							-e 's/&/\&amp;/g' -e 's/</\&lt;/g' \
 							-e 's/>/\&gt;/g' -e 's/"/\&quot;/g' \
-							-e 's/&amp;\(lt;\|gt;\|quot;\)/\&\1/g'
+							-e 's/&amp;\(lt;\|gt;\|quot;\)/\&\1/g' \
+							-e 's;^+.*;<span style="color:green">&</span>;' \
+							-e 's;^-.*;<span style="color:red">&</span>;'
 					)
 					</pre>
 					<p class="edit-history"><a href="${URL}post/$request_param">記事に戻る</a></p>
