@@ -17,10 +17,10 @@ archives=$(
 
 cat << HEADER > cache/archives
 cat << +
-<section>
+<section class="archives">
   <h2>Archives</h2>
   <form action="\$URL" method="GET">
-  <select class="archives" name="archive">
+  <select name="archive">
 HEADER
 
 for archive in $archives; do
@@ -37,7 +37,7 @@ done
 
 cat << FOOTER >> cache/archives
   </select>
-  <input class="archives" type="submit" value="»">
+  <input type="submit" value="»">
   </form>
 </section>
 +

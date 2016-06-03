@@ -6,16 +6,40 @@ p {
   font-size: 16px;
 }
 
+a:link {
+  color: #2288bb;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #155779;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #33aaff;
+  text-decoration: underline;
+}
+
+.inherit a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.article-title a {
+  text-decoration: none;
+}
+
 pre {
-  padding: 5px;
   border: 1px solid;
   overflow: auto;
+  padding: 5px;
   word-wrap: normal;
 }
 
-th,td {
-  padding: 5px;
+th, td {
   border: 1px solid;
+  padding: 5px;
 }
 
 @font-face {
@@ -23,34 +47,14 @@ th,td {
   src: url(kuno.ttf);
 }
 
-[class^="icon-"] {
+.icon {
   font-family: kuno;
-  -webkit-font-feature-settings: "liga";
   -moz-font-feature-settings: "liga=1";
   -moz-font-feature-settings: "liga";
   -ms-font-feature-settings: "liga" 1;
   -o-font-feature-settings: "liga";
+  -webkit-font-feature-settings: "liga";
   font-feature-settings: "liga";
-}
-
-.icon-facebook:before {
-  content: "\e600";
-}
-
-.icon-googleplus:before {
-  content: "\e601";
-}
-
-.icon-rss:before {
-  content: "\e602";
-}
-
-.icon-search:before {
-  content: "\e603";
-}
-
-.icon-twitter:before {
-  content: "\e604";
 }
 
 .content-margin {
@@ -59,70 +63,56 @@ th,td {
 
 .content-vertical-center {
   display: table-cell;
-  vertical-align: middle;
   padding: 20px 10px;
+  vertical-align: middle;
 }
 
 .clearfix:after {
-  content: "";
   clear: both;
+  content: "";
   display: block;
-}
-
-.link-style a:link {
-  text-decoration: none;
-  color: #2288bb;
-}
-
-.link-style a:visited {
-  text-decoration: none;
-  color: #155779;
-}
-
-.link-style a:hover {
-  text-decoration: underline;
-  color: #33aaff;
 }
 
 @media (max-width:749px) {
 
 .content-max-width {
-  max-width: 465px;
   margin: 0 auto;
+  max-width: 465px;
 }
 
 header {
-  width: 100%;
-  height: 120px;
-  display: table;
   border-bottom: solid 1px;
+  display: table;
+  height: 120px;
+  width: 100%;
 }
 
 #global-menu {
-  width: 100%;
   border-bottom: solid 1px;
+  width: 100%;
 }
 
 #main {
-  width: 100%;
   border-bottom: solid 1px;
+  width: 100%;
 }
 
 #search {
-  width: 100%;
-  height: 50px;
   border-bottom: solid 1px;
+  display: inline-block;
+  height: 50px;
+  width: 100%;
 }
 
 #side-menu {
-  width: 100%;
   border-bottom: solid 1px;
+  width: 100%;
 }
 
 footer {
-  width: 100%;
-  height: 50px;
   display: table;
+  height: 50px;
+  width: 100%;
 }
 
 }
@@ -134,25 +124,25 @@ html, body {
 } 
 
 .vertical-line {
+  background-color: #000000;
+  height: 100%;
+  left: 249px;
   position: absolute;
   top: 0;
-  left: 249px;
   width: 1px;
-  height: 100%;
-  background-color: #000000;
 }
 
 .outer {
-  position: relative;
   overflow: hidden;
+  position: relative;
 }
 
 .outer-main {
-  min-height: calc(100% - 178px);
-  position: relative;
-  overflow: hidden;
-  border-top: 1px solid;
   border-bottom: 1px solid;
+  border-top: 1px solid;
+  min-height: calc(100% - 178px);
+  overflow: hidden;
+  position: relative;
 }
 
 .column-right {
@@ -169,13 +159,13 @@ html, body {
 }
 
 .content-max-width {
-  max-width: 600px;
   margin: 0 auto;
+  max-width: 600px;
 }
 
 header {
-  height: 120px;
   display: table;
+  height: 120px;
 }
 
 #global-menu {
@@ -183,13 +173,14 @@ header {
 }
 
 #search {
-  height: 50px;
   border-bottom: solid 1px;
+  display: inline-block;
+  height: 50px;
 }
 
 footer {
-  height: 50px;
   display: table;
+  height: 50px;
 }
 
 }
@@ -197,8 +188,8 @@ footer {
 @media (min-width: 1600px) {
 
 .content-max-width {
-  max-width: 600px;
   margin: 0 calc(50% - 175px) 0 calc(50% - 425px);
+  max-width: 600px;
 }
 
 }
@@ -206,41 +197,34 @@ footer {
 header h1 { 
   font-size: 40px;
   font-weight: normal;
-  margin: 0;
   line-height: 1;
+  margin: 0;
 }
 
 header p {
-  margin: 1em 0 0 0;
   line-height: 1;
-}
-
-header h1 a {
-  color: inherit;
-  text-decoration: none;
+  margin: 1em 0 0 0;
 }
 
 #global-menu ul {
-  list-style: none;
   height: 50px;
+  list-style: none;
   padding: 0;
   margin: 0;
 }
 
 #global-menu li {
-  font-size: 18px;
   float: left;
+  font-size: 18px;
 }
 
-#global-menu li a {
+#global-menu a {
   display: block;
-  color: inherit;
-  text-decoration: none;
   line-height: 1;
   padding: 16px 10px;
 }
 
-#global-menu li a:hover {
+#global-menu a:hover {
   background-color: #cccccc;
 }
 
@@ -249,78 +233,72 @@ header h1 a {
   margin-right: 70px;
 }
 
-#search input.search-box {
-  width: 100%;
-  height: 30px;
+.search-box {
+  border: none;
   float: left;
+  height: 30px;
   margin: 10px;
   padding: 0;
-  border: none;
+  width: 100%;
 }
 
-#search button.search-icon {
-  margin-left: -50px;
-  padding: 15px;
-  float: right;
+.search-icon {
   background: none;
   border: none;
+  float: right;
   line-height: 0;
+  padding: 15px;
 }
 
-#search button.search-icon:hover {
+.search-icon:hover {
   background-color: #cccccc;
 }
 
-#search button.search-icon span {
+.search-icon span {
   font-size: 20px;
   line-height: 1;
 }
 
-#main aside .date {
+.date {
+  font-size: 14px;
   font-weight: bold;
-  font-size: 14px;
   line-height: 1;
 }
 
-#main aside .labels {
+.labels {
   font-size: 14px;
+  line-height: 1;
   margin-top: 4px;
-  line-height: 1;
 }
 
-#main aside .social-icon {
+.social-icon {
   float: right;
 }
 
-#main aside .social-icon a {
-  color: inherit;
-  text-decoration: none;
-}
-
-#main aside .social-icon span {
+.social-icon span {
   font-size: 32px;
 }
 
-#main aside .social-icon span:hover {
+.social-icon span:hover {
   background: #cccccc;
 }
 
-#main article {
+article {
   overflow: hidden;
 }
 
-#main article + aside {
+article + aside {
+  border-top: 1px dashed;
   margin-top: 25px;
   padding-top: 25px;
-  border-top: 1px dashed;
 }
 
-#main article + #pager {
-  padding-top: 0;
+article + #pager {
   border: none;
+  padding-top: 0;
 }
 
-#main article h2 {
+article h2 {
   font-size: 22px;
   font-weight: normal;
   line-height: 1.5em;
@@ -328,130 +306,121 @@ header h1 a {
   padding: 0;
 }
 
-#main article h2 a {
-  text-decoration: none;
-}
-
-#main article p {
+article p {
   line-height: 1.6;
   margin: 1.5em 0;
 }
 
-#main article p.image {
+.image {
   font-size: 0;
   text-align: center;
 }
 
-#main article p.image img {
+.image img {
   margin: 1%;
 }
 
-#main article p.image img.landscape {
+.landscape {
   max-width: 98%;
 }
 
-#main article p.image img.portrait {
+.portrait {
   max-width: 48%;
 }
 
-#main article div.video {
+.video {
+  padding-top:56.25%;
   position: relative;
   width: 100%;
-  padding-top:56.25%;
 }
 
-#main article div.video iframe {
-  position: absolute;
-  top: 0;
-  right : 0;
-  width: 100%;
+.video iframe {
   height: 100%;
+  position: absolute;
+  right : 0;
+  top: 0;
+  width: 100%;
 }
 
-#main article ul {
+article ul {
   list-style-type: disc;
   margin: 1em 0 1em 0;
 }
 
-#main article li {
+article li {
   line-height: 1.6;
 }
 
-#main #pager {
+#pager {
   font-size: 16px;
   margin-top: 25px;
   position: relative;
 }
 
-#main #pager a.pager-newer {
-  position: absolute;
+.pager-newer {
   left: 0;
+  position: absolute;
 }
 
-#main #pager a.pager-older {
+.pager-older {
   position: absolute;
   right: 0;
 }
 
-#main #pager div.list-view {
+.list-view {
   text-align: center;
 }
 
-#main p.edit-history {
+.edit-history {
   text-align: center;
 }
 
-#side-menu section + section {
+section + section {
   margin-top: 20px;
 }
 
-#side-menu h2 {
+section h2 {
   font-size: 14px;
 }
 
-#side-menu a.rss-icon {
-  color: inherit;
-  text-decoration: none;
-}
-
-#side-menu a.rss-icon span {
+.rss-icon span {
   font-size: 50px;
 }
 
-#side-menu ul {
-  padding-left: 1.5em;
+section ul {
   list-style-type: disc;
   margin: 0.5em 0em;
+  padding-left: 1.5em;
 }
 
-#side-menu li {
+section li {
   font-size: 14px;
   line-height: 1.4;
 }
 
-#side-menu ul.labels li {
+.labels li {
   margin: 0.5em 0em;
 }
 
-#side-menu select.archives {
-  width: 70%;
-  height: 34px;
-  margin: 0;
+.archives select {
   background: none;
   border: 1px solid;
-}
-
-#side-menu input.archives {
-  width: 25%;
   height: 34px;
   margin: 0;
+  width: 70%;
+}
+
+.archives input {
   background: none;
   border: 1px solid;
   float: right;
+  height: 34px;
+  margin: 0;
+  width: 25%;
 }
 
 footer p {
-  text-align: center;
-  margin: 0;
   line-height: 1;
+  margin: 0;
+  text-align: center;
 }

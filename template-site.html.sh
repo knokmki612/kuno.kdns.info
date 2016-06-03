@@ -13,7 +13,7 @@ cat << +
 <div class="outer">
 <div class="vertical-line"></div>
 <div class="inner-margin">
-<header class="column-right">
+<header class="column-right inherit">
 <div class="content-vertical-center">
 <div class="content-max-width">
   <h1><a href="$URL">$SITE_NAME</a></h1>
@@ -27,14 +27,14 @@ cat << +
 <div class="vertical-line"></div>
 <div class="inner-margin">
 <div class="column-right">
-<nav id="global-menu" class="clearfix">
+<nav id="global-menu" class="clearfix inherit">
   <ul>
   <li><a href="$URL?archive=latest">blog</a></li>
   <li><a href="${URL}post/about">about</a></li>
   <li><a href="${URL}post/product">product</a></li>
   </ul>
 </nav>
-<div id="main" class="link-style">
+<div id="main">
 <div class="content-margin">
 <div class="content-max-width">
 $article
@@ -51,21 +51,21 @@ $pager
   <input class="search-box" type="text" name="search" placeholder="記事検索">
   </div>
   <button class="search-icon" type="submit">
-  <span class="icon-">search</span>
+  <span class="icon">search</span>
   </button>
   </form>
 </div>
-<aside id="side-menu" class="link-style">
+<aside id="side-menu">
 <div class="content-margin">
-<section>
+<section class="inherit">
   <h2>Feed</h2>
-  <a class="rss-icon" href="${URL}?feeds"><span class="icon-">rss</span></a>
+  <a class="rss-icon" href="${URL}?feeds"><span class="icon">rss</span></a>
 </section>
 $labels
 $archives
 <section>
   <h2>Banner</h2>
-	<a href="https://vivaldi.com"><img src="https://vivaldi.com/buttons/files/230x50.png" alt="Download Vivaldi Today!"></a>
+  <a href="https://vivaldi.com"><img src="https://vivaldi.com/buttons/files/230x50.png" alt="Download Vivaldi Today!"></a>
 </section>
 </div>
 </aside>

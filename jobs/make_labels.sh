@@ -11,9 +11,9 @@ labels=$(
 
 cat << HEADER > cache/labels
 cat << +
-<section>
+<section class="labels">
   <h2>Labels</h2>
-  <ul class="labels">
+  <ul>
 HEADER
 
 BACKUP_IFS=$IFS
