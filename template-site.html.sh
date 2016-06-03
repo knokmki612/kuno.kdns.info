@@ -6,8 +6,7 @@ cat << +
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>$title</title>
   <link rel="icon" type="image/x-icon" href="${URL}favicon.ico">
-  <link rel="stylesheet" href="${URL}normalize.css">
-  <link rel="stylesheet" href="${URL}style.css">
+  <link rel="stylesheet" href="${URL}css.cgi">
 </head>
 <body>
 <div class="outer">
