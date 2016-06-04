@@ -7,7 +7,7 @@ Write from next line:
 </ul>
 
 <h2>私について</h2>
-<a href="https://ja.gravatar.com/knokmki612"><img src="https://secure.gravatar.com/avatar/6b2fd17bf8572ea5d60c0916db36627c.jpg?s=240" alt="アバター"></a>
+<a href="https://ja.gravatar.com/knokmki612"><img src="${URL}cache/avatar.jpg" alt="アバター"></a>
 <ul>
 <li>knokmki612</li>
 <li>一応大学生</li>
