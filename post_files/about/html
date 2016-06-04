@@ -5,12 +5,6 @@ title="概要"
 title_encoded=""
 labels_string=""
 sentence=$(cat << +
-<h2>このサイトについて</h2>
-<ul>
-<li><a href="http://knockcrab.blogspot.jp/">blogger</a>から移りました</li>
-<li>だいたいDebian GNU/LinuxとApacheとシェルで動いています</li>
-</ul>
-<br>
 <h2>私について</h2>
 <a href="https://ja.gravatar.com/knokmki612"><img src="${URL}cache/avatar.jpg" alt="アバター"></a>
 <ul>
@@ -22,6 +16,11 @@ sentence=$(cat << +
 <li><a href="https://www.facebook.com/kimiaki.kuno">Facebook</a></li>
 <li><a href="https://plus.google.com/108613011772115871768">Google+</a></li>
 <li><a href="https://github.com/knokmki612">GitHub</a></li>
+</ul>
+<h2>このサイトについて</h2>
+<ul>
+<li><a href="http://knockcrab.blogspot.jp/">blogger</a>から移りました</li>
+<li>だいたいDebian GNU/LinuxとApacheとシェルで動いています</li>
 </ul>
 +
 )

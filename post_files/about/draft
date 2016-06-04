@@ -1,11 +1,5 @@
 Title: 概要
 Write from next line:
-<h2>このサイトについて</h2>
-<ul>
-<li><a href="http://knockcrab.blogspot.jp/">blogger</a>から移りました</li>
-<li>だいたいDebian GNU/LinuxとApacheとシェルで動いています</li>
-</ul>
-
 <h2>私について</h2>
 <a href="https://ja.gravatar.com/knokmki612"><img src="${URL}cache/avatar.jpg" alt="アバター"></a>
 <ul>
@@ -17,4 +11,9 @@ Write from next line:
 <li><a href="https://www.facebook.com/kimiaki.kuno">Facebook</a></li>
 <li><a href="https://plus.google.com/108613011772115871768">Google+</a></li>
 <li><a href="https://github.com/knokmki612">GitHub</a></li>
+</ul>
+<h2>このサイトについて</h2>
+<ul>
+<li><a href="http://knockcrab.blogspot.jp/">blogger</a>から移りました</li>
+<li>だいたいDebian GNU/LinuxとApacheとシェルで動いています</li>
 </ul>
