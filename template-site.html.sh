@@ -64,7 +64,7 @@ $labels
 $archives
 <section>
   <h2>Banner</h2>
-  <a href="https://vivaldi.com"><img src="https://vivaldi.com/buttons/files/230x50.png" alt="Download Vivaldi Today!"></a>
+  <a href="https://vivaldi.com"><img src="${URL}cache/vivaldi.png" alt="Download Vivaldi Today!"></a>
 </section>
 </div>
 </aside>
