@@ -7,6 +7,7 @@ cat << +
   <title>$title</title>
   <link rel="icon" type="image/x-icon" href="${URL}favicon.ico">
   <link rel="stylesheet" href="${URL}css.cgi">
+  <link rel="alternate" type="application/rss+xml" href="${URL}rss/">
 </head>
 <body>
 <div class="outer">
