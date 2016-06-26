@@ -254,7 +254,7 @@ header p {
   border: none;
   float: right;
   line-height: 0;
-  padding: 15px;
+  padding: 16px;
 }
 
 .search-icon:hover {
@@ -262,7 +262,7 @@ header p {
 }
 
 .search-icon span {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1;
 }
 
@@ -391,7 +391,7 @@ section h2 {
 }
 
 .rss-icon span {
-  font-size: 50px;
+  font-size: 40px;
 }
 
 section ul {
