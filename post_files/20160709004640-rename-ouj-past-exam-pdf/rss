@@ -1,0 +1,32 @@
+cat << +
+    <item>
+      <title>単位認定試験pdfのファイル名をちょっと料理しました</title>
+      <link>${URL}post/20160709004640-rename-ouj-past-exam-pdf</link>
+      <guid>${URL}post/20160709004640-rename-ouj-past-exam-pdf</guid>
+      <pubDate>Sat, 09 Jul 2016 00:46:40 +0900</pubDate>
+      <description><![CDATA[<p>放送大学って色々学習支援をネットから受けられるわけですが、微妙に使い勝手が悪い気がします。放送授業の時間割とかGoogleカレンダーと連携させたいけど手作業で打ち込むしかなかったり、資料室のインターネット配信は埋め込み再生のほうが良さそうとかですね。</p>
+<p>で、単位認定試験が迫っていて遅まきながら、過去問を落とそうと思ったら、ファイル名が"科目番号-年度学期-問題か解説.pdf"という規則だったので、科目名が分かりにくいと思いました。</p>
+<p>それで、こんな感じのシェルを書きました。</p>
+<pre><code>#!/bin/sh
+if [ ! -f &quot;\$1&quot; ]; then
+	echo &quot;no such file&quot;
+	exit 1
+fi
+html=&quot;\$1&quot;
+
+for sbjnum in \$(grep -oE '[0-9]{7}' &quot;\$html&quot; | uniq); do
+	for pdf in \$(ls -f | grep -E &quot;\$sbjnum-[0-9]{4}[aq]\.pdf&quot;); do
+		sbjname=\$(
+			grep &quot;\$sbjnum&quot; &quot;\$html&quot; |
+			sed 's;.*nowrap=&quot;&quot;&gt;\([^&lt;]\+\)&lt;/td&gt;.*;\1;g')
+		echo &quot;found: \$sbjname&quot;
+		mv &quot;\$pdf&quot; \$(echo &quot;\$pdf&quot; | sed &quot;s;[0-9]\{7\};\$sbjname;&quot;)
+	done
+done
+
+exit
+</code></pre>
+<p>"単位認定試験問題・解答・解説一覧"のhtmlをダウンロードし、引数に指定して実行すると、科目番号が科目目に置き換わります。</p>
+<p>わりと雑に書いたので、すぐ使い物にならなくなりそうな気がしますが、まあいいかなぁ</p>]]></description>
+    </item>
++
