@@ -26,7 +26,7 @@ done
 
 exit
 </code></pre>
-<p>"単位認定試験問題・解答・解説一覧"のhtmlそのものと任意の科目のpdfをダウンロードし、引数にhtmlを指定して実行すると、同じディレクトリ内にある過去問のpdfで、ファイル名に含まれる科目番号が科目名に置き換わります。</p>
+<p>"単位認定試験問題・解答・解説一覧"のhtmlそのものと任意の科目のpdfをダウンロードし、引数にhtmlを指定して実行すると、カレントディレクトリ内にある過去問pdfの、ファイル名に含まれる科目番号が科目名に置き換わります。</p>
 <p class="image">
 <a href="$URL${POSTS}20160709004640-rename-ouj-past-exam-pdf/スクリーンショット_2016-07-09_01-12-31.png"><img class="landscape" src="$URL${POSTS}20160709004640-rename-ouj-past-exam-pdf/スクリーンショット_2016-07-09_01-12-31-s.jpg" alt="置き換え中"></a>
 <a href="$URL${POSTS}20160709004640-rename-ouj-past-exam-pdf/スクリーンショット_2016-07-09_01-13-15.png"><img class="landscape" src="$URL${POSTS}20160709004640-rename-ouj-past-exam-pdf/スクリーンショット_2016-07-09_01-13-15-s.jpg" alt="置き換え後"></a>
