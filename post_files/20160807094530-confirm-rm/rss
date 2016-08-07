@@ -1,0 +1,65 @@
+cat << +
+    <item>
+      <title>意図しないrm(mv,cp)を回避するためのbashrc</title>
+      <link>${URL}post/20160807094530-confirm-rm</link>
+      <guid>${URL}post/20160807094530-confirm-rm</guid>
+      <pubDate>Sun, 07 Aug 2016 09:45:30 +0900</pubDate>
+      <description><![CDATA[<p>皆さん、楽しいターミナルライフしてますか？</p>
+<br>
+<p>先日、私は不注意なrmを実行したことで、フォルダのPicturesとDocumentsがあべししました。写真はバックアップをとってありますし、Documentsに入っていたものも消えても問題ないかバックアップをしてあったので被害は少なかったのですが、それにしたってちょっと雑過ぎるダンシャリ過ぎました。ショックです。</p>
+<p>もうこんな過ちを犯すのはごめんなので、rmを実行したら確認のワンクッションを置けるaliasをbashrcに書いてみました。</p>
+<pre><code>confirm() {
+	echo &quot;\$@&quot;
+	echo &quot;are you sure you want to \$1 these files?&quot;
+	while true; do
+		echo -n '(y/n): '
+		read res
+		if echo &quot;\$res&quot; | grep '^[yn]\$' 2&gt;&amp;1 &gt;/dev/null; then
+			break
+		fi
+	done
+	if [ &quot;\$res&quot; = y ]; then
+		eval \\\$@
+	else
+		echo 'these files were saved!'
+	fi
+}
+
+alias rm=&quot;confirm rm&quot;
+alias mv=&quot;confirm mv&quot;
+alias cp=&quot;confirm cp&quot;
+</code></pre>
+<p>rmを実行しようとしたら、もう一度実行内容を確認します。ワイルドカードを使っていたら展開されて消される対象のファイルやフォルダがずらっと出てきます。</p>
+<pre><code>$ ls 消したくないフォルダ/
+消したくないファイル1  消したくないファイル3  消したくないファイル5
+消したくないファイル2  消したくないファイル4
+\$
+</code></pre>
+<pre><code>$ rm 消したくないフォルダ/*
+rm 消したくないフォルダ/消したくないファイル1 消したくないフォルダ/消したくないファイル2 消したくないフォルダ/消したくないファイル3 消したくないフォルダ/消したくないファイル4 消したくないフォルダ/消したくないファイル5
+are you sure you want to rm these files?
+(y/n): n
+these files were saved!
+\$
+</code></pre>
+<p>本当に消してよい覚悟があるならy、ないならnを入力して、本来なら消えるはずだったものを救済しましょう！</p>
+<pre><code>$ rm -rf /*
+rm -rf /bin /boot /dev /etc /home /lib /lib32 /lib64 /lost+found /media /mnt /opt /portage-latest.tar.bz2 /proc /root /run /sbin /srv /stage3-amd64-20151203.tar.bz2 /sys /tmp /usr /var
+are you sure you want to rm these files?
+(y/n): n
+these files were saved!
+\$
+</code></pre>
+<p>あくまで実行する前に確認するだけなので、ないものを消そうとしたり権限が足りなくて消せないはずでも確認します。だるいでしょうけど仕方ないですね。</p>
+<p>rmだけじゃなくmvやcpとかrmdirも同様に使えると思います。ファイルやフォルダのパスを指定するたぐいのコマンドで、確認があったらいいなと思うものに使って下さい。</p>
+<pre><code>$ mv 消したくないフォルダ 消してもいいフォルダ
+mv 消したくないフォルダ 消してもいいフォルダ
+are you sure you want to mv these files?
+(y/n): n
+these files were saved!
+\$
+</code></pre>
+<br>
+<p>確認メッセージの英語おかしかったらツッコんで下さい。新幹線で書いてるんですけど、広島行ってきます！では！</p>]]></description>
+    </item>
++
