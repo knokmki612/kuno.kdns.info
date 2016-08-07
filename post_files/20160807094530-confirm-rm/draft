@@ -17,7 +17,7 @@ Write from next line:
 		fi
 	done
 	if [ "$res" = y ]; then
-		eval \\$@
+		eval \\\\$@
 	else
 		echo 'these files were saved!'
 	fi
