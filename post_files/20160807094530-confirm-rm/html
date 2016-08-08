@@ -20,7 +20,7 @@ sentence=$(cat << +
 		fi
 	done
 	if [ &quot;\$res&quot; = y ]; then
-		eval \\\\\$@
+		eval &quot;\\\\\${@/ /\\\\ }&quot;
 	else
 		echo 'these files were saved!'
 	fi
