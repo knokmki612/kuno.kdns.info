@@ -1,4 +1,4 @@
-post="20160809215156-review-el-ultimo-tango-and-johakyu"
+post="20160809215156-review-un-tango-mas-and-johakyu"
 formatted_date="2016/08/09"
 datetime="2016-08-09T21:51+09:00"
 title="ラスト・タンゴを広島本通りのシネツインで観ました"
@@ -12,8 +12,8 @@ sentence=$(cat << +
 <p>姉に誘ってもらって八丁座でやっていた思い出のマーニーを観た時も最高だったし、サロンシネマで観たセッション(Whiplash)も最高でした。ああ。なんで序破急の映画館はこんなに椅子がフカフカで、席の間隔がゆったりとしていて、空間が広すぎないんだろう。</p>
 <p>新天地のシネツインは3年前に閉館をしたため、もうあそこに行くことは叶わず、思い出だけになってしまいました。そして本通りのシネツインも、建物の老朽化が理由で、<a href="http://hiroshima.keizai.biz/headline/2371/">今年の10月に閉館</a>するそうです。ということで、そちらも行ってみようとラスト・タンゴを観に行きました。</p>
 <p class="image">
-<a href="$URL${POSTS}20160809215156-review-el-ultimo-tango-and-johakyu/20160808_003.jpg"><img class="landscape" src="$URL${POSTS}20160809215156-review-el-ultimo-tango-and-johakyu/20160808_003-s.jpg" alt="シネツイン入り口"></a>
-<a href="http://johakyu.co.jp/img/movies/0531.jpg"><img class="landscape" src="$URL${POSTS}20160809215156-review-el-ultimo-tango-and-johakyu/0531-s.jpg" alt="ラスト・タンゴ"></a>
+<a href="$URL${POSTS}20160809215156-review-un-tango-mas-and-johakyu/20160808_003.jpg"><img class="landscape" src="$URL${POSTS}20160809215156-review-un-tango-mas-and-johakyu/20160808_003-s.jpg" alt="シネツイン入り口"></a>
+<a href="http://johakyu.co.jp/img/movies/0531.jpg"><img class="landscape" src="$URL${POSTS}20160809215156-review-un-tango-mas-and-johakyu/0531-s.jpg" alt="ラスト・タンゴ"></a>
 </p>
 <p>ラスト・タンゴはタンゴ界で伝説級のペアらしいマリア・ニエベスとフアン・コペスの馴れ初めから現在までの足跡をたどる、ドキュメンタリーみたいな感じでありながら、あくまでタンゴのダンスシーンがメイン(そしてペアにとってもタンゴが人生のメイン)みたいな内容です。</p>
 <p>新鮮だったのが、再現シーンの役者は幼少期を除くと活動時期と年齢に分かれてマリア役とフアン役それぞれ3人ずついるのですが、役者がタンゴのダンスを本人(主にマリア)に見てもらってアドバイスしてもらっていたり、役者と本人でインタビューするシーンが沢山出てくるところですね。</p>
@@ -24,7 +24,7 @@ sentence=$(cat << +
 <br>
 <p>ラスト・タンゴはこんな感じでした。映画館で観てよかったです。というかシネツインで観てよかったです。</p>
 <p class="image">
-<a href="$URL${POSTS}20160809215156-review-el-ultimo-tango-and-johakyu/20160808_004.jpg"><img class="landscape" src="$URL${POSTS}20160809215156-review-el-ultimo-tango-and-johakyu/20160808_004-s.jpg" alt="見終わった直後のシネツイン劇場内"></a>
+<a href="$URL${POSTS}20160809215156-review-un-tango-mas-and-johakyu/20160808_004.jpg"><img class="landscape" src="$URL${POSTS}20160809215156-review-un-tango-mas-and-johakyu/20160808_004-s.jpg" alt="見終わった直後のシネツイン劇場内"></a>
 </p>
 +
 )
