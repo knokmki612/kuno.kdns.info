@@ -5,7 +5,7 @@ title="Jolla Cを買いました"
 title_encoded="Jolla%20C%E3%82%92%E8%B2%B7%E3%81%84%E3%81%BE%E3%81%97%E3%81%9F"
 labels_string="<a href=\"$URL?label=%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC\">レビュー</a>,<a href=\"$URL?label=Jolla\">Jolla</a>,<a href=\"$URL?label=Sailfish%20OS\">Sailfish OS</a>"
 sentence=$(cat << +
-<p>広島から帰ってきました。たらたら記事を書きました。レビューはほぼ外観についてのみなので、Sailfish OSで得られる体験については<a href="$URL${POSTS}20151128221943-review-jolla-and-sailfish">こちら</a>の方がよく分かるかもしれません。</p>
+<p>広島から帰ってきました。たらたら記事を書きました。レビューはほぼ外観についてのみなので、Sailfish OSで得られる体験については<a href="${URL}post/20151128221943-review-jolla-and-sailfish">こちら</a>の方がよく分かるかもしれません。</p>
 <br>
 <p>5月下旬あたりに突如Jolla Cが発表されまして、当時Twitterのフォローしている人もお祭り状態で、Jollaブランドの端末なんてJolla Tabletの払い戻しをやっているような状況で出るわけがないと思っていましたから、大変驚きました。</p>
 <p class="image">

@@ -4,7 +4,7 @@ cat << +
       <link>${URL}post/20160819040045-review-jolla-c</link>
       <guid>${URL}post/20160819040045-review-jolla-c</guid>
       <pubDate>Fri, 19 Aug 2016 04:00:45 +0900</pubDate>
-      <description><![CDATA[<p>広島から帰ってきました。たらたら記事を書きました。レビューはほぼ外観についてのみなので、Sailfish OSで得られる体験については<a href="$URL${POSTS}20151128221943-review-jolla-and-sailfish">こちら</a>の方がよく分かるかもしれません。</p>
+      <description><![CDATA[<p>広島から帰ってきました。たらたら記事を書きました。レビューはほぼ外観についてのみなので、Sailfish OSで得られる体験については<a href="${URL}post/20151128221943-review-jolla-and-sailfish">こちら</a>の方がよく分かるかもしれません。</p>
 <br>
 <p>5月下旬あたりに突如Jolla Cが発表されまして、当時Twitterのフォローしている人もお祭り状態で、Jollaブランドの端末なんてJolla Tabletの払い戻しをやっているような状況で出るわけがないと思っていましたから、大変驚きました。</p>
 <p class="image">
