@@ -1,4 +1,4 @@
-Title: 意図しないrm(mv,cp)を回避するためのbashrc
+Title: 意図しないrmを回避するためのbashrc
 Label: Tips
 Permalink: confirm-rm
 Write from next line:

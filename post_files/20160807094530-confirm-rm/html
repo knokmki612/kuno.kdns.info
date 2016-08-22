@@ -1,8 +1,8 @@
 post="20160807094530-confirm-rm"
 formatted_date="2016/08/07"
 datetime="2016-08-07T09:45+09:00"
-title="意図しないrm(mv,cp)を回避するためのbashrc"
-title_encoded="%E6%84%8F%E5%9B%B3%E3%81%97%E3%81%AA%E3%81%84rm%28mv%2Ccp%29%E3%82%92%E5%9B%9E%E9%81%BF%E3%81%99%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AEbashrc"
+title="意図しないrmを回避するためのbashrc"
+title_encoded="%E6%84%8F%E5%9B%B3%E3%81%97%E3%81%AA%E3%81%84rm%E3%82%92%E5%9B%9E%E9%81%BF%E3%81%99%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AEbashrc"
 labels_string="<a href=\"$URL?label=Tips\">Tips</a>"
 sentence=$(cat << +
 <p>皆さん、楽しいターミナルライフしてますか？</p>
