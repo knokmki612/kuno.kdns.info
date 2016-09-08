@@ -110,8 +110,14 @@ sentence=$(cat << +
 <p>他に言いたいことというと...スペックではビックタブと同じく4000mAh台のバッテリーが載っているわけですが、バッテリー持ちは1.5〜2倍ほど違います。ビックタブはカフェで3時間使うともう10%台とか、半日放置で干上がってますが、Jollaタブはバリバリ使って5〜6時間という感じです。これなら持ち歩いて作業するのに使おうと言う気になってきます。</p>
 <p>Jollaフォンでもバッテリー持ちは良いなと思ったので、やっぱりこれはSailfish OSが優秀なのでしょうか。それともWindows 10が大飯食らいなのでしょうか。うーん両方かな。あとAtom BayTrailであるZ3735Fの待機電力がARM系CPUと比べてどうなんでしょう。</p>
 <p>おまけに小ネタ。Jolla Tabletは三本指で上下にスライドするとボリュームが調整できます。便利。あとおまけのおまけ。</p>
-<iframe src="https://vine.co/v/iTMIeM9MWjb/embed/simple" width="600" height="600" frameborder="0"></iframe><script src="https://platform.vine.co/static/scripts/embed.js"></script>
-<iframe src="https://vine.co/v/iTOmzdJ3aVM/embed/simple" width="600" height="600" frameborder="0"></iframe><script src="https://platform.vine.co/static/scripts/embed.js"></script>
+<video controls>
+<source src="$URL${POSTS}20160410185201-review-jolla-tablet/25842076161330867847354052608_1f9f0422a7c.3.4-s.mp4">
+<source src="$URL${POSTS}20160410185201-review-jolla-tablet/25842076161330867847354052608_1f9f0422a7c.3.4-s.webm">
+</video>
+<video controls>
+<source src="$URL${POSTS}20160410185201-review-jolla-tablet/7F10DF67131330883944216141824_11119dd0f53.3.4-s.mp4">
+<source src="$URL${POSTS}20160410185201-review-jolla-tablet/7F10DF67131330883944216141824_11119dd0f53.3.4-s.webm">
+</video>
 <p>いろいろ書きましたが、Jollaの作る製品のセンスの良さが光っているだけに、もっと台数が出回って欲しかったです。正規の700台はあまりにも人が選ばれすぎました。<a href="https://together.jolla.com/question/131835/buysell-official-jolla-tablet/">together.jolla.comで売り買いしようという動きも</a>あるようです。私はこのJolla Tablet的な何かと巡り会えたので、後生大事に使っていこうと思います。</p>
 +
 )
