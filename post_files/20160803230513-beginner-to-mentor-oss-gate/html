@@ -7,7 +7,7 @@ labels_string="<a href=\"$URL?label=%E6%97%A5%E8%A8%98\">日記</a>"
 sentence=$(cat << +
 <p>先週放送大学の単位認定試験が終わって楽になりつつ、ちゃんと単位が取れているか不安な私ですが、試験の最中に、私にとって3回目のOSS Gateワークショップに行ってきました。</p>
 <br>
-<p>1月に初めて参加した時のことは<a href="https://kuno.kdns.info/post/20160203150733-impression-oss-gate">記事に書きました</a>が、私にとって刺激的な体験でした。その後記事にはしていませんけど、3月にもう一回参加していました。その時の作業のメモは<a href="https://github.com/oss-gate/workshop/issues/23">こちら</a>です。</p>
+<p>1月に初めて参加した時のことは<a href="${URL}post/20160203150733-impression-oss-gate">記事に書きました</a>が、私にとって刺激的な体験でした。その後記事にはしていませんけど、3月にもう一回参加していました。その時の作業のメモは<a href="https://github.com/oss-gate/workshop/issues/23">こちら</a>です。</p>
 <p>OSS Gateに関する話し合いは<a href="https://gitter.im/oss-gate/general">gitter</a>とか<a href="https://github.com/oss-gate/workshop/issues/8">GitHubのissues</a>で行われていて、今回参加するまでの間に変化がありました。</p>
 <ul>
 <li>"参加者"がメンターを指しているのか受講者を指しているのか分からないので、"ビギナー"と呼ぶことになった</li>
