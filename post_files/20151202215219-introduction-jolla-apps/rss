@@ -4,7 +4,7 @@ cat << +
       <link>${URL}post/20151202215219-introduction-jolla-apps</link>
       <guid>${URL}post/20151202215219-introduction-jolla-apps</guid>
       <pubDate>Wed, 02 Dec 2015 21:52:19 +0900</pubDate>
-      <description><![CDATA[<p><a href="$URL${POSTS}20151128221943-review-jolla-and-sailfish">この記事</a>でアプリを紹介すると書いたので紹介します。最初にアプリの一覧です。</p>
+      <description><![CDATA[<p><a href="${URL}post/20151128221943-review-jolla-and-sailfish">この記事</a>でアプリを紹介すると書いたので紹介します。最初にアプリの一覧です。</p>
 <p class="image">
 <a href="https://farm6.staticflickr.com/5786/23468230725_91f7f050ea_o.png"><img class="portrait" src="$URL${POSTS}20151202215219-introduction-jolla-apps/23468230725_91f7f050ea_o-s.jpg" alt="アプリの一覧1"></a>
 <a href="https://farm6.staticflickr.com/5746/23100253179_44f31dbdea_o.png"><img class="portrait" src="$URL${POSTS}20151202215219-introduction-jolla-apps/23100253179_44f31dbdea_o-s.jpg" alt="アプリの一覧2"></a>
