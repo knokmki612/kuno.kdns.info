@@ -20,7 +20,7 @@ sentence=$(cat << +
 <h2>このサイトについて</h2>
 <ul>
 <li><a href="http://knockcrab.blogspot.jp/">blogger</a>から移りました</li>
-<li>だいたいDebian GNU/LinuxとApacheとシェルで動いています</li>
+<li>だいたいDebian GNU/LinuxとApacheと<a href="https://github.com/knokmki612/sitesh">シェルスクリプト</a>で動いています</li>
 </ul>
 +
 )
