@@ -26,7 +26,7 @@ for query in $queries; do
 				cat <<- +
 					<pre>
 					$(
-						git log --pretty=format:"%cd" -p $post/draft |
+						git log --follow --pretty=format:"%cd" -p $post/draft |
 						sed \
 							-e 's/&/\&amp;/g' -e 's/</\&lt;/g' \
 							-e 's/>/\&gt;/g' -e 's/"/\&quot;/g' \
