@@ -273,6 +273,9 @@ header p {
 .labels {
   font-size: 14px;
   line-height: 1;
+}
+
+.date + .labels {
   margin-top: 4px;
 }
 
