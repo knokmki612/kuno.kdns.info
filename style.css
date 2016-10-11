@@ -318,6 +318,10 @@ article p {
   margin: 1.5em 0;
 }
 
+article video {
+  width: 100%;
+}
+
 .image {
   font-size: 0;
   text-align: center;
