@@ -15,14 +15,17 @@ cat << +
 <p class="image">
 <a href="$URL${POSTS}20160908123813-review-huawei-p9-lite/20160808_020.jpg"><img class="landscape" src="$URL${POSTS}20160908123813-review-huawei-p9-lite/20160808_020-s.jpg" alt="エディオンでタッチアンドトライしました"></a>
 </p>
+<h3>外箱とか</h3>
 <p>最初から保護フィルムが貼ってあったり、クリアケースが同梱されていたりと、中々親切な内容となっていて、初めて持つスマートフォン、という想定があるのかなという気がしました。</p>
 <p class="image">
 <a href="$URL${POSTS}20160908123813-review-huawei-p9-lite/DSC_0005.jpg"><img class="landscape" src="$URL${POSTS}20160908123813-review-huawei-p9-lite/DSC_0005-s.jpg" alt="箱の中にケースが！"></a>
 </p>
-<p>microSD/SIMスロットはピンで引き出すタイプで、nanoSIM,microSIM/microSDの排他になっている、最近流行ってそうなやつです。</p>
+<h3>microSD/SIMスロット</h3>
+<p>ピンで引き出すタイプで、nanoSIM,microSIM/microSDの排他になっている、最近流行ってそうなやつです。</p>
 <p class="image">
 <a href="$URL${POSTS}20160908123813-review-huawei-p9-lite/20160829_005.jpg"><img class="landscape" src="$URL${POSTS}20160908123813-review-huawei-p9-lite/20160829_005-s.jpg" alt="HUAWEI P9 liteにSIMを挿入する様子"></a>
 </p>
+<h3>外装の質感とか</h3>
 <p>側面はアルミで、iPhone6以降を思わせる丸いエッジとか下部のmicroUSBポートやスピーカーがあります。持ちやすい感じはします。右側にボリュームキーと電源ボタンがありますが、電源ボタンは微妙に表面がザラザラした加工をしてあって、分かりやすいです。</p>
 <p class="image">
 <a href="$URL${POSTS}20160908123813-review-huawei-p9-lite/WP_20160909_00_15_08_Pro.jpg"><img class="landscape" src="$URL${POSTS}20160908123813-review-huawei-p9-lite/WP_20160909_00_15_08_Pro-s.jpg" alt="電源ボタンの表面がザラザラしています"></a>
@@ -36,6 +39,7 @@ cat << +
 <source src="$URL${POSTS}20160908123813-review-huawei-p9-lite/WP_20160909_00_31_28_Pro-s.webm">
 <source src="$URL${POSTS}20160908123813-review-huawei-p9-lite/WP_20160909_00_31_28_Pro-s.mp4">
 </video>
+<h3>スペック</h3>
 <p>RAM2GBは思ったより余裕がないんですね。だいたい起動してすぐで既に半分は使ってますので。Kirin 650のCPUはオクタコア(4×2.0GHz+4x1.7GHz)で、「こっこれがARMのbig.LITTLEというやつか…！」という未開人的驚きを隠せませんでした。バッテリーが3000mAhと若干大容量であることも相まって、メチャクチャバッテリー持ちが良いです。待機状態で6時間放ったら、3%しか減っていませんでした。待機でなくとも、スクストやったりツイッターやったりで1日いじくり回す感じでも、寝る時見たら20%しか減っていませんでした。もう、なんか、すごいですね。4日ぐらいいけるんじゃないですかね。</p>
 <p class="image">
 <a href="$URL${POSTS}20160908123813-review-huawei-p9-lite/Screenshot_2016-09-01-01-02-25.png"><img class="portrait" src="$URL${POSTS}20160908123813-review-huawei-p9-lite/Screenshot_2016-09-01-01-02-25-s.jpg" alt="6時間放置した時のバッテリー残量"></a>
@@ -46,20 +50,22 @@ cat << +
 </p>
 <p>まあこの綺麗なディスプレイで、Media Link Playerを使ってHDDレコーダから録画したアニメとか消化するとさすがに結構バッテリー減っちゃいます。それでも1本アニメ見て5%減ってるペースなので、10本くらい見たって余裕ありますから、凄くないですか？？</p>
 <p>それでも搭載機種が少ないSoCですから、高負荷なたぐいのゲームをしようとすると、Snapdragonシリーズのように最適化の対象に今のところなっていていなかったりするので、ベンチマークで比較して良い悪いとは関係なく、綺麗な描画とか快適なプレイとかを犠牲にしてしまう可能性があります。デレステとか実際にそうっぽいですね。あ、ちなみにスクストは非常に快適ですし、3Dもヌルヌルです。問題なし。</p>
-<p>カメラについては、イメージセンサーがNexus 6と同等のものらしいです。シャッタースピードが早いのでサクサクととれますし、近接写真もとれるっぽいです。あと初めてHDR使ってみましたが使いでがありそうです。それでも、解像度が高いけど拡大すると間延びしている感があって、思ったよりも不満を感じました。少なくとも、Jolla Cのカメラとは全くレベルが違うわけですが。とりあえず撮った巨峰とか載せときます。</p>
+<p>3万円を切っていて、良いSoCと多めのバッテリー、綺麗なディスプレイ、いい感じの質感ときて非常に良いのですが、その代償として、ジャイロセンサーやNFCセンサーなどが無かったりします。だからポッケモンGOでAR機能が使えないとか、Suica Readerが使えないとかあります。これらがないのに指紋センサーはついてるのって、私からするとかなり違和感があるんですが、それだけ指紋認証がユーザ体験に大きい影響を及ぼすという判断なのでしょうね。時代を感じます。</p>
+<h3>カメラ</h3>
+<p>イメージセンサーがNexus 6と同等のものらしいです。シャッタースピードが早いのでサクサクととれますし、近接写真もとれるっぽいです。あと初めてHDR使ってみましたが使いでがありそうです。それでも、解像度が高いけど拡大すると間延びしている感があって、思ったよりも不満を感じました。少なくとも、Jolla Cのカメラとは全くレベルが違うわけですが。とりあえず撮った巨峰とか載せときます。</p>
 <p class="image">
 <a href="$URL${POSTS}20160908123813-review-huawei-p9-lite/Screenshot_2016-09-09-00-25-40.png"><img class="landscape" src="$URL${POSTS}20160908123813-review-huawei-p9-lite/Screenshot_2016-09-09-00-25-40-s.jpg" alt="HDRをとりあえず使おうとしている様子"></a>
 <a href="$URL${POSTS}20160908123813-review-huawei-p9-lite/IMG_20160909_002558.jpg"><img class="landscape" src="$URL${POSTS}20160908123813-review-huawei-p9-lite/IMG_20160909_002558-s.jpg" alt="撮ったもの①"></a>
 <a href="$URL${POSTS}20160908123813-review-huawei-p9-lite/IMG_20160906_205404.jpg"><img class="landscape" src="$URL${POSTS}20160908123813-review-huawei-p9-lite/IMG_20160906_205404-s.jpg" alt="撮ったもの②"></a>
 </p>
-<p>3万円を切っていて、良いSoCと多めのバッテリー、綺麗なディスプレイ、いい感じの質感ときて非常に良いのですが、その代償として、ジャイロセンサーやNFCセンサーなどが無かったりします。だからポッケモンGOでAR機能が使えないとか、Suica Readerが使えないとかあります。これらがないのに指紋センサーはついてるのって、私からするとかなり違和感があるんですが、それだけ指紋認証がユーザ体験に大きい影響を及ぼすという判断なのでしょうね。時代を感じます。</p>
+<h3>MarshmallowとEMUI</h3>
 <p>Marshmallow(Android 6.0)が載っているわけですが、「消費電力の最適化」をする機能が充実しており、電力を激しく消費しているアプリを通知したりリストアップできたり、スリープ時の動作を制限できますし、KitKatの時は隠し機能であったApp Ops、アプリの権限の個別コントロールができるようになっていたりと、機能面でかなり満足の行くものになってきています。ユーザーがインストールしたアプリの挙動を監視したり、制限できる機能は、凄く好感が持てます。</p>
 <p class="image">
 <a href="$URL${POSTS}20160908123813-review-huawei-p9-lite/Screenshot_2016-09-07-16-31-41.png"><img class="portrait" src="$URL${POSTS}20160908123813-review-huawei-p9-lite/Screenshot_2016-09-07-16-31-41-s.jpg" alt="バッテリーマネージャーの画面その1"></a>
 <a href="$URL${POSTS}20160908123813-review-huawei-p9-lite/Screenshot_2016-09-07-16-16-21.png"><img class="portrait" src="$URL${POSTS}20160908123813-review-huawei-p9-lite/Screenshot_2016-09-07-16-16-21-s.jpg" alt="バッテリーマネージャーの画面その2"></a>
 <a href="$URL${POSTS}20160908123813-review-huawei-p9-lite/Screenshot_2016-09-07-16-28-18.png"><img class="portrait" src="$URL${POSTS}20160908123813-review-huawei-p9-lite/Screenshot_2016-09-07-16-28-18-s.jpg" alt="Playストアの権限をコントロールできる"></a>
 </p>
-<br>
+<hr>
 <p>私の感想としては、「今時はこのクオリティの端末が、3万円前後で手に入るのが当たり前」ということに、カルチャーショックを受けましたね。Androidのミドルレンジは、こういうレベルで競争しているんだ、と。もはや普段使いレベルでは、全くもって快適です。バッテリー持ちや、動作快適性はMarshmallowのDozeモードとかARTとかAndroid OSの進化も十分寄与していると思いますが、ハードウェアとしてかなり成熟してきているんだ、ということを肌で感じました。</p>
 <p>スクストは何の問題もなくできますが、ちょっとカメラが微妙な気がするので、HUAWEI P9 liteを売ってZenfone 3を入手しようか迷っていたりします。本当にこれやったら、端末売るの初めてですし、心が汚れてしまうなあと思っています。裸で使ってますし、査定価格によっては諦めると思います。</p>
 <br>
