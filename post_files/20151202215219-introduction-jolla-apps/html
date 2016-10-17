@@ -98,13 +98,13 @@ sentence=$(cat << +
 <a href="https://farm1.staticflickr.com/618/23385711421_044c3341fa_o.png"><img class="portrait" src="$URL${POSTS}20151202215219-introduction-jolla-apps/23385711421_044c3341fa_o-s.jpg" alt="Warehouse"></a>
 </p>
 <h3>TwitchTube</h3>
-<p>Twitchのゲームプレイ生放送が見れるクライアントです。Fallout4なんか見てたら結構時間経ってますね。コメント投稿も出来ます。Jollaストアにはまだ無いので<a href="https://openrepos.net/content/aldrog/twitchtube">Warehouse</a>からどうぞ。</p>
+<p>Twitchのゲームプレイ生放送が見れるクライアントです。Fallout4なんか見てたら結構時間経ってますね。コメント投稿も出来ます。</p>
 <p class="image">
 <a href="https://farm1.staticflickr.com/593/22841069863_bbf014e524_o.png"><img class="portrait" src="$URL${POSTS}20151202215219-introduction-jolla-apps/22841069863_bbf014e524_o-s.jpg" alt="TwitchTube1"></a>
 <a href="https://farm1.staticflickr.com/651/23468220085_4432b8b2a1_o.png"><img class="portrait" src="$URL${POSTS}20151202215219-introduction-jolla-apps/23468220085_4432b8b2a1_o-s.jpg" alt="TwitchTube2"></a>
 </p>
 <h3>WiFiAnalyzer</h3>
-<p>Wifiアクセスポイントのチャンネルごとの混雑具合とか、信号強度とかが分かるアレです。これも<a href="https://openrepos.net/content/osanwe/wifi-analyser">Warehouse</a>から。</p>
+<p>Wifiアクセスポイントのチャンネルごとの混雑具合とか、信号強度とかが分かるアレです。</p>
 <p class="image">
 <a href="https://farm6.staticflickr.com/5632/23442053486_62a42beb92_o.png"><img class="portrait" src="$URL${POSTS}20151202215219-introduction-jolla-apps/23442053486_62a42beb92_o-s.jpg" alt="WiFiAnalyzer"></a>
 </p>
