@@ -322,9 +322,27 @@ article h2 {
   padding: 0;
 }
 
+article hr {
+  border: 1px inset;
+  margin: 1.5em 0;
+}
+
+article h3 {
+  margin: 2em 0 1.5em 0;
+}
+
 article p {
   line-height: 1.6;
   margin: 1.5em 0;
+}
+
+article ul {
+  list-style-type: disc;
+  margin: 1em 0 1em 0;
+}
+
+article li {
+  line-height: 1.6;
 }
 
 article video {
@@ -360,15 +378,6 @@ article video {
   right : 0;
   top: 0;
   width: 100%;
-}
-
-article ul {
-  list-style-type: disc;
-  margin: 1em 0 1em 0;
-}
-
-article li {
-  line-height: 1.6;
 }
 
 #pager {
