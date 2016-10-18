@@ -85,8 +85,8 @@ sentence=$(cat << +
 <a href="$URL${POSTS}20160819040045-review-jolla-c/20160819_002.jpg"><img class="landscape" src="$URL${POSTS}20160819040045-review-jolla-c/20160819_002-s.jpg" alt="プラウダのAmbience"></a>
 </p>
 <video controls>
-<source src="$URL${POSTS}20160819040045-review-jolla-c/ypa.webm" type="video/webm">
-<source src="$URL${POSTS}20160819040045-review-jolla-c/ypa.mp4" type="video/mp4">
+<source src="$URL${POSTS}20160819040045-review-jolla-c/ypa-s.webm" type="video/webm">
+<source src="$URL${POSTS}20160819040045-review-jolla-c/ypa-s.mp4" type="video/mp4">
 </video>
 <p>公式絵などあんこうチームと段違いに素材が少なくて苦労しました。広島にいる間結構苦労しました。この壁紙ちゃんと切り抜いて作ったのでほめて下さい！</p>
 <p class="image">
