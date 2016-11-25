@@ -4,7 +4,7 @@ cat << +
       <link>${URL}post/20161125182047-try-support-mentor-oss-gate</link>
       <guid>${URL}post/20161125182047-try-support-mentor-oss-gate</guid>
       <pubDate>Fri, 25 Nov 2016 18:20:47 +0900</pubDate>
-      <description><![CDATA[<p>先月東京で開催された、OSS Gateワークショップについて書きたいと思います。</p>
+      <description><![CDATA[<p>9月に東京で開催された、OSS Gateワークショップについて書きたいと思います。</p>
 <p>OSS Gateに関しては<a href="https://kuno.kdns.info/post/20160203150733-impression-oss-gate">ビギナー</a>とか<a href="https://kuno.kdns.info/post/20160803230513-beginner-to-mentor-oss-gate">メンター</a>として参加した記事を書いてきて、「よし、次参加するときもメンターやるぞ！」という意気込みで前回の9月24日のワークショップに参加してきたのですが、そしたらまさかのサポートメンターをやることになりました。</p>
 <p>開催場所は7月と同じ<a href="http://cloudworks.jp/">クラウドワークス</a>さんです。10時30分開始に15分遅れてしまって、その流れで「サポートメンターやってよ」と頼まれてしまいました。遅刻よくないです。あ、あと行ってみたら参加している人の中に、私がメンターで参加した時に一緒に作業したビギナーさんが、メンターとして参加していて、非常に嬉しく思いました。</p>
 <p>サポートメンターの役割が何なのかというと、メンターさんの手が空いてなさそうなところに、いい感じにビギナーさんのサポートに回ったり、メンターさんが迷ったときにアドバイスすることでしょうか。</p>
