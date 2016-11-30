@@ -1,6 +1,6 @@
 Title: Overview
 Write from next line:
-<span><a href="$URL${POSTS}about">日本語</a>|English</span>
+<span><a href="${URL}post/about">日本語</a>|English</span>
 <h2>About me</h2>
 <a href="https://ja.gravatar.com/knokmki612"><img src="${URL}cache/avatar.jpg" alt="アバター"></a>
 <ul>
