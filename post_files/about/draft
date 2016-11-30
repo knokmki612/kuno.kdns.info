@@ -1,5 +1,6 @@
 Title: 概要
 Write from next line:
+<span>日本語|<a href="$URL${POSTS}about-en">English</a></span>
 <h2>私について</h2>
 <a href="https://ja.gravatar.com/knokmki612"><img src="${URL}cache/avatar.jpg" alt="アバター"></a>
 <ul>
