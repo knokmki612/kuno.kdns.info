@@ -5,6 +5,7 @@ title="Overview"
 title_encoded=""
 labels_string=""
 sentence=$(cat << +
+<span><a href="$URL${POSTS}about">日本語</a>|English</span>
 <h2>About me</h2>
 <a href="https://ja.gravatar.com/knokmki612"><img src="${URL}cache/avatar.jpg" alt="アバター"></a>
 <ul>
