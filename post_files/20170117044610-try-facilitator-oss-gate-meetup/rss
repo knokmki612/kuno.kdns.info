@@ -4,7 +4,7 @@ cat << +
       <link>${URL}post/20170117044610-try-facilitator-oss-gate-meetup</link>
       <guid>${URL}post/20170117044610-try-facilitator-oss-gate-meetup</guid>
       <pubDate>Tue, 17 Jan 2017 04:46:10 +0900</pubDate>
-      <description><![CDATA[<p><a href="oss-gate.doorkeeper.jp/events/55608">OSS Gate東京ミートアップ2017-01-16</a>に進行役として参加してきました。</p>
+      <description><![CDATA[<p><a href="https://oss-gate.doorkeeper.jp/events/55608">OSS Gate東京ミートアップ2017-01-16</a>に進行役として参加してきました。</p>
 <p>まずOSS Gate東京ミートアップがなんなのか説明しますが、これは去年やってきたワークショップが週末1日がかりだったために、参加できなかった社会人の方などがより気軽に参加できるよう、ワークショップを平日夜の2回に分割してやろう、という試みが含まれたイベントになります。ワークショップと並行して、OSS開発者の方の作業の場にもなっています。</p>
 <p>今回の進行役としての参加は、<a href="https://oss-gate.doorkeeper.jp/events/52881">OSS Gate東京ワークショップ2017-01-28</a>でも進行役をやるリハーサルを兼ねていました。その場で言えばよかったのですが、今回参加なさった方々はお付き合いいただき、本当にありがとうございました。</p>
 <p>なぜ私がワークショップの進行役をやるのかについては、<a href="https://oss-gate.doorkeeper.jp/events/54119">年末のふりかえりで</a>進行役ができる人が増えてほしいよね、という話があったためです。</p>
