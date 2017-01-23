@@ -64,6 +64,7 @@ cat << +
 <td>Ｔ・ジョイ PRINCE 品川</td>
 <td>【IMAX】シン・ゴジラ</td>
 </tr>
+<tr>
 <td>8月8日</td>
 <td>序破急シネツイン</td>
 <td>ラスト・タンゴ</td>
@@ -93,6 +94,7 @@ cat << +
 <td>目黒シネマ</td>
 <td>SPRIGGAN</td>
 </tr>
+<tr>
 <td>9月30日</td>
 <td>新宿ピカデリー</td>
 <td>聲の形</td>
