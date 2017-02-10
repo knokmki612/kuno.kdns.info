@@ -11,7 +11,7 @@ sentence=$(cat << +
 <ul>
 <li>knokmki612</li>
 <li>一応大学生</li>
-<li>最新の近況は<a href="${URL}post/20160510143616-my-latest-news">こちら</a></li>
+<li>最新の近況は<a href="${URL}post/20160510143616-my-latest-news">こちら</a>と<a href="${URL}post/20170208232820-retrospect-vivaldi-and-me">こちら</a></li>
 <li><a href="mailto:knokmki612@gmail.com">knokmki612@gmail.com</a></li>
 <li><a href="https://twitter.com/knokmki612">Twitter</a></li>
 <li><a href="https://www.facebook.com/kimiaki.kuno">Facebook</a></li>
