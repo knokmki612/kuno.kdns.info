@@ -3,7 +3,7 @@ formatted_date="2016/08/03"
 datetime="2016-08-03T23:05+09:00"
 title="ビギナーな私がOSS Gateワークショップでメンターをしてみました"
 title_encoded="%E3%83%93%E3%82%AE%E3%83%8A%E3%83%BC%E3%81%AA%E7%A7%81%E3%81%8COSS%20Gate%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%E3%81%A7%E3%83%A1%E3%83%B3%E3%82%BF%E3%83%BC%E3%82%92%E3%81%97%E3%81%A6%E3%81%BF%E3%81%BE%E3%81%97%E3%81%9F"
-labels_string="<a href=\"$URL?label=%E6%97%A5%E8%A8%98\">日記</a>"
+labels_string="<a href=\"$URL?label=%E6%97%A5%E8%A8%98\">日記</a>,<a href=\"$URL?label=OSS%20Gate\">OSS Gate</a>"
 sentence=$(cat << +
 <p>先週放送大学の単位認定試験が終わって楽になりつつ、ちゃんと単位が取れているか不安な私ですが、試験の最中に、私にとって3回目のOSS Gateワークショップに行ってきました。</p>
 <br>
