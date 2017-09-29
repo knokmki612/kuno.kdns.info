@@ -79,7 +79,7 @@ sentence=$(cat << +
 <p>対応しているACアダプタとスマートフォンを持っていれば、Quick Chargeによる急速充電の恩恵を受けられそうです。そういうわけで、スマートフォンでのデータ転送/充電に適しているといえそうです。</p>
 <p>あとは充電器とワットチェッカーを揃えて実際の電圧や電流を調べると良いのでしょうが、あいにく持っていないので保留です。(更新するかも)</p>
 <h3>開封</h3>
-<p>外箱の寸法はmm x mm x mmです。かさばる大きさではないと思います。</p>
+<p>外箱の寸法は200mm * 108mm * 20mmです。かさばる大きさではないと思います。</p>
 <p class="image">
 <a href="$URL${POSTS}20170929010140-ravpower-usb-c-cable-review/P_20170921_185805_vHDR_Auto.jpg"><img class="portrait" src="$URL${POSTS}20170929010140-ravpower-usb-c-cable-review/P_20170921_185805_vHDR_Auto-s.jpg" alt="外箱"></a>
 </p>
