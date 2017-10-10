@@ -43,7 +43,7 @@ sentence=$(cat << +
 <ul>
 <li><a href="https://oss-gate.doorkeeper.jp/events/65754">今月23日</a>に東京ミートアップ</li>
 <li><a href="https://oss-gate.doorkeeper.jp/events/65122">11月18日</a>に大阪ワークショップ</li>
-<li>11月26日に東京ワークショップ</li>
+<li>11月25日に東京ワークショップ</li>
 </ul>
 <p>があります。興味があったら参加してみてください。</p>
 +
