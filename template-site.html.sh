@@ -8,7 +8,7 @@ cat << +
   <link rel="icon" type="image/x-icon" href="${URL}favicon.ico">
   <link rel="alternate" type="application/rss+xml" href="${URL}rss/">
   <link rel="stylesheet" href="${URL}normalize.css?v=5.0.0">
-  <link rel="stylesheet" href="${URL}style.css?d=20161017163412">
+  <link rel="stylesheet" href="${URL}style.css?d=20171115220440">
 </head>
 <body>
 <div class="outer">

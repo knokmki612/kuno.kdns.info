@@ -1,9 +1,22 @@
 html {
+  background-color: #ffffff;
   color: #2c2c2c;
 }
 
-p {
+p, dd, dt, li, table {
   font-size: 16px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
 }
 
 a:link {
@@ -12,7 +25,7 @@ a:link {
 }
 
 a:visited {
-  color: #155779;
+  color: #116688;
   text-decoration: none;
 }
 
@@ -46,6 +59,15 @@ th, td {
   padding: 5px;
 }
 
+ul {
+  list-style-type: disc;
+  margin: 1em 0 1em 0;
+}
+
+ul ul {
+  margin: 0;
+}
+
 @font-face {
   font-family: kuno;
   src: url(kuno.ttf);
@@ -66,9 +88,7 @@ th, td {
 }
 
 .content-vertical-center {
-  display: table-cell;
   padding: 20px 10px;
-  vertical-align: middle;
 }
 
 .clearfix:after {
@@ -87,7 +107,6 @@ th, td {
 header {
   border-bottom: solid 1px;
   display: table;
-  height: 120px;
   width: 100%;
 }
 
@@ -118,7 +137,6 @@ header {
 footer {
   display: table;
   float: left;
-  height: 50px;
   width: 100%;
 }
 
@@ -135,7 +153,7 @@ html, body {
 } 
 
 .vertical-line {
-  background-color: #000000;
+  background-color: #2c2c2c;
   height: 100%;
   left: 249px;
   position: absolute;
@@ -151,7 +169,7 @@ html, body {
 .outer-main {
   border-bottom: 1px solid;
   border-top: 1px solid;
-  min-height: calc(100% - 178px);
+  min-height: calc(100% - 170px);
   overflow: hidden;
   position: relative;
 }
@@ -176,7 +194,6 @@ html, body {
 
 header {
   display: table;
-  height: 120px;
 }
 
 #global-menu {
@@ -197,7 +214,6 @@ header {
 
 footer {
   display: table;
-  height: 50px;
 }
 
 }
@@ -212,7 +228,6 @@ footer {
 }
 
 header h1 { 
-  font-size: 40px;
   font-weight: normal;
   line-height: 1;
   margin: 0;
@@ -319,7 +334,6 @@ article + #pager {
 }
 
 article h2 {
-  font-size: 22px;
   font-weight: normal;
   line-height: 1.5em;
   margin: 1em 0;
@@ -340,12 +354,11 @@ article p {
   margin: 1.5em 0;
 }
 
-article ul {
-  list-style-type: disc;
-  margin: 1em 0 1em 0;
+article li {
+  line-height: 1.6;
 }
 
-article li {
+article blockquote {
   line-height: 1.6;
 }
 
@@ -371,7 +384,7 @@ article video {
 }
 
 .video {
-  padding-top:56.25%;
+  padding-top: 56.25%;
   position: relative;
   width: 100%;
 }
@@ -421,7 +434,6 @@ section h2 {
 }
 
 section ul {
-  list-style-type: disc;
   margin: 0.5em 0em;
   padding-left: 1.5em;
 }
