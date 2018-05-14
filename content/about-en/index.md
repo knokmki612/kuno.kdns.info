@@ -1,20 +1,27 @@
-Title: Overview
-Write from next line:
-<span><a href="${URL}post/about">日本語</a>|English</span>
-<h2>About me</h2>
-<a href="https://ja.gravatar.com/knokmki612"><img src="${URL}cache/avatar.jpg" alt="アバター"></a>
-<ul>
-<li>knokmki612</li>
-<li>Student of The Open University of Japan</li>
-<li>My latest news(Japanese) are <a href="${URL}post/20160510143616-my-latest-news">here</a> and <a href="20170208232820-retrospect-vivaldi-and-me">here</a></li>
-<li>knokmki612 [at] gmail.com</li>
-<li><a href="https://twitter.com/knokmki612">Twitter</a></li>
-<li><a href="https://www.facebook.com/kimiaki.kuno">Facebook</a></li>
-<li><a href="https://plus.google.com/108613011772115871768">Google+</a></li>
-<li><a href="https://github.com/knokmki612">GitHub</a></li>
-</ul>
-<h2>About this site</h2>
-<ul>
-<li>Moved from <a href="http://knockcrab.blogspot.jp/">blogger</a></li>
-<li>Works with Debian/GNU Linux, Apache and <a href="https://github.com/knokmki612/sitesh">this Shell Script</a></li>
-</ul>
+---
+title: 概要
+date: 2016-11-30T23:08:31+09:00
+---
+
+[日本語]({{% relref "about" %}})|English
+
+## About me
+
+[![Avatar](https://secure.gravatar.com/avatar/6b2fd17bf8572ea5d60c0916db36627c)](https://ja.gravatar.com/knokmki612)
+
+- knokmki612
+- Student of The Open University of Japan
+- My latest news(Japanese) are
+  [here]($%7BURL%7Dpost/20160510143616-my-latest-news) and
+  [here](20170208232820-retrospect-vivaldi-and-me)
+- knokmki612 \[at\] gmail.com
+- [Twitter](https://twitter.com/knokmki612)
+- [Facebook](https://www.facebook.com/kimiaki.kuno)
+- [Google+](https://plus.google.com/108613011772115871768)
+- [GitHub](https://github.com/knokmki612)
+
+## About this site
+
+- Moved from [blogger](http://knockcrab.blogspot.jp/)
+- Works with Debian/GNU Linux, Apache and [this Shell
+  Script](https://github.com/knokmki612/sitesh)

@@ -1,50 +1,73 @@
-Title: RAVPower USB-A to USB-C ケーブルのレビューです
-Label: ガジェット,レビュー
-Permalink: ravpower-usb-c-cable-review
-Write from next line:
-<h3>はじめに</h3>
+---
+title: RAVPower USB-A to USB-C ケーブルのレビューです
+date: 2017-09-29T01:01:40+09:00
+tags:
+  - ガジェット
+  - レビュー
+archives:
+  - 2017
+  - 2017/09
+---
+
+### はじめに
+
 この記事はRAVPowerさんの商品無料体験プログラムによって書きました。RAVPowerさんありがとうございます！
-去年、RAVPowerの充電器とケーブルのまとめ買いをすると割引になるセールの時に、こちらの<a href="https://www.amazon.co.jp/gp/product/B014ZLPPLI/">充電器</a>と<a href="https://www.amazon.co.jp/gp/product/B00YBYJ8QI/">ケーブル</a>を購入したのですが、今でもとくに問題もなく気に入って使っています。なので、RAVPowerの製品について、少なくとも嫌いということはないですね。むしろ好感を持っていると思います。
+
+去年、RAVPowerの充電器とケーブルのまとめ買いをすると割引になるセールの時に、こちらの[充電器](https://www.amazon.co.jp/gp/product/B014ZLPPLI/)と[ケーブル](https://www.amazon.co.jp/gp/product/B00YBYJ8QI/)を購入したのですが、今でもとくに問題もなく気に入って使っています。なので、RAVPowerの製品について、少なくとも嫌いということはないですね。むしろ好感を持っていると思います。
+
 それで、9月に商品無料体験プログラムの案内が来たので、ケーブルと充電器について応募したところ、両方送ってくださいました。まずケーブルをレビューしたいと思います。
+
 商品のAmazonのページはこちらです。
-<a href="https://www.amazon.co.jp/dp/B074V25ZS7/">Amazon | RAVPower USB-C to USB-A ケーブル ( 0.9m + 1.8m ) 56KΩ 急速充電 高耐久軍事用素材採用 Galaxy S8 / S8+ 、MacBook 、Xperia XZ 各種対応– ホワイト | RAVPower(ラブパワー) | 家電＆カメラ 通販</a>
-<h3>スペック</h3>
-Amazonに記載されているスペックを表にしてみました。</p>
+
+[Amazon | RAVPower USB-C to USB-A ケーブル ( 0.9m + 1.8m ) 56KΩ 急速充電 高耐久軍事用素材採用 Galaxy S8 / S8+ 、MacBook 、Xperia XZ 各種対応– ホワイト | RAVPower(ラブパワー) | 家電＆カメラ 通販](https://www.amazon.co.jp/dp/B074V25ZS7/)
+
+### スペック
+
+Amazonに記載されているスペックを表にしてみました。
+
 <table>
 <tbody>
-<tr>
-<th>端子形状</th>
+<tr class="odd">
+<td>端子形状</td>
 <td>USB-A / USB-C</td>
 </tr>
-<tr>
-<th>ケーブルの長さ</th>
+<tr class="even">
+<td>ケーブルの長さ</td>
 <td>0.9m + 1.8m (2本)</td>
 </tr>
-<tr>
-<th>使用している抵抗</th>
+<tr class="odd">
+<td>使用している抵抗</td>
 <td>56kΩ</td>
 </tr>
-<tr>
-<th>電源供給能力</th>
+<tr class="even">
+<td>電源供給能力</td>
 <td>12V / 2.4A</td>
 </tr>
-<tr>
-<th>USB規格</th>
+<tr class="odd">
+<td>USB規格</td>
 <td>USB 2.0</td>
 </tr>
 </tbody>
 </table>
+
 転送速度がUSB 3.1ではなく2.0の理論値480Mbpsが上限なのが気になりますが、Androidスマートフォンでの使用を想定すると、結局ファイルのやりとりでは標準的なMTP接続がネックになりそうなので、その限りにおいてはあまり問題なさそうです。
-<p><a href="http://hanpenblog.com/4857/">USB-A to USB-Cなケーブルは56kΩな抵抗を使用しないとヤバい</a>らしいのですが、スペック上ではちゃんと56kΩの抵抗を使用しているようです。</p>
+
+[USB-A to USB-Cなケーブルは56kΩな抵抗を使用しないとヤバい](http://hanpenblog.com/4857/)らしいのですが、スペック上ではちゃんと56kΩの抵抗を使用しているようです。
+
 また、このケーブルを充電に使用する場合に供給できる電力は、使用される充電規格によって異なります。充電規格について、前述のリンクと同じサイトの記事が参考になりました。
-<a href="http://hanpenblog.com/1472/">乱立するスマホ向け急速充電の規格について調べた | HANPEN-BLOG</a>
+
+[乱立するスマホ向け急速充電の規格について調べた | HANPEN-BLOG](http://hanpenblog.com/1472/)
+
 それぞれの充電規格と、このケーブルで供給できる電力を表にしてみました。
+
 <table>
 <thead>
+<tr>
 <th>充電規格</th>
 <th>最大電流</th>
 <th>最大電圧</th>
 <th>最大電力</th>
+</tr>
 </thead>
 <tbody>
 <tr>
@@ -73,33 +96,57 @@ Amazonに記載されているスペックを表にしてみました。</p>
 </tr>
 </tbody>
 </table>
+
 対応しているACアダプタとスマートフォンを持っていれば、Quick Chargeによる急速充電の恩恵を受けられそうです。そういうわけで、スマートフォンでのデータ転送/充電に適しているといえそうです。
+
 あとは充電器とワットチェッカーを揃えて実際の電圧や電流を調べると良いのでしょうが、あいにく持っていないので保留です。(更新するかも)
-<h3>開封</h3>
-外箱の寸法は200mm * 108mm * 20mmです。かさばる大きさではないと思います。
-P_20170921_185805_vHDR_Auto.jpg:外箱
+
+### 開封
+
+外箱の寸法は200mm \* 108mm \* 20mmです。かさばる大きさではないと思います。
+
+{{% image src="P_20170921_185805_vHDR_Auto-s.jpg" link="P_20170921_185805_vHDR_Auto.jpg" caption="外箱" %}}
+
 取っ手をつまんで引き出すと、ケーブルが2本出てきます。手前のが0.9m、奥のが1.8mですかね
-P_20170921_185947_vHDR_Auto.jpg:外箱からトレイを引き出したところ 
-P_20170921_190049_vHDR_Auto.jpg:トレイにケーブル2本が収まっている
+
+{{% image src="P_20170921_185947_vHDR_Auto-s.jpg" link="P_20170921_185947_vHDR_Auto.jpg" caption="外箱からトレイを引き出したところ" %}}
+
+{{% image src="P_20170921_190049_vHDR_Auto-s.jpg" link="P_20170921_190049_vHDR_Auto.jpg" caption="トレイにケーブル2本が収まっている" %}}
+
 カードがケーブルの下に同梱されていて、無料で12ヶ月の保証延長ができる案内と、問いあわせ先の情報が記載されています。日本向けの電話窓口があるんですね。
-P_20170921_190150_vHDR_Auto.jpg:カード
-P_20170921_190219_vHDR_Auto.jpg:保証方法と問いあわせ先が記載されている
+
+{{% image src="P_20170921_190150_vHDR_Auto-s.jpg" link="P_20170921_190150_vHDR_Auto.jpg" caption="カード" %}}
+
+{{% image src="P_20170921_190219_vHDR_Auto-s.jpg" link="P_20170921_190219_vHDR_Auto.jpg" caption="保証方法と問いあわせ先が記載されている" %}}
+
 ケーブル(0.9m)の取り出した状態と、両端のコネクタ部分の外観です。質感はマットでさらさらしています。ケーブルの直径は約3mmです。
-P_20170921_190305_vHDR_Auto.jpg:ケーブルを取り出したところ
-P_20170921_190433_vHDR_Auto.jpg:USB-C側の先端(正面)
-P_20170921_190527_vHDR_Auto.jpg:USB-C側の先端(上)
-P_20170921_190604_vHDR_Auto.jpg:USB-A側の先端(正面)
-P_20170921_190546_vHDR_Auto.jpg:USB-A側の先端(上)
+
+{{% image src="P_20170921_190305_vHDR_Auto-s.jpg" link="P_20170921_190305_vHDR_Auto.jpg" caption="ケーブルを取り出したところ" %}}
+
+{{% image src="P_20170921_190433_vHDR_Auto-s.jpg" link="P_20170921_190433_vHDR_Auto.jpg" caption="USB-C側の先端(正面)" %}}
+
+{{% image src="P_20170921_190527_vHDR_Auto-s.jpg" link="P_20170921_190527_vHDR_Auto.jpg" caption="USB-C側の先端(上)" %}}
+
+{{% image src="P_20170921_190604_vHDR_Auto-s.jpg" link="P_20170921_190604_vHDR_Auto.jpg" caption="USB-A側の先端(正面)" %}}
+
+{{% image src="P_20170921_190546_vHDR_Auto-s.jpg" link="P_20170921_190546_vHDR_Auto.jpg" caption="USB-A側の先端(上)" %}}
+
 USB-A側のコネクタ部分にくぼみがあり、つまみやすいようになっています。良いと思います。
-P_20170921_190616_vHDR_Auto.jpg:USB-A側の形状
+
+{{% image src="P_20170921_190616_vHDR_Auto-s.jpg" link="P_20170921_190616_vHDR_Auto.jpg" caption="USB-A側の形状" %}}
+
 ある程度ケーブルのクセが残っている感じはしますが、取り回しやすい部類に入ると思います。動画撮ってグネグネしてみましたが、まあ伝わりにくいだろうなー…
-<video controls="">
-<source src="${URL}${POSTS}${post}/V_20170929_002151_vHDR_Auto-s.webm" type="video/webm">
-<source src="${URL}${POSTS}${post}/V_20170929_002151_vHDR_Auto-s.mp4" type="video/mp4">
-</video>
-<h3>感想</h3>
+
+{{% video src="V_20170929_002151_vHDR_Auto-s.*" %}}
+
+### 感想
+
 USB-C関係のアクセサリーは対応している規格を注意深くチェックする必要がありますし、中には規格準拠を謳っていても適合していない製品もあり、使用するのが危険なものもあると聞きます。この製品の場合は、スペック上はとくに使用するのに不安な点はなさそうです。(検証する環境はないのですが)
+
 あと、この商品は0.9mと1.8mの2本セットなのですが、0.9mは外出用、1.8mは室内用という感じに使い分けられますね。これひとつ買っておけば室内外をカバーできます。
+
 私は充電ポートがUSB-CなZenfone 3とGPD Pocketを持っているので、活用したいと思います。
-P_20170929_003043_vHDR_Auto.jpg:GPD Pocketを0.9mのケーブルで充電している様子
+
+{{% image src="P_20170929_003043_vHDR_Auto-s.jpg" link="P_20170929_003043_vHDR_Auto.jpg" caption="GPD Pocketを0.9mのケーブルで充電している様子" %}}
+
 レビューに関する指摘、レビューしてもらいたい事項などTwitterで教えていただければ、できるかぎり応えたいなと思います。以上です。
