@@ -1,0 +1,25 @@
+baseURL = "https://kuno.kdns.info/"
+languageCode = "ja-jp"
+title = "横あるき"
+copyright = "2015 knokmki612"
+theme = "pencil-and-ruler"
+preserveTaxonomyNames = true
+hasCJKLanguage = true
+paginate = "3"
+
+[params]
+  description = "変なことを書き綴るサイトです。"
+  images = ["favicons/310x310.png"]
+
+[social]
+  twitter = "knokmki612"
+
+[permalinks]
+  blog = "/:year/:month/:filename/"
+
+[taxonomies]
+  tag = "tags"
+  archive = "archives"
+
+[blackfriday]
+  plainIDAnchors = false

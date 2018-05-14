@@ -1,0 +1,3 @@
+[submodule "themes/pencil-and-ruler"]
+	path = themes/pencil-and-ruler
+	url = git@github.com:knokmki612/hugo-pencil-and-ruler.git
