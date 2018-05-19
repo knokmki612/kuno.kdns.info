@@ -12,7 +12,7 @@ archives:
 
 私は元々Operaユーザーだったのですが、Vivaldiを普段使いしだしたのは、4月にあったVivladiの[ユーザーミートアップイベント](http://vivaldimeetup01.peatix.com)に参加してからです。それ以前はVivaldiを触りつつOperaをメインにしていました。
 
-{{% image src="cover-gBCp1zTJthkq6mhPjx7oNqGlYLP8jr4l-s.jpg" link="http://peatix.com.new.s3.amazonaws.com/event/162455/cover-gBCp1zTJthkq6mhPjx7oNqGlYLP8jr4l.jpeg" caption="peatixに掲載されている1.0ローンチの画像" %}}
+{{% image src="cover-gBCp1zTJthkq6mhPjx7oNqGlYLP8jr4l-s.jpg" link="http://peatix.com.new.s3.amazonaws.com/event/162455/cover-gBCp1zTJthkq6mhPjx7oNqGlYLP8jr4l.jpg" caption="peatixに掲載されている1.0ローンチの画像" %}}
 
 イベントの様子は[togetter](https://togetter.com/li/967261)に[Kyu3](http://kyu3.blog.jp/profile.html)さんがまとめてくださっています。
 
