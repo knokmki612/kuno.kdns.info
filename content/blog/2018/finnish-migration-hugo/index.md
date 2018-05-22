@@ -55,7 +55,7 @@ Hugoでサイトを組んでみた印象としては、色々なやり方があ�
 #### configの細かいところ
 
 * [preserveTaxonomyNames](https://gohugo.io/content-management/taxonomies/#preserve-taxonomy-values)を`true`にしとかないと、タグの文字列が[urlize](https://gohugo.io/functions/urlize/)される
-* [hasCJKLanguage](https://gohugo.io/getting-started/configuration/#all-configuration-settings)を`true`にしとかないと、`.Summary`がスペース区切りの単語数でカウントされて、RSSフィードの`description`とかめちゃ長くなる[^関連リンク3]
+* [hasCJKLanguage](https://gohugo.io/getting-started/configuration/#all-configuration-settings)を`true`にしとかないと、`.Summary`がスペース区切りの単語数でカウントされて、RSSフィードの`description`とかめちゃ長くなる[^関連リンク1]
 * [BlackfridayのplainIDAnchors](https://gohugo.io/getting-started/configuration/#blackfriday)を`false`にしとかないと、同じ文字列の見出しが2つあるとidが重複する
 
 #### 最近のHugo(0.32〜)は便利
