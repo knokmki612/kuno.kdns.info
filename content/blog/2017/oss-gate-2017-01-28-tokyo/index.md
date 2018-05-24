@@ -74,7 +74,7 @@ archives:
 
 また、須藤さんがサポートに入ってくださった箇所について、当日も「スライドに書いていないことを補うには」という話をしたのですが、「それはスライドに入っていたほうが良い内容がまだあるんだと思う」という結論になって[Issue](https://github.com/oss-gate/retrospective/issues/36)に解決案を残してあります。
 
-後々からスライド等見返してみたのですが、[scenario.md](github.com/oss-gate/workshop/blob/master/tutorial/scenario.md)に書いてあることを結構当日話されている気がしました。例えば、アイスブレイクの
+後々からスライド等見返してみたのですが、[scenario.md](https://github.com/oss-gate/workshop/blob/master/tutorial/scenario.md)に書いてあることを結構当日話されている気がしました。例えば、アイスブレイクの
 
 > 「声を出す」ことが大事。話題はなんでもよい。…
 

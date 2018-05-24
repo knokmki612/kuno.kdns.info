@@ -12,8 +12,8 @@ date: 2016-11-30T23:08:31+09:00
 - knokmki612
 - Student of The Open University of Japan
 - My latest news(Japanese) are
-  [here]($%7BURL%7Dpost/20160510143616-my-latest-news) and
-  [here](20170208232820-retrospect-vivaldi-and-me)
+  [here]({{% relref "my-latest-news" %}}) and
+  [here]({{% relref "retrospect-vivaldi-and-me" %}})
 - knokmki612 \[at\] gmail.com
 - [Twitter](https://twitter.com/knokmki612)
 - [Facebook](https://www.facebook.com/kimiaki.kuno)
@@ -23,5 +23,4 @@ date: 2016-11-30T23:08:31+09:00
 ## About this site
 
 - Moved from [blogger](http://knockcrab.blogspot.jp/)
-- Works with Debian/GNU Linux, Apache and [this Shell
-  Script](https://github.com/knokmki612/sitesh)
+- Works with Debian/GNU Linux, Apache and [this Shell Script](https://github.com/knokmki612/sitesh)
