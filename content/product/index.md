@@ -11,7 +11,7 @@ date: 2015-11-27T13:48:39+09:00
 ## UNIX系アプリケーション
 
   - [sitesh](https://github.com/knokmki612/sitesh)  
-    このサイトの執筆・運用のために自作したブロギングツールです。使い方の記事は[こちら]({{% relref "release-sitesh" %}})
+    このサイトの執筆・運用のために自作したブロギングツールです。使い方の記事は[こちら]({{% relref "/blog/2015/release-sitesh" %}})
 
   - [twm-ohki](https://github.com/knokmki612/twm-ohki)  
     {{% image src="screenshot-s.jpg" link="screenshot.jpg" caption="縦書きタイトルオプションを使っている様子" %}}

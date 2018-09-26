@@ -24,7 +24,7 @@ TabletとJolla Tablet的な何か(ここ重要)テーブルに並べていまし
 - [jimixi blog: Jolla Tablet、来たる](http://jiminynseries.seesaa.net/article/436332569.html)
 - [jimixi blog: Jolla Tablet外観レビュー](http://jiminynseries.seesaa.net/article/436336180.html)
 
-そういうわけなので、自分の視点で書けることあるかなあと探したら、ありましたよ。私[1月にビックタブを買っていたのですが]({{% relref "blog/2016/sg080isl-review" %}})、これとの比較をしてみようと。まずはスペックの比較です。
+そういうわけなので、自分の視点で書けることあるかなあと探したら、ありましたよ。私[1月にビックタブを買っていたのですが]({{% relref "/blog/2016/sg080isl-review" %}})、これとの比較をしてみようと。まずはスペックの比較です。
 
 <table>
 <thead>

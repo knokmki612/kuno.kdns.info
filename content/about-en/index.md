@@ -3,7 +3,7 @@ title: 概要
 date: 2016-11-30T23:08:31+09:00
 ---
 
-[日本語]({{% relref "about" %}})|English
+[日本語]({{% relref "/about" %}})|English
 
 ## About me
 
@@ -12,8 +12,8 @@ date: 2016-11-30T23:08:31+09:00
 - knokmki612
 - Student of The Open University of Japan
 - My latest news(Japanese) are
-  [here]({{% relref "my-latest-news" %}}) and
-  [here]({{% relref "retrospect-vivaldi-and-me" %}})
+  [here]({{% relref "/blog/2016/my-latest-news" %}}) and
+  [here]({{% relref "/blog/2017/retrospect-vivaldi-and-me" %}})
 - knokmki612 \[at\] gmail.com
 - [Twitter](https://twitter.com/knokmki612)
 - [Facebook](https://www.facebook.com/kimiaki.kuno)

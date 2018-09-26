@@ -10,7 +10,7 @@ archives:
   - 2015/12
 ---
 
-[この記事]({{% relref "blog/2015/review-jolla-and-sailfish" %}})でアプリを紹介すると書いたので紹介します。最初にアプリの一覧です。
+[この記事]({{% relref "/blog/2015/review-jolla-and-sailfish" %}})でアプリを紹介すると書いたので紹介します。最初にアプリの一覧です。
 
 {{% image src="23468230725_91f7f050ea_o-s.jpg" link="https://farm6.staticflickr.com/5786/23468230725_91f7f050ea_o.png" caption="アプリの一覧1" %}}
 

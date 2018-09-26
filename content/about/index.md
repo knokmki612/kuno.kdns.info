@@ -3,7 +3,7 @@ title: 概要
 date: 2015-11-27T13:44:17+09:00
 ---
 
-日本語|[English]({{% relref "about-en" %}})
+日本語|[English]({{% relref "/about-en" %}})
 
 ## 私について
 

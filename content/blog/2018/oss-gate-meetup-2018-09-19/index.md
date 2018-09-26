@@ -18,6 +18,6 @@ archives:
 
 [naruoga](https://github.com/naruoga)さんが[LibreOffice Conference 2018](https://libocon.org/)の発表資料を作りに来られていて、カンファレンスの場所は欧州が多いとか、[LibreOfficeがどんな人たちによって開発されているのか](https://blog.goo.ne.jp/ikunya/e/e8a98abf2a93d012953f22b93de40658)とか、発表でどんなことを話すのか、みたいな話をきいた。この雑談で発表資料に書くことが少しまとまってきたそうなので、相談の場になることが目的のひとつとなっているもくもく会としては、良かったなあと思った。
 
-[nico-hn](https://github.com/nico-hn)さんが[今月のワークショップ]({{% relref "blog/2018/oss-gate-workshop-2018-09-08" %}})から引き続き参加してくれた。ただ会場に到着なさったのが終了時刻のギリギリだったので、フィードバックの続きをするにはまとまった時間をとってもらうことができなかった。到着予定の時間によっては、欠席を勧めた方が不幸が少ないのかななどと思った。
+[nico-hn](https://github.com/nico-hn)さんが[今月のワークショップ]({{% relref "/blog/2018/oss-gate-workshop-2018-09-08" %}})から引き続き参加してくれた。ただ会場に到着なさったのが終了時刻のギリギリだったので、フィードバックの続きをするにはまとまった時間をとってもらうことができなかった。到着予定の時間によっては、欠席を勧めた方が不幸が少ないのかななどと思った。
 
 [swamp09](https://github.com/swamp09)さんが取り組んでいた[vscode-journal](https://github.com/pajoma/vscode-journal)知らなかったんだけど、自分はToDo管理したりメモ取るためのツールを長期的に色々探しているので、興味を持った。

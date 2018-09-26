@@ -47,4 +47,4 @@ UVライトにさらしている様子はこちらです。
 
 Tegra 3のNexus 7(2012)でこれだけの体感差があるのですから、いかにLollipopが欠陥品質であったかと、Marshmallowが当たりであるかを思い知らされました。
 
-そんな感じで、Nexus 7のために5500円くらいお金を出したら、Android 6.xが載った端末が欲しくなってしまい、思わずHUAWEI P9 liteをポチった話については[次の記事]({{% relref "blog/2016/review-huawei-p9-lite" %}})で書きたいと思います。
+そんな感じで、Nexus 7のために5500円くらいお金を出したら、Android 6.xが載った端末が欲しくなってしまい、思わずHUAWEI P9 liteをポチった話については[次の記事]({{% relref "/blog/2016/review-huawei-p9-lite" %}})で書きたいと思います。

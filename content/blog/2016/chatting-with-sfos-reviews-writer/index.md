@@ -9,7 +9,7 @@ archives:
   - 2016/07
 ---
 
-以前[Jolla Tabletのレビュー記事を書いた]({{% relref "blog/2016/review-jolla-tablet" %}})のですが、そしたら
+以前[Jolla Tabletのレビュー記事を書いた]({{% relref "/blog/2016/review-jolla-tablet" %}})のですが、そしたら
 
 {{% tweet 719142507020480514 %}}
 

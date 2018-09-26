@@ -14,7 +14,7 @@ Gateワークショップに行ってきました。
 
 <br>
 
-1月に初めて参加した時のことは[記事に書きました]({{% relref "blog/2016/impression-oss-gate" %}})が、私にとって刺激的な体験でした。その後記事にはしていませんけど、3月にもう一回参加していました。その時の作業のメモは[こちら](https://github.com/oss-gate/workshop/issues/23)です。
+1月に初めて参加した時のことは[記事に書きました]({{% relref "/blog/2016/impression-oss-gate" %}})が、私にとって刺激的な体験でした。その後記事にはしていませんけど、3月にもう一回参加していました。その時の作業のメモは[こちら](https://github.com/oss-gate/workshop/issues/23)です。
 
 OSS Gateに関する話し合いは[gitter](https://gitter.im/oss-gate/general)とか[GitHubのissues](https://github.com/oss-gate/workshop/issues/8)で行われていて、今回参加するまでの間に変化がありました。
 
