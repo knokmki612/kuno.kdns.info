@@ -1,0 +1,41 @@
+version: '3'
+services:
+
+  https-portal:
+    image: steveltn/https-portal:1
+    ports:
+      - "443:443"
+    links:
+      - nginx
+    restart: always
+    environment:
+      DOMAINS: '${HOST:-localhost} -> http://nginx:${PORT:-80}'
+      STAGE: ${HTTPS_PORTAL_STAGE:-local}
+      FORCE_RENEW: ${HTTPS_PORTAL_FORCE_RENEW:-false}
+
+  nginx:
+    image: nginx
+    depends_on:
+      - hugo
+    volumes:
+      - ./docker/nginx.conf.template:/etc/nginx/conf.d/conf.template
+      - ./public:${NGINX_ROOT:-/site}:ro
+    ports:
+      - "${PORT:-80}:${NGINX_PORT:-80}"
+    environment:
+      - NGINX_PORT=${NGINX_PORT:-80}
+      - NGINX_HOST=${HOST:-localhost}
+      - NGINX_ROOT=${NGINX_ROOT:-/site}
+    command: /bin/bash -c "envsubst < /etc/nginx/conf.d/conf.template > /etc/nginx/conf.d/default.conf && exec nginx -g 'daemon off;'"
+
+  hugo:
+    build: docker/hugo
+    volumes:
+      - .:/site
+    command: --watch
+
+  ddclient:
+    build: docker/ddclient
+    volumes:
+      - ./docker/ddclient.conf.template:/etc/ddclient.conf.template
+    command: /bin/bash -c "[ -n \"${DDCLIENT_HOST}\" ] && { envsubst < /etc/ddclient.conf.template > /etc/ddclient.conf && ddclient; } || exit 0"

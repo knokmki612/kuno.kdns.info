@@ -1,0 +1,13 @@
+syslog=yes
+foreground=yes
+
+verbose=${DDCLIENT_VERBOSE:-yes}
+daemon=${DDCLIENT_DAEMON:-300}
+
+ssl=${DDCLIENT_SSL:-yes}
+use=${DDCLIENT_USE:-web}
+protocol=${DDCLIENT_PROTOCOL}
+server=${DDCLIENT_SERVER}
+login=${DDCLIENT_LOGIN}
+password=${DDCLIENT_PASSWORD}
+${DDCLIENT_HOST}

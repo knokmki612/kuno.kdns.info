@@ -1,3 +1,4 @@
+/.env
 /static/BingSiteAuth.xml
 /static/google*.html
 /static/robots.txt
