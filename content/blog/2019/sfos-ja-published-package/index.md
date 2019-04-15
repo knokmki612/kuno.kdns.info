@@ -63,4 +63,4 @@ OpenRepos.netのパッケージを簡単に入れられるストアアプリが�
 
 SFOSにはパッチを当ててシステムをカスタマイズするPatchmanagerというツールがあるんだけど、活発に開発されていて、最新の[Patchmanager 3 Beta](https://openrepos.net/content/patchmanager3beta/patchmanager-3-beta)はオリジナルのファイルにパッチを当てずにfakerootでパッチ済みの環境を作るみたいだよ！Betaみたいだけど自分は使ってて快適なのでおすすめ！
 
-[^tmoのスレ]:[talk.maemo.orgのスレッド](https://talk.maemo.org/showthread.php?p=1472394#post1472394)当時の様子が残っている
+[^tmoのスレ]:[talk.maemo.orgのスレッド](https://talk.maemo.org/showthread.php?p=1472394#post1472394)に当時の様子が残っている
