@@ -5,7 +5,7 @@ copyright = "2015 knokmki612"
 theme = "fill-and-stroke"
 preserveTaxonomyNames = true
 hasCJKLanguage = true
-paginate = "3"
+paginate = "10"
 
 [params]
   description = "変なことを書き綴るサイトです。"
