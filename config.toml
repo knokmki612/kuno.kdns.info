@@ -5,7 +5,7 @@ copyright = "2015 knokmki612"
 theme = "fill-and-stroke"
 preserveTaxonomyNames = true
 hasCJKLanguage = true
-defaultContentLanguage ="en"
+defaultContentLanguage ="ja"
 paginate = "10"
 
 [params]
