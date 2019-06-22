@@ -5,21 +5,22 @@ copyright = "2015 knokmki612"
 theme = "fill-and-stroke"
 preserveTaxonomyNames = true
 hasCJKLanguage = true
+defaultContentLanguage ="en"
 paginate = "10"
 
 [params]
-  description = "変なことを書き綴るサイトです。"
-  images = ["favicons/310x310.png"]
+description = "変なことを書き綴るサイトです。"
+images = ["favicons/310x310.png"]
 
 [social]
-  twitter = "knokmki612"
+twitter = "knokmki612"
 
 [permalinks]
-  blog = "/:year/:month/:filename/"
+blog = "/:year/:month/:filename/"
 
 [taxonomies]
-  tag = "tags"
-  archive = "archives"
+tag = "tags"
+archive = "archives"
 
 [blackfriday]
-  plainIDAnchors = false
+plainIDAnchors = false
