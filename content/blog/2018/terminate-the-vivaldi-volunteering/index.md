@@ -39,7 +39,9 @@ Vivaldiのソプラノ(テスター)、モデレーター、翻訳者、すべ�
 
 そのような気持ちを表すために、今年あった[ミートアップイベント](https://togetter.com/li/1232090)でLTするときに作成した[スライド](https://knokmki612.github.io/vivaldi-2018-tokyo/slides/#/)があるので、良かったらご覧ください。
 
-<div class="slide"><iframe src="https://knokmki612.github.io/vivaldi-2018-tokyo/slides/#/"></iframe></div>
+{{% iframe ratio="3-to-2" %}}
+<iframe src="https://knokmki612.github.io/vivaldi-2018-tokyo/slides/#/"></iframe>
+{{% /iframe %}}
 
 また、Vivaldiで働いている方々についてよくわかる良いインタビュー企画がVivaldiの日本語公式ブログに掲載されているので、興味がありましたらそちらもご覧ください。  
 https://jp.vivaldi.net/category/meet-the-team/
