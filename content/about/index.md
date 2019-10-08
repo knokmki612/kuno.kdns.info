@@ -3,7 +3,10 @@ title: 概要
 date: 2015-11-27T13:44:17+09:00
 ---
 
-日本語|[English]({{% relref "/about-en" %}})
+{{% tab %}}
+- 日本語
+- [English]({{% relref "/about-en" %}})
+{{% /tab %}}
 
 ## 私について
 
@@ -21,7 +24,7 @@ date: 2015-11-27T13:44:17+09:00
 - 情報コース所属の[放送大学](http://www.ouj.ac.jp)生
 - [OSS Gateという取り組み](https://oss-gate.github.io/about/)に継続的に参加しています
 - [ツクロア](https://tuqulore.com)でアルバイトをしています
-- [Vivaldi](https://vivaldi.com)のモデレーター、ソプラノ(ボランティアテスター)、翻訳をしています
+- [Vivaldi](https://vivaldi.com)のモデレーター、ソプラノ(ボランティアテスター)、翻訳をしていました
 
 ### 趣味・関心
 
@@ -68,11 +71,13 @@ date: 2015-11-27T13:44:17+09:00
 - Opera
 - Vivaldi
 
+最近はFirefoxのオフィシャルなアドオンもなかなか良いと思っています。
+
 #### 人生単位での方向性
 
 ユーザビリティエンジニアリングができる仕事をしたいです。
 
-適切な表現が分からないですが、使いにくいものを使いやすくすることにエネルギーを使いたいです。
+適切な表現が分からないですが、ユーザの目的に叶い、効率のよいインタフェースを考えることにエネルギーを使いたいです。
 
 …とりあえずそれ以前に自分で自分の衣食住を確保できる余裕をもちたいです。
 
@@ -85,7 +90,7 @@ date: 2015-11-27T13:44:17+09:00
 - [Pawoo](https://pawoo.net/@knokmki612)
 - [Vivaldi Forum](https://forum.vivaldi.net/user/knokmki612)
 
-#### [PGP](knokmki612.asc)
+#### [PGP](/knokmki612.asc)
 
 ```
 pub   rsa2048 2017-04-06 [SC] [有効期限: 2021-04-07]
@@ -95,4 +100,4 @@ sub   rsa2048 2017-04-06 [E] [有効期限: 2021-04-07]
 
 ## このサイトについて
 
-[blogger](http://knockcrab.blogspot.jp/)から移りました。だいたいDebian GNU/LinuxとApacheとHugoで動いています。
+[blogger](http://knockcrab.blogspot.jp/)から移りました。NetlifyとHugoで動いています。
