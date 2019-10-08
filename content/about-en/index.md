@@ -46,7 +46,7 @@ Only in ski slope, for fun
 
 #### Long-term purpose of life
 
-I want work to usability engineering.
+I want to work to usability engineering.
 
 ...and want to be self-supporting life.
 
