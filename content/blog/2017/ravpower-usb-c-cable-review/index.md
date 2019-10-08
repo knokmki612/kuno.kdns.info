@@ -25,30 +25,13 @@ archives:
 
 Amazonに記載されているスペックを表にしてみました。
 
-<table>
-<tbody>
-<tr class="odd">
-<td>端子形状</td>
-<td>USB-A / USB-C</td>
-</tr>
-<tr class="even">
-<td>ケーブルの長さ</td>
-<td>0.9m + 1.8m (2本)</td>
-</tr>
-<tr class="odd">
-<td>使用している抵抗</td>
-<td>56kΩ</td>
-</tr>
-<tr class="even">
-<td>電源供給能力</td>
-<td>12V / 2.4A</td>
-</tr>
-<tr class="odd">
-<td>USB規格</td>
-<td>USB 2.0</td>
-</tr>
-</tbody>
-</table>
+| | |
+| --- | --- |
+| 端子形状 | USB-A / USB-C |
+| ケーブルの長さ | 0.9m + 1.8m (2本) |
+| 使用している抵抗 | 56kΩ |
+| 電源供給能力 | 12V / 2.4A |
+| USB規格 | USB 2.0 |
 
 転送速度がUSB 3.1ではなく2.0の理論値480Mbpsが上限なのが気になりますが、Androidスマートフォンでの使用を想定すると、結局ファイルのやりとりでは標準的なMTP接続がネックになりそうなので、その限りにおいてはあまり問題なさそうです。
 
@@ -60,42 +43,12 @@ Amazonに記載されているスペックを表にしてみました。
 
 それぞれの充電規格と、このケーブルで供給できる電力を表にしてみました。
 
-<table>
-<thead>
-<tr>
-<th>充電規格</th>
-<th>最大電流</th>
-<th>最大電圧</th>
-<th>最大電力</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>USB 2.0</th>
-<td>5V</td>
-<td>0.5A</td>
-<td>2.5W</td>
-</tr>
-<tr>
-<th>USB BC</th>
-<td>5V</td>
-<td>1.5A</td>
-<td>7.5W</td>
-</tr>
-<tr>
-<th>PowerIQ系</th>
-<td>5V</td>
-<td>2.4A</td>
-<td>12W</td>
-</tr>
-<tr>
-<th>Quick Charge (2.0〜)</th>
-<td>12V</td>
-<td>2.4A</td>
-<td>28.8W</td>
-</tr>
-</tbody>
-</table>
+| 充電規格 | 最大電流 | 最大電圧 | 最大電力 |
+| --- | ---: | ---: | ---: |
+| USB 2.0 | 5V | 0.5A | 2.5W |
+| USB BC | 5V | 1.5A | 7.5W |
+| PowerIQ系 | 5V | 2.4A | 12W |
+| Quick Charge (2.0〜) | 12V | 2.4A | 28.8W |
 
 対応しているACアダプタとスマートフォンを持っていれば、Quick Chargeによる急速充電の恩恵を受けられそうです。そういうわけで、スマートフォンでのデータ転送/充電に適しているといえそうです。
 

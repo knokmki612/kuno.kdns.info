@@ -26,84 +26,18 @@ TabletとJolla Tablet的な何か(ここ重要)テーブルに並べていまし
 
 そういうわけなので、自分の視点で書けることあるかなあと探したら、ありましたよ。私[1月にビックタブを買っていたのですが]({{% relref "/blog/2016/sg080isl-review" %}})、これとの比較をしてみようと。まずはスペックの比較です。
 
-<table>
-<thead>
-<tr class="header">
-<th></th>
-<th>Jolla Tablet</th>
-<th>SG080i</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>サイズ</td>
-<td>137mm(幅)<br />
-203mm(高さ)<br />
-8.3mm(奥行き)</td>
-<td>123.6mm(幅)<br />
-213.6mm(高さ)<br />
-8.3mm(奥行き)</td>
-</tr>
-<tr class="even">
-<td>重量</td>
-<td>384g</td>
-<td>360g</td>
-</tr>
-<tr class="odd">
-<td>ディスプレイ</td>
-<td>7.85inch<br />
-4:3(アス比)<br />
-IPS<br />
-2048x1536px<br />
-330ppi</td>
-<td>8inch<br />
-16:10(アス比)<br />
-IPS<br />
-1920x1200px<br />
-280ppi</td>
-</tr>
-<tr class="even">
-<td>バッテリー容量</td>
-<td>4450mAh</td>
-<td>4000mAh</td>
-</tr>
-<tr class="odd">
-<td>CPU</td>
-<td>Atom Z3735F</td>
-<td>Atom Z3735F</td>
-</tr>
-<tr class="even">
-<td>RAM</td>
-<td>2GB</td>
-<td>2GB</td>
-</tr>
-<tr class="odd">
-<td>ストレージ</td>
-<td>32GB/64GB</td>
-<td>64GB</td>
-</tr>
-<tr class="even">
-<td>I/O</td>
-<td>microUSB<br />
-microSDスロット<br />
-イヤホンジャック</td>
-<td>microUSB<br />
-microHDMI<br />
-microSDスロット<br />
-イヤホンジャック</td>
-</tr>
-<tr class="odd">
-<td>OS</td>
-<td>Sailfish OS</td>
-<td>Windows 10</td>
-</tr>
-<tr class="even">
-<td>価格</td>
-<td>だいたい3万円</td>
-<td>だいたい2万円</td>
-</tr>
-</tbody>
-</table>
+| | Jolla Tablet | SG080i |
+| --- | --- | --- |
+| サイズ | 137mm(幅)<br>203mm(高さ)<br>8.3mm(奥行き) | 123.6mm(幅)<br>213.6mm(高さ)<br>8.3mm(奥行き) |
+| 重量 | 384g | 360g |
+| ディスプレイ | 7.85inch<br> 4:3(アス比)<br> IPS<br> 2048x1536px<br> 330ppi | 8inch<br> 16:10(アス比)<br> IPS<br> 1920x1200px<br> 280ppi |
+| バッテリー容量 | 4450mAh | 4000mAh |
+| CPU | Atom Z3735F | Atom Z3735F |
+| RAM | 2GB | 2GB |
+| ストレージ | 32GB/64GB | 64GB |
+| I/O | microUSB<br> microSDスロット<br> イヤホンジャック | microUSB<br> microHDMI<br> microSDスロット<br> イヤホンジャック |
+| OS | Sailfish OS | Windows 10 |
+| 価格 | だいたい3万円 | だいたい2万円 |
 
 表をみる限り、機能面ではビッグタブの方がmicroHDMIポートあったり軽かったりするのにお安いですね。パフォーマンス的な観点からいくとCPUやRAMが同じですが、Jollaタブがビックタブに比べてディスプレイの解像度が高く、その分バッテリー持ちが心配になるところ、バッテリー容量が450mAh多いのでJollaタブが解像度分良さそうですね。
 
