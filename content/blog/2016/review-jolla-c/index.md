@@ -81,8 +81,6 @@ LEDインジケータもちゃんとついていますが、Jolla Phoneでは3�
 
 Jolla Cはインドの企業、[IntexのAqua Fish](http://www.intex.in/mobile/smartphone/aqua-fish/)という端末をベースにしていて、Aqua Fishも外観はほぼ同じです。Intexが端末をデザインする際にJollaがどの程度関わったのかは定かではありませんが、Sailfish OS端末であることと一見関係のない外装部分も似せていることには、果たしてどのような意味が込められているのでしょうか。
 
-{{% tweet 761525750893641728 %}}
-
 あ、Intex Aqua Fishのレビューもすでに面白いものがいくつか出ていますからどうぞ。
 
 - [【MeeGo】【Aqua Fish】INTeX Aqua Fishフォトレビュー | GoGoSmartphoneBLOG](http://gogosmartphone.main.jp/blog/?p=5100)
