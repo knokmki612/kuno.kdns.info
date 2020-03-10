@@ -23,3 +23,6 @@ archive = "archives"
 
 [blackfriday]
 plainIDAnchors = false
+
+[markup.goldmark.renderer]
+unsafe = true
