@@ -14,7 +14,7 @@ date: 2015-11-27T13:48:39+09:00
     このサイトの執筆・運用のために自作したブロギングツールです。使い方の記事は[こちら]({{% relref "/blog/2015/release-sitesh" %}})
 
   - [twm-ohki](https://github.com/knokmki612/twm-ohki)  
-    {{% image src="screenshot-s.jpg" link="screenshot.jpg" caption="縦書きタイトルオプションを使っている様子" %}}
+    {{% image src="screenshot.jpg" caption="縦書きタイトルオプションを使っている様子" %}}
 
     古典的なx11ウィンドウマネージャであるtwmのタイトルバーの拡張等を施したものを、[大木 敦雄氏](http://www2.gssm.otsuka.tsukuba.ac.jp/staff/ohki/)が2008年から公開されています。が、LANG=Cの環境以外ではクラッシュするバグなどが存在しています。
 

@@ -17,7 +17,7 @@ archives:
 
 5月下旬あたりに突如Jolla Cが発表されまして、当時Twitterのフォローしている人もお祭り状態で、Jollaブランドの端末なんてJolla Tabletの払い戻しをやっているような状況で出るわけがないと思っていましたから、大変驚きました。
 
-{{% image src="JollaC_flow-s.jpg" link="https://cdn.jolla.com/wp-content/uploads/2016/05/JollaC_flow.jpg" caption="Jolla C\!" %}}
+{{% image src="JollaC_flow.jpg" caption="Jolla C!" %}}
 
 Jolla Cは限定1000~1100台の、Sailfishコミュニティの開発者やフリークを対象とした商品で、コミュニティ向けに開かれるイベントの招待や、Jolla Cに関するサポートを含んだパッケージです。限定1000台だし、販売価格から払い戻し金を引いたら出せる金額だったので、後先考えず注文しました。
 
@@ -26,7 +26,7 @@ Jolla Cは限定1000~1100台の、Sailfishコミュニティの開発者やフ�
 基本的に代行購入/転送を請け負っている会社だそうですが、注文は全てフォームの入力やメールによる個別対応です。変にシステマチックなWebサービスよりも、色々シンプルで助かりました。バッテリー関連の質問についてもちゃんと答えていただけました。
 実際に掛かった費用は以下の通りですが、両方PayPalで決済して、最終的な金額は20150+7513=27663円でした。
 
-{{% image src="2016-08-10_16-26-08-s.jpg" link="2016-08-10_16-26-08.png" caption="Jolla Cの注文確認メール" %}}
+{{% image src="2016-08-10_16-26-08.png" caption="Jolla Cの注文確認メール" %}}
 
 >  商品代金合計：　£ 115.28
 >
@@ -59,25 +59,25 @@ Jolla Cは限定1000~1100台の、Sailfishコミュニティの開発者やフ�
 
 ただ、本体とカバーの形状に着目するとJolla Phoneは2枚の板が重なったように丸みの処理が互い違いに入っていましたが、Jolla Cはそれに比べると一体的な側面の丸みがつけられています。
 
-{{% image src="WP_20160806_02_24_35_Pro-s.jpg" link="WP_20160806_02_24_35_Pro.jpg" caption="裏をカバーありでJolla Phoneと比較" %}}
+{{% image src="WP_20160806_02_24_35_Pro.jpg" caption="裏をカバーありでJolla Phoneと比較" %}}
 
-{{% image src="WP_20160806_02_25_11_Pro-s.jpg" link="WP_20160806_02_25_11_Pro.jpg" caption="側面の処理をJolla Phoneと比較" %}}
+{{% image src="WP_20160806_02_25_11_Pro.jpg" caption="側面の処理をJolla Phoneと比較" %}}
 
-{{% image src="WP_20160722_17_40_01_Pro-s.jpg" link="WP_20160722_17_40_01_Pro.jpg" caption="Jollaの刻印" %}}
+{{% image src="WP_20160722_17_40_01_Pro.jpg" caption="Jollaの刻印" %}}
 
 下部スピーカー/マイクの穴も、Jolla Cの方は合わせて3箇所しか空いていないのですが、Jolla Phoneのデザインを踏襲して装飾の穴が並んでいます。あとボリュームキーと電源キーが右側面についているのは変わらないですが、配置が逆になってて戸惑いますね。
 
-{{% image src="WP_20160806_02_18_59_Pro-s.jpg" link="WP_20160806_02_18_59_Pro.jpg" caption="下部スピーカーとマイク" %}}
+{{% image src="WP_20160806_02_18_59_Pro.jpg" caption="下部スピーカーとマイク" %}}
 
-{{% image src="WP_20160806_02_19_14_Pro-s.jpg" link="WP_20160806_02_19_14_Pro.jpg" caption="右側ボリュームキーと電源ボタン" %}}
+{{% image src="WP_20160806_02_19_14_Pro.jpg" caption="右側ボリュームキーと電源ボタン" %}}
 
 背面の中はSIMスロットが2つに増えたり、カメラやバッテリーの配置が似ているとかありますが、TOH用の接触端子がなかったり、microSDスロットがバッテリーを装着した状態では挿し替えが不可能になっています。
 
-{{% image src="WP_20160806_02_24_06_Pro-s.jpg" link="WP_20160806_02_24_06_Pro.jpg" caption="裏をカバーなしでJolla Phoneと比較" %}}
+{{% image src="WP_20160806_02_24_06_Pro.jpg" caption="裏をカバーなしでJolla Phoneと比較" %}}
 
 LEDインジケータもちゃんとついていますが、Jolla Phoneでは3色LEDだったのに対して、白色のみになっており、充電完了時に点滅するなど挙動が微妙にJolla Phoneと変わっています。好みとしてはJolla Cのほうが落ち着きがあって好きですかね。
 
-{{% image src="WP_20160819_03_24_56_Pro-s.jpg" link="WP_20160819_03_24_56_Pro.jpg" caption="LEDインジケータをJolla Phoneと比較" %}}
+{{% image src="WP_20160819_03_24_56_Pro.jpg" caption="LEDインジケータをJolla Phoneと比較" %}}
 
 Jolla Cはインドの企業、[IntexのAqua Fish](http://www.intex.in/mobile/smartphone/aqua-fish/)という端末をベースにしていて、Aqua Fishも外観はほぼ同じです。Intexが端末をデザインする際にJollaがどの程度関わったのかは定かではありませんが、Sailfish OS端末であることと一見関係のない外装部分も似せていることには、果たしてどのような意味が込められているのでしょうか。
 
@@ -99,13 +99,13 @@ Cが世に出せた、という風にも捉えられそうだなあ、なんて�
 それで本題に入りますが、何故か今までレビューをするたびにガルパンのAmbience(壁紙や通知音などのプリセット)を作るということをやってきた流れで、今回もAmbienceを作りました。せっかくJolla
 Cの赤さを活かすのに、カバさん(歴女)チームと迷ったんですが、プラウダにしました。ちゃんと通知音もいくつか作りましたよ。(音量注意)
 
-{{% image src="20160819_002-s.jpg" link="20160819_002.jpg" caption="プラウダのAmbience" %}}
+{{% image src="20160819_002.jpg" caption="プラウダのAmbience" %}}
 
-{{% video src="ypa-s.*" %}}
+{{% video src="ypa.mp4" %}}
 
 公式絵などあんこうチームと段違いに素材が少なくて苦労しました。広島にいる間結構苦労しました。この壁紙ちゃんと切り抜いて作ったのでほめて下さい！
 
-{{% image src="WP_20160819_03_09_03_Pro-s.jpg" link="WP_20160819_03_09_03_Pro.jpg" caption="ガルパンAmbienceオールスターズ" %}}
+{{% image src="WP_20160819_03_09_03_Pro.jpg" caption="ガルパンAmbienceオールスターズ" %}}
 
 Jolla Cは限定品でしたが、姉妹機であるIntex Aqua Fishは4999ルピー(現時点のレートで約7468円)と送料を払えば日本にも送ってもらえます！誰でも買えるんですよ！！是非手にとって使ってみて下さい！ebay.comにも非正規の出品者がいるので、そちらから買うとebay.inのクレジットカードの登録が面倒くさいとか関係なくなるっぽいのでどうぞ！
 

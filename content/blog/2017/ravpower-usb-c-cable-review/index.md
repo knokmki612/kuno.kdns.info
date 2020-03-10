@@ -58,39 +58,39 @@ Amazonに記載されているスペックを表にしてみました。
 
 外箱の寸法は200mm \* 108mm \* 20mmです。かさばる大きさではないと思います。
 
-{{% image src="P_20170921_185805_vHDR_Auto-s.jpg" link="P_20170921_185805_vHDR_Auto.jpg" caption="外箱" %}}
+{{% image src="P_20170921_185805_vHDR_Auto.jpg" caption="外箱" %}}
 
 取っ手をつまんで引き出すと、ケーブルが2本出てきます。手前のが0.9m、奥のが1.8mですかね
 
-{{% image src="P_20170921_185947_vHDR_Auto-s.jpg" link="P_20170921_185947_vHDR_Auto.jpg" caption="外箱からトレイを引き出したところ" %}}
+{{% image src="P_20170921_185947_vHDR_Auto.jpg" caption="外箱からトレイを引き出したところ" %}}
 
-{{% image src="P_20170921_190049_vHDR_Auto-s.jpg" link="P_20170921_190049_vHDR_Auto.jpg" caption="トレイにケーブル2本が収まっている" %}}
+{{% image src="P_20170921_190049_vHDR_Auto.jpg" caption="トレイにケーブル2本が収まっている" %}}
 
 カードがケーブルの下に同梱されていて、無料で12ヶ月の保証延長ができる案内と、問いあわせ先の情報が記載されています。日本向けの電話窓口があるんですね。
 
-{{% image src="P_20170921_190150_vHDR_Auto-s.jpg" link="P_20170921_190150_vHDR_Auto.jpg" caption="カード" %}}
+{{% image src="P_20170921_190150_vHDR_Auto.jpg" caption="カード" %}}
 
-{{% image src="P_20170921_190219_vHDR_Auto-s.jpg" link="P_20170921_190219_vHDR_Auto.jpg" caption="保証方法と問いあわせ先が記載されている" %}}
+{{% image src="P_20170921_190219_vHDR_Auto.jpg" caption="保証方法と問いあわせ先が記載されている" %}}
 
 ケーブル(0.9m)の取り出した状態と、両端のコネクタ部分の外観です。質感はマットでさらさらしています。ケーブルの直径は約3mmです。
 
-{{% image src="P_20170921_190305_vHDR_Auto-s.jpg" link="P_20170921_190305_vHDR_Auto.jpg" caption="ケーブルを取り出したところ" %}}
+{{% image src="P_20170921_190305_vHDR_Auto.jpg" caption="ケーブルを取り出したところ" %}}
 
-{{% image src="P_20170921_190433_vHDR_Auto-s.jpg" link="P_20170921_190433_vHDR_Auto.jpg" caption="USB-C側の先端(正面)" %}}
+{{% image src="P_20170921_190433_vHDR_Auto.jpg" caption="USB-C側の先端(正面)" %}}
 
-{{% image src="P_20170921_190527_vHDR_Auto-s.jpg" link="P_20170921_190527_vHDR_Auto.jpg" caption="USB-C側の先端(上)" %}}
+{{% image src="P_20170921_190527_vHDR_Auto.jpg" caption="USB-C側の先端(上)" %}}
 
-{{% image src="P_20170921_190604_vHDR_Auto-s.jpg" link="P_20170921_190604_vHDR_Auto.jpg" caption="USB-A側の先端(正面)" %}}
+{{% image src="P_20170921_190604_vHDR_Auto.jpg" caption="USB-A側の先端(正面)" %}}
 
-{{% image src="P_20170921_190546_vHDR_Auto-s.jpg" link="P_20170921_190546_vHDR_Auto.jpg" caption="USB-A側の先端(上)" %}}
+{{% image src="P_20170921_190546_vHDR_Auto.jpg" caption="USB-A側の先端(上)" %}}
 
 USB-A側のコネクタ部分にくぼみがあり、つまみやすいようになっています。良いと思います。
 
-{{% image src="P_20170921_190616_vHDR_Auto-s.jpg" link="P_20170921_190616_vHDR_Auto.jpg" caption="USB-A側の形状" %}}
+{{% image src="P_20170921_190616_vHDR_Auto.jpg" caption="USB-A側の形状" %}}
 
 ある程度ケーブルのクセが残っている感じはしますが、取り回しやすい部類に入ると思います。動画撮ってグネグネしてみましたが、まあ伝わりにくいだろうなー…
 
-{{% video src="V_20170929_002151_vHDR_Auto-s.*" %}}
+{{% video src="V_20170929_002151_vHDR_Auto.mp4" %}}
 
 ### 感想
 
@@ -100,6 +100,6 @@ USB-C関係のアクセサリーは対応している規格を注意深くチェ
 
 私は充電ポートがUSB-CなZenfone 3とGPD Pocketを持っているので、活用したいと思います。
 
-{{% image src="P_20170929_003043_vHDR_Auto-s.jpg" link="P_20170929_003043_vHDR_Auto.jpg" caption="GPD Pocketを0.9mのケーブルで充電している様子" %}}
+{{% image src="P_20170929_003043_vHDR_Auto.jpg" caption="GPD Pocketを0.9mのケーブルで充電している様子" %}}
 
 レビューに関する指摘、レビューしてもらいたい事項などTwitterで教えていただければ、できるかぎり応えたいなと思います。以上です。

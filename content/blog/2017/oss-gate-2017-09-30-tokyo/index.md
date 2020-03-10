@@ -15,7 +15,7 @@ archives:
 
 今回は初めて[サイオステクノロジー](https://oss-gate.github.io/sponsors/#sios)さんに会場を提供していただけました！ありがとうございます！
 
-{{% image src="P_20170930_100511_vHDR_Auto-s.jpg" link="P_20170930_100511_vHDR_Auto.jpg" caption="サイオステクノロジーさんの会場入口" %}}
+{{% image src="P_20170930_100511_vHDR_Auto.jpg" caption="サイオステクノロジーさんの会場入口" %}}
 
 くわえて、特別な計らいとしてピザも提供してくださいました！！ありがとうございます！！！
 
@@ -23,17 +23,17 @@ archives:
 
 私もOpera系ブラウザの紹介とか、Gentooをデスクトップ用途にするススメとか出来ましたし、[Piro](http://piro.sakura.ne.jp)さんのFirefoxアドオン、[ツリー型タブ](https://addons.mozilla.org/ja/firefox/addon/tree-style-tab/)に関する話を伺えたのもよかったです！
 
-{{% image src="P_20170930_125509_vHDR_Auto-s.jpg" link="P_20170930_125509_vHDR_Auto.jpg" caption="昼食のピザ" %}}
+{{% image src="P_20170930_125509_vHDR_Auto.jpg" caption="昼食のピザ" %}}
 
 サポーター1人にビギナー3人のテーブルが3つと、サポーター2人にビギナー2人のテーブル1つで、あとはサポートメンターと進行役でうろつく感じでサポートしました。何回かサポートの経験があるサポーターだと、ビギナー3人のサポートも大丈夫そうですね。
 
 私も参加しているビギナーの作業の様子が、ある程度分かるように回れたと思います。
 
-{{% image src="P_20170930_150233_vHDR_Auto-s.jpg" link="P_20170930_150233_vHDR_Auto.jpg" caption="午後のフィードバックの様子" %}}
+{{% image src="P_20170930_150233_vHDR_Auto.jpg" caption="午後のフィードバックの様子" %}}
 
 私は進行役だったので、午前午後と時間を調整したり、スライドを交えて説明をしたのですが、アンケートの流し読みだけはなぜかどうしても誰かに代わってもらいたい気持ちが高まり、tdtdsさんに代わっていただきました。毎回アンケートで代わっていただいてますね…なぜだ…
 
-{{% image src="P_20170930_172544_vHDR_Auto-s.jpg" link="P_20170930_172544_vHDR_Auto.jpg" caption="ふりかえり中" %}}
+{{% image src="P_20170930_172544_vHDR_Auto.jpg" caption="ふりかえり中" %}}
 
 ### チャレンジし(ようとし)たこと
 
@@ -56,7 +56,7 @@ OSS Gateワークショップのスライドもサポーターやサポートメ
 あと、私が[初めてOSS Gateワークショップに参加した]({{% relref "/blog/2016/impression-oss-gate" %}})ときから見ていただいている[y-goto](https://github.com/y-goto)さんに「進行役も堂々とできるようになったし、初めてあったときからだいぶ変わったよね。[須藤](https://github.com/kou)さんの影響受けてるね」と言われて素直に嬉しかったです。まぁ…須藤さんに限らず、色々OSS
 Gate(とそれに参加する方々)の影響は受けていますね。
 
-{{% image src="DSC_9620-s.jpg" link="DSC_9620.jpg" caption="集合写真" %}}
+{{% image src="DSC_9620.jpg" caption="集合写真" %}}
 
 ### 直近のOSS Gateのイベント
 

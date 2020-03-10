@@ -21,7 +21,7 @@ archives:
 
 <br>
 
-{{% image src="CpNdN_fO-s.jpg" link="CpNdN_fO.jpg" caption="私のブログがリンクされている様子" %}}
+{{% image src="CpNdN_fO.jpg" caption="私のブログがリンクされている様子" %}}
 
 次の話題では、この画像と一緒に「Why are the Japanese characters so different on yours
 and that other
@@ -31,9 +31,9 @@ blog?」と尋ねて来られ、ピンとこなかったんですけど、「ど
 
 あと「Jollaって英語だとDinghyなんだけど、日本語だと何？あとSailfishは？」と聞かれました。Sailfishはバショウカジキとして、Jollaはyacht→ヨットかな〜。似た言葉では帆船とか小舟？とか書きました。カタカナで起こすとヨラとかヨーラになります、とも書いたら、予想外にも衝撃的だったようで、何でかって、カタカナの形がそのまま舟のシルエットに見えたそうです。
 
-{{% image src="jolla_background_sailboat_orange_sky_Derek_Keats-s.jpg" link="http://3.bp.blogspot.com/-eGCFUAJIfAg/U91v1G-T58I/AAAAAAAAC6o/FCgO391NwcA/s1600/jolla_background_sailboat_orange_sky_Derek_Keats.jpg" caption="Sailfish OS ReviewsさんのところにあったJollaの画像1" %}}
+{{% image src="jolla_background_sailboat_orange_sky_Derek_Keats.jpg" link="http://3.bp.blogspot.com/-eGCFUAJIfAg/U91v1G-T58I/AAAAAAAAC6o/FCgO391NwcA/s1600/jolla_background_sailboat_orange_sky_Derek_Keats.jpg" caption="Sailfish OS ReviewsさんのところにあったJollaの画像1" %}}
 
-{{% image src="jolla_background_sailboat_violet_Eric_Frommer-s.jpg" link="http://1.bp.blogspot.com/-wjrnIxox4zY/U-SrxsAt-GI/AAAAAAAAC64/H8gQ2Macy00/s1600/jolla_background_sailboat_violet_Eric_Frommer.jpg" caption="Sailfish OS ReviewsさんのところにあったJollaの画像2" %}}
+{{% image src="jolla_background_sailboat_violet_Eric_Frommer.jpg" link="http://1.bp.blogspot.com/-wjrnIxox4zY/U-SrxsAt-GI/AAAAAAAAC64/H8gQ2Macy00/s1600/jolla_background_sailboat_violet_Eric_Frommer.jpg" caption="Sailfish OS ReviewsさんのところにあったJollaの画像2" %}}
 
 「フィンランド語では、Jollaって言ったら救助用の小舟で、大きな舟に備え付けてあるイメージだけど、最近だと["E-Jolla"](https://fi.wikipedia.org/wiki/E-jolla)て言って220cmくらいの長さで軽くて速いやつとか、もっと長くて帆が2つある["Finnjolla"](https://fi.wikipedia.org/wiki/Kevytvene)っていうのもあるよ」という話で、そうなんだ〜と思いました。その話でいくと、ヨラは短いのでJolla、ヨーラは長いからE-JollaとかFinnjollaになるんですかね。Sailfish OS ReviewsさんがJollaという言葉に関する話を[これ](http://reviewjolla.blogspot.jp/2014/08/jolla-boat-and-sailfishes-part-1.html)と[これ](http://reviewjolla.blogspot.jp/2014/08/jolla-boat-and-sailfishes-part-2.html)に書いてあるそうなので、よかったら読んでみて下さい。
 

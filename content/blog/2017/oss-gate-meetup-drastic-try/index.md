@@ -68,7 +68,7 @@ archives:
 
 OSS開発をやってみたいけどどうやったらいいか分からない方が参加してくださって、時間内にどんなOSSを普段使っているかや、開発するOSSの選び方などわりと会話が弾んで皆さんでサポートできた気がします。
 
-{{% image src="P_20170522_212458_vHDR_Auto-s.jpg" link="P_20170522_212458_vHDR_Auto.jpg" caption="終わった時に撮った写真。5人でした" %}}
+{{% image src="P_20170522_212458_vHDR_Auto.jpg" caption="終わった時に撮った写真。5人でした" %}}
 
 #### [東京ミートアップ2017-06-19](https://github.com/oss-gate/workshop/issues/439)
 
@@ -76,7 +76,7 @@ OSS開発をやってみたいけどどうやったらいいか分からない�
 
 そういえばこの写真はゆいのあさんに撮っていただいたんだった。
 
-{{% image src="P_20170619_212918_vHDR_Auto-s.jpg" link="P_20170619_212918_vHDR_Auto.jpg" caption="開催中に撮ってもらった写真" %}}
+{{% image src="P_20170619_212918_vHDR_Auto.jpg" caption="開催中に撮ってもらった写真" %}}
 
 #### [東京ミートアップ2017-07-13](https://github.com/oss-gate/workshop/issues/478)
 

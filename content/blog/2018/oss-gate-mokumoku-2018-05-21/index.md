@@ -31,6 +31,6 @@ Debianが[salsa.debian.org](https://salsa.debian.org/public)に移行したあ�
 
 そこからなんやかやでHUB秋葉原店という別のところまで移動して、小一時間くらい雑談した。
 
-{{% image src="P_20180521_220110_vHDR_Auto-s.jpg" link="P_20180521_220110_vHDR_Auto.jpg" caption="クバータを注文した" %}}
+{{% image src="P_20180521_220110_vHDR_Auto.jpg" caption="クバータを注文した" %}}
 
 [^補足]: 4月の[ふりかえりイベント](https://oss-gate.doorkeeper.jp/events/72010)でミートアップを[もくもく会とフォローアップというイベントに分けて開催しよう](https://github.com/oss-gate/retrospective/issues/97)ということになった。
