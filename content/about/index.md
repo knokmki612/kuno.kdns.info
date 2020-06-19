@@ -21,9 +21,9 @@ date: 2015-11-27T13:44:17+09:00
 
 ### 近況
 
-- 情報コース所属の[放送大学](http://www.ouj.ac.jp)生
+- 情報コースを2019年度に卒業してから2020年度に社会と産業コースへ再入学した[放送大学](http://www.ouj.ac.jp)生です
 - [OSS Gateという取り組み](https://oss-gate.github.io/about/)に継続的に参加しています
-- [ツクロア](https://tuqulore.com)でアルバイトをしています
+- [ツクロア](https://tuqulore.com)でデザインエンジニアをしています
 - [Vivaldi](https://vivaldi.com)のモデレーター、ソプラノ(ボランティアテスター)、翻訳をしていました
 
 ### 趣味・関心
@@ -37,6 +37,18 @@ date: 2015-11-27T13:44:17+09:00
 - Sailfish OS
 - QWERTYキャンディバー
 - クラムシェル
+
+### 音楽
+
+- 最近Bluetoothレシーバーなヘッドホンアンプにハマっています
+  - [ES100](https://earstudio.store/products/es100)
+- [DUNU](https://www.dunu-topsound.com/)のイヤホンが好きです
+  - Titan 1
+  - [Titan 6](https://www.dunu-topsound.com/titan-6)
+- オーディオテクニカのヘッドホンも好きです
+  - [ATH-M20x](https://www.audio-technica.co.jp/product/ATH-M20x) (たぶん初めて買ったヘッドホンです)
+  - [ATH-WS1100](https://www.audio-technica.co.jp/product/ATH-WS1100)
+- 歌ってみたをやってみています 
 
 #### アニメ
 
