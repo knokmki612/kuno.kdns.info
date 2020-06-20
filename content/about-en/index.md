@@ -40,7 +40,10 @@ Will reacts to following keywords
 
 - Loving to Bluetooth receiver DAP
   - [ES100](https://earstudio.store/products/es100)
-- Feeling good to [DUNU]() products
+- Feeling good to [DUNU](https://www.dunu-topsound.com/) products
+  - Titan 1
+  - [Titan 6](https://www.dunu-topsound.com/titan-6)
+- 
 
 #### Anime
 
@@ -73,6 +76,6 @@ pub   rsa2048 2017-04-06 [SC] [expires: 2021-04-07]
 sub   rsa2048 2017-04-06 [E] [expires: 2021-04-07]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMjU5MDU4NSwxMzY1NzQwNDYyLC0xMD
+eyJoaXN0b3J5IjpbLTc2Mzc0MDgwNywxMzY1NzQwNDYyLC0xMD
 IzMDY5OTc3XX0=
 -->
