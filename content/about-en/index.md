@@ -21,8 +21,8 @@ date: 2016-11-30T23:08:31+09:00
 
 ### Recent Activities
 
-- Student of The Open University of Japan
-- Work at [tuqulore Inc.](https://tuqulore.com)
+- Student of the Open University of Japan, graduate the information course (bachelor of liberal arts) at 2020/03, currently re-entered to society and industry course
+- Work at [tuqulore Inc.](https://tuqulore.com) as Design engineer
 
 ### Interests
 
@@ -35,6 +35,8 @@ Will reacts to following keywords
 - Sailfish OS
 - QWERTY Candy Bar
 - Clamshell
+
+#### Musi
 
 #### Anime
 
@@ -67,5 +69,5 @@ pub   rsa2048 2017-04-06 [SC] [expires: 2021-04-07]
 sub   rsa2048 2017-04-06 [E] [expires: 2021-04-07]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjMwNjk5NzddfQ==
+eyJoaXN0b3J5IjpbLTkwNzI1MDUxNywtMTAyMzA2OTk3N119
 -->
