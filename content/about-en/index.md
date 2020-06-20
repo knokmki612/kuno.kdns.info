@@ -40,10 +40,13 @@ Will reacts to following keywords
 
 - Loving to Bluetooth receiver DAP
   - [ES100](https://earstudio.store/products/es100)
-- Feeling good to [DUNU](https://www.dunu-topsound.com/) products
+- Feeling good to [DUNU](https://www.dunu-topsound.com/)'s earphones
   - Titan 1
   - [Titan 6](https://www.dunu-topsound.com/titan-6)
-- 
+- Also [Audio-Technica]'s headphones
+  - [ATH-M20x](https://www.audio-technica.co.jp/product/ATH-M20x)
+  - [ATH-WS1100](https://www.audio-technica.co.jp/product/ATH-WS1100)
+- Trying to start Utattemita
 
 #### Anime
 
