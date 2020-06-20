@@ -36,7 +36,9 @@ Will reacts to following keywords
 - QWERTY Candy Bar
 - Clamshell
 
-#### Musi
+#### Music
+
+-
 
 #### Anime
 
@@ -69,5 +71,5 @@ pub   rsa2048 2017-04-06 [SC] [expires: 2021-04-07]
 sub   rsa2048 2017-04-06 [E] [expires: 2021-04-07]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNzI1MDUxNywtMTAyMzA2OTk3N119
+eyJoaXN0b3J5IjpbLTMxMzE0MTY1OSwtMTAyMzA2OTk3N119
 -->
