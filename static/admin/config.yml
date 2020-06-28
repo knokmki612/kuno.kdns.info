@@ -21,7 +21,6 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", default: ["日記"] }
       - { label: "Archives", name: "archives", widget: "list" }
       - { label: "Body", name: "body", widget: "markdown" }
-    sortableFields: ["date"]
   - label: "Page"
     name: "page"
     files:
