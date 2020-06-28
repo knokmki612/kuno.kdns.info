@@ -9,8 +9,8 @@ media_library:
     api_key: 884837882467622
     output_filename_only: true
 collections:
-  - name: "blog"
-    label: "Blog"
+  - label: "Blog"
+    name: "blog"
     folder: "content/blog"
     path: "{{year}}/{{slug}}"
     slug: "{{year}}/{{slug}}"
@@ -21,16 +21,28 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", default: ["日記"] }
       - { label: "Archives", name: "archives", widget: "list" }
       - { label: "Body", name: "body", widget: "markdown" }
-  - name: "other"
-    label: "Other"
-    folder: "content"
-    path: "{{slug}}"
-    slug: "{{slug}}"
-    create: true
-    filter:
-      field: tags
-      value: ""
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
+    sortableFields: ["date"]
+  - label: "Page"
+    name: "page"
+    files:
+      - label: "About"
+        name: "about"
+        file: "content/about/index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Date", name: "date", widget: "datetime" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "About (English)"
+        name: "about-en"
+        file: "content/about-en/index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Date", name: "date", widget: "datetime" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Product"
+        name: "product"
+        file: "content/product/index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Date", name: "date", widget: "datetime" }
+          - { label: "Body", name: "body", widget: "markdown" }
