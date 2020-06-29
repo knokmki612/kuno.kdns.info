@@ -1,12 +1,11 @@
 ---
 title: 概要
-date: 2015-11-27T13:44:17+09:00
+date: 2015-11-27T04:44:17.000Z
 ---
-
 {{% tab %}}
-- 日本語
-- [English]({{% relref "/about-en" %}})
-{{% /tab %}}
+
+* 日本語
+* \[English]({{% relref "/about-en" %}}) {{% /tab %}}
 
 ## 私について
 
@@ -16,15 +15,15 @@ date: 2015-11-27T13:44:17+09:00
 
 ### ハンドルネーム
 
-- knokmki612
-- くのきみ
+* knokmki612
+* くのきみ
 
 ### 近況
 
-- 情報コースを2019年度に卒業してから2020年度に社会と産業コースへ再入学した[放送大学](http://www.ouj.ac.jp)生です
-- [OSS Gateという取り組み](https://oss-gate.github.io/about/)に継続的に参加しています
-- [ツクロア](https://tuqulore.com)でデザインエンジニアをしています
-- [Vivaldi](https://vivaldi.com)のモデレーター、ソプラノ(ボランティアテスター)、翻訳をしていました
+* 情報コースを2019年度に卒業してから2020年度に社会と産業コースへ再入学した[放送大学](http://www.ouj.ac.jp)生です
+* [OSS Gateという取り組み](https://oss-gate.github.io/about/)に継続的に参加しています
+* [ツクロア](https://tuqulore.com)でデザインエンジニアをしています
+* [Vivaldi](https://vivaldi.com)のモデレーター、ソプラノ(ボランティアテスター)、翻訳をしていました
 
 ### 趣味・関心
 
@@ -32,23 +31,26 @@ date: 2015-11-27T13:44:17+09:00
 
 こういうキーワードに反応します
 
-- Nokia
-- Jolla
-- Sailfish OS
-- QWERTYキャンディバー
-- クラムシェル
+* Nokia
+* Jolla
+* Sailfish OS
+* QWERTYキャンディバー
+* クラムシェル
 
 ### 音楽
 
-- 最近Bluetoothレシーバーなヘッドホンアンプにハマっています
-  - [ES100](https://earstudio.store/products/es100)
-- [DUNU](https://www.dunu-topsound.com/)のイヤホンが好きです
-  - Titan 1
-  - [Titan 6](https://www.dunu-topsound.com/titan-6)
-- オーディオテクニカのヘッドホンも好きです
-  - [ATH-M20x](https://www.audio-technica.co.jp/product/ATH-M20x) (たぶん初めて買ったヘッドホンです)
-  - [ATH-WS1100](https://www.audio-technica.co.jp/product/ATH-WS1100)
-- 歌ってみたをやってみています 
+* 最近Bluetoothレシーバーなヘッドホンアンプにハマっています
+
+  * [ES100](https://earstudio.store/products/es100)
+* [DUNU](https://www.dunu-topsound.com/)のイヤホンが好きです
+
+  * Titan 1
+  * [Titan 6](https://www.dunu-topsound.com/titan-6)
+* オーディオテクニカのヘッドホンも好きです
+
+  * [ATH-M20x](https://www.audio-technica.co.jp/product/ATH-M20x) (たぶん初めて買ったヘッドホンです)
+  * [ATH-WS1100](https://www.audio-technica.co.jp/product/ATH-WS1100)
+* 歌ってみたをやってみています 
 
 #### アニメ
 
@@ -60,19 +62,19 @@ date: 2015-11-27T13:44:17+09:00
 
 何回も行っているゲレンデはこんなかんじです
 
-- 志賀高原
-- 野沢温泉
-- グランデコ
-- NASPA
-- 苗場
-- ガーラ湯沢
+* 志賀高原
+* 野沢温泉
+* グランデコ
+* NASPA
+* 苗場
+* ガーラ湯沢
 
 競技スキーに興味あるけどお金がかかりそうですね。SAJのライセンスとってみようかなと思っています。
 
 #### LinuxディストリビューションやOSS
 
-- Gentooなデスクトップ環境を使っています
-- Debianでおうちラップトップサーバーを動かしています
+* Gentooなデスクトップ環境を使っています
+* Debianでおうちラップトップサーバーを動かしています
 
 利用しているOSSに対して、利用者以外の形でも関わっていきたいです。
 
@@ -80,8 +82,8 @@ date: 2015-11-27T13:44:17+09:00
 
 ユニークで便利で楽しい機能があるブラウザが好きです
 
-- Opera
-- Vivaldi
+* Opera
+* Vivaldi
 
 最近はFirefoxのオフィシャルなアドオンもなかなか良いと思っています。
 
@@ -95,12 +97,13 @@ date: 2015-11-27T13:44:17+09:00
 
 ### 連絡先やアカウント
 
-- knokmki612 \[at\] gmail.com
-- [Twitter](https://twitter.com/knokmki612)
-- [Facebook](https://www.facebook.com/kimiaki.kuno)
-- [GitHub](https://github.com/knokmki612)
-- [Pawoo](https://pawoo.net/@knokmki612)
-- [Vivaldi Forum](https://forum.vivaldi.net/user/knokmki612)
+* knokmki612 \[at] gmail.com
+* [Twitter](https://twitter.com/knokmki612)
+* [Facebook](https://www.facebook.com/kimiaki.kuno)
+* [GitHub](https://github.com/knokmki612)
+* [Pawoo](https://pawoo.net/@knokmki612)
+* [Vivaldi Forum](https://forum.vivaldi.net/user/knokmki612)
+* [Twitch](https://www.twitch.tv/knokmki612)
 
 #### [PGP](/knokmki612.asc)
 
