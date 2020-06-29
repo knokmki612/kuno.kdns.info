@@ -72,6 +72,7 @@ I want to work to usability engineering.
 * [GitHub](https://github.com/knokmki612)
 * [Pawoo](https://pawoo.net/@knokmki612)
 * [Vivaldi Forum](https://forum.vivaldi.net/user/knokmki612)
+* [Twitch](https://www.twitch.tv/knokmki612)
 
 #### [PGP](/knokmki612.asc)
 
