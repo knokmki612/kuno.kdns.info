@@ -4,8 +4,10 @@ date: 2016-11-30T14:08:31.000Z
 ---
 {{% tab %}}
 
-* \[日本語]({{% relref "/about" %}})
-* English {{% /tab %}}
+* [日本語]({{% relref "/about" %}})
+* English
+
+{{% /tab %}}
 
 ## About me
 
