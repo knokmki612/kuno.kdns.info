@@ -5,7 +5,9 @@ date: 2015-11-27T04:44:17.000Z
 {{% tab %}}
 
 * 日本語
-* \[English]({{% relref "/about-en" %}}) {{% /tab %}}
+* [English]({{% relref "/about-en" %}})
+
+{{% /tab %}}
 
 ## 私について
 
