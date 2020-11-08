@@ -4,8 +4,8 @@ date: 2016-11-30T14:08:31.000Z
 ---
 {{% tab %}}
 
-* [日本語]({{% relref "/about" %}})
-* English
+- [日本語]({{% relref "/about" %}})
+- English
 
 {{% /tab %}}
 
@@ -17,13 +17,13 @@ date: 2016-11-30T14:08:31.000Z
 
 ### Handle Name and First Name
 
-* knokmki612
-* Kimiaki
+- knokmki612
+- Kimiaki
 
 ### Recent Activities
 
-* Student of the Open University of Japan, graduate the information course (bachelor of liberal arts) at 2020/03, currently re-entered to society and industry course
-* Work at [tuqulore Inc.](https://tuqulore.com) as Design engineer
+- Student of the Open University of Japan, graduate the information course (bachelor of liberal arts) at 2020/03, currently re-entered to society and industry course
+- Work at [tuqulore Inc.](https://tuqulore.com) as Design engineer
 
 ### Interests
 
@@ -31,26 +31,23 @@ date: 2016-11-30T14:08:31.000Z
 
 Will reacts to following keywords
 
-* Nokia
-* Jolla
-* Sailfish OS
-* QWERTY Candy Bar
-* Clamshell
+- Nokia
+- Jolla
+- Sailfish OS
+- QWERTY Candy Bar
+- Clamshell
 
 #### Music
 
-* Loving to Bluetooth receiver DAP
-
-  * [ES100](https://earstudio.store/products/es100)
-* Feeling good to [DUNU](https://www.dunu-topsound.com/)'s earphones
-
-  * Titan 1
-  * [Titan 6](https://www.dunu-topsound.com/titan-6)
-* Also \[Audio-Technica]'s headphones
-
-  * [ATH-M20x](https://www.audio-technica.co.jp/product/ATH-M20x)
-  * [ATH-WS1100](https://www.audio-technica.co.jp/product/ATH-WS1100)
-* Trying to start Utattemita
+- Loving to Bluetooth receiver DAP
+  - [ES100](https://earstudio.store/products/es100)
+- Feeling good to [DUNU](https://www.dunu-topsound.com/)'s earphones
+  - Titan 1
+  - [Titan 6](https://www.dunu-topsound.com/titan-6)
+- Also Audio-Technica's headphones
+  - [ATH-M20x](https://www.audio-technica.co.jp/product/ATH-M20x)
+  - [ATH-WS1100](https://www.audio-technica.co.jp/product/ATH-WS1100)
+- Trying to start Utattemita
 
 #### Anime
 
@@ -68,13 +65,13 @@ I want to work to usability engineering.
 
 ### Contacts
 
-* knokmki612 \[at] gmail.com
-* [Twitter](https://twitter.com/knokmki612)
-* [Facebook](https://www.facebook.com/kimiaki.kuno)
-* [GitHub](https://github.com/knokmki612)
-* [Pawoo](https://pawoo.net/@knokmki612)
-* [Vivaldi Forum](https://forum.vivaldi.net/user/knokmki612)
-* [Twitch](https://www.twitch.tv/knokmki612)
+- knokmki612 \[at] gmail.com
+- [Twitter](https://twitter.com/knokmki612)
+- [Facebook](https://www.facebook.com/kimiaki.kuno)
+- [GitHub](https://github.com/knokmki612)
+- [Pawoo](https://pawoo.net/@knokmki612)
+- [Vivaldi Forum](https://forum.vivaldi.net/user/knokmki612)
+- [Twitch](https://www.twitch.tv/knokmki612)
 
 #### [PGP](/knokmki612.asc)
 
