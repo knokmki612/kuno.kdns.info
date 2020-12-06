@@ -15,7 +15,7 @@ archives:
 
 私がこのフリックキーボードの存在を知ったのは、Jolla端末のオフの集まりに参加した時だったと思う。なにやら[sleepsounds](https://github.com/sleepsounds/)という方がフリックキーボードを開発されていて[^tmoのスレ]、しかもその方は日本人らしいって話を聞いて、はぇ〜すごい人がいるもんだな〜と思ったのを覚えている。
 
-それからしばらくして、オフでつながっていた[helicalgear](https://github.com/helicalgear)さんがsleepsoundsさんとつながっていて、sleepsoundsさんの[リポジトリ](jolla-kbd-flick-jp)をフォークしてrpmパッケージが作れるようになる[プルリクエスト](https://github.com/sleepsounds/jolla-kbd-flick-jp/pull/5)が作られていたみたいだった。
+それからしばらくして、オフでつながっていた[helicalgear](https://github.com/helicalgear)さんがsleepsoundsさんとつながっていて、sleepsoundsさんの[リポジトリ](https://github.com/sleepsounds/jolla-kbd-flick-jp)をフォークしてrpmパッケージが作れるようになる[プルリクエスト](https://github.com/sleepsounds/jolla-kbd-flick-jp/pull/5)が作られていたみたいだった。
 
 そのことに数ヶ月おくれで気づいた自分は、「自分の環境でもフリックキーボードのrpmパッケージをビルドして使いたい〜」と思って自分の環境でビルドできる別の方法を[プルリクエスト](https://github.com/helicalgear/jolla-kbd-flick-jp/pull/1)でhelicalgearさん宛てに出した。
 
