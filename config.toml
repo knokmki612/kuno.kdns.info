@@ -11,6 +11,15 @@ paginate = "10"
 description = "変なことを書き綴るサイトです。"
 images = ["favicons/310x310.png"]
 
+[params.cloudinary]
+enable = true
+cloudName = "dj66cgnpk"
+folder = "blog"
+
+[params.cloudinary.transformations]
+article = "t_blog_thumb"
+ogp = "t_blog_thumb"
+
 [social]
 twitter = "knokmki612"
 
