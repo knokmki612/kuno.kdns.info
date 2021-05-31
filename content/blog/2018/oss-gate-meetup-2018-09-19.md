@@ -6,7 +6,7 @@ tags:
   - OSS Gate
 archives:
   - 2018
-  - 2018/09
+  - 2018-09
 ---
 
 * [使われたGitHub issue](https://github.com/oss-gate/workshop/issues/965)

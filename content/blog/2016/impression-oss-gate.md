@@ -6,7 +6,7 @@ tags:
   - OSS Gate
 archives:
   - 2016
-  - 2016/02
+  - 2016-02
 ---
 
 <br>

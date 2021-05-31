@@ -6,7 +6,7 @@ tags:
   - OSS Gate
 archives:
   - 2017
-  - 2017/02
+  - 2017-02
 ---
 
 もはやOSS Gateがサボり気味の記事を書くきっかけになりつつあります。今回は[OSS Gate東京ミートアップ2017-02-20](https://oss-gate.doorkeeper.jp/events/56845)に後半パートの進行役として参加しました。

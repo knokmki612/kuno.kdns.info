@@ -7,7 +7,7 @@ tags:
   - レビュー
 archives:
   - 2018
-  - 2018/05
+  - 2018-05
 draft: true
 ---
 

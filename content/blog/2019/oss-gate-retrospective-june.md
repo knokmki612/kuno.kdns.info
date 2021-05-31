@@ -6,7 +6,7 @@ tags:
   - OSS Gate
 archives:
   - 2019
-  - 2019/06
+  - 2019-06
 ---
 
 - [使われたGitHub Project](https://github.com/oss-gate/retrospective/projects/8)

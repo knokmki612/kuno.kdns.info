@@ -7,7 +7,7 @@ tags:
   - Tips
 archives:
   - 2016
-  - 2016/04
+  - 2016-04
 ---
 
 Jolla Phone/TabletにはAlien DalvikというAndroidランタイムをインストールすることが出来ますが、使えないAndroidアプリも多いです。

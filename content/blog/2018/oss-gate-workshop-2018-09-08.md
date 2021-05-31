@@ -6,7 +6,7 @@ tags:
   - OSS Gate
 archives:
   - 2018
-  - 2018/09
+  - 2018-09
 ---
 
 * [Doorkeeper](https://oss-gate.doorkeeper.jp/events/76040)

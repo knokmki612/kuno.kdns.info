@@ -6,7 +6,7 @@ tags:
   - Sailfish OS
 archives:
   - 2016
-  - 2016/07
+  - 2016-07
 ---
 
 以前[Jolla Tabletのレビュー記事を書いた]({{% relref "/blog/2016/review-jolla-tablet" %}})のですが、そしたら

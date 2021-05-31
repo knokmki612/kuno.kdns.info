@@ -5,7 +5,7 @@ tags:
   - 日記
 archives:
   - 2018
-  - 2018/05
+  - 2018-05
 ---
 
 OSS Gateで知り合った[koic](https://github.com/koic)さんという人がいて、その人の[ブログ](http://koic.hatenablog.com)がほぼ毎日更新されていて、すごいなあと思っていた。

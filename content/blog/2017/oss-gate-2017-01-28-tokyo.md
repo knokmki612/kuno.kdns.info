@@ -6,7 +6,7 @@ tags:
   - OSS Gate
 archives:
   - 2017
-  - 2017/02
+  - 2017-02
 ---
 
 [OSS Gate東京ワークショップ2017-01-28](https://oss-gate.doorkeeper.jp/events/52881)に進行役として参加してきました。

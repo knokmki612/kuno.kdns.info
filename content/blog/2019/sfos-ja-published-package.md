@@ -6,7 +6,7 @@ tags:
   - Sailfish OS
 archives:
   - 2019
-  - 2019/04
+  - 2019-04
 ---
 
 日本語フリックキーボードのパッケージ、jolla-kbd-flick-jpをsfos-jaとして[OpenRepos.netで公開した](https://openrepos.net/content/sfosja/japanese-flick-keyboard)よ。
