@@ -116,4 +116,4 @@ sub   rsa2048 2017-04-06 [E] [expires: 2022-05-30]
 
 ## このサイトについて
 
-[blogger](http://knockcrab.blogspot.jp/)から移りました。NetlifyとHugoで動いています。
+[blogger](http://knockcrab.blogspot.jp/)から移りました。GitHub PagesとHugoで動いています。
